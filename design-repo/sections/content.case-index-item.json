@@ -1,0 +1,123 @@
+{
+  "id": "content.case-index-item",
+  "title": "Index project entry",
+  "description": "One project: number in a step shape, optional client logo, large title with highlighted word and yellow period, one-line description, 'check it out' link; featured image revealed under the cursor.",
+  "source": {
+    "id": "src:HomeItem",
+    "file": "src/components/home/HomeItems.jsx",
+    "lines": "83-132",
+    "tag": "<article ref={el}"
+  },
+  "semantic": {
+    "id": "content.case-index-item",
+    "category": "INDEX"
+  },
+  "retrievalEligible": true,
+  "variants": [],
+  "content": {
+    "index": {
+      "kind": "text",
+      "maxWords": 1
+    },
+    "title": {
+      "kind": "text",
+      "maxWords": 8
+    },
+    "highlight": {
+      "kind": "text",
+      "maxWords": 1
+    },
+    "description": {
+      "kind": "text",
+      "maxWords": 15
+    },
+    "linkLabel": {
+      "kind": "text",
+      "maxWords": 3,
+      "evidenceLiterals": 1
+    },
+    "href": {
+      "kind": "href"
+    },
+    "clientLogo": {
+      "kind": "asset",
+      "roles": [
+        "client.logo"
+      ],
+      "generatedRoles": [
+        "placeholder.brand-mark"
+      ],
+      "optional": true
+    },
+    "featuredImage": {
+      "kind": "asset",
+      "roles": [
+        "case.featured-image"
+      ],
+      "generatedRoles": [
+        "generated.case-visual"
+      ]
+    }
+  },
+  "styleSlots": {},
+  "assetRoles": [
+    "case.featured-image",
+    "client.logo"
+  ],
+  "generatedAssetRoles": [
+    "generated.case-visual",
+    "placeholder.brand-mark"
+  ],
+  "constraints": {
+    "minPerPage": 1
+  },
+  "motion": {
+    "allowed": [
+      "mask-reveal-follow",
+      "scroll-scrub-clip",
+      "underline-draw"
+    ],
+    "default": "mask-reveal-follow",
+    "reducedMotionFallback": {
+      "mask-reveal-follow": "hidden-until-focus",
+      "scroll-scrub-clip": "static-image",
+      "underline-draw": "static-underline"
+    }
+  },
+  "responsive": [
+    {
+      "at": "bp.s",
+      "change": "layout-shift",
+      "detail": "entries alternate left/right (odd entries margin-left auto); below 650px they stack with 22.5rem gaps",
+      "evidence": "src/components/home/HomeItems.jsx:203",
+      "evidenceTag": "t % 2 === 0 ? '' : 's:ml-auto'"
+    },
+    {
+      "at": "bp.hover",
+      "change": "interaction-swap",
+      "detail": "hover devices: cursor-following mask reveal; touch: scroll-scrubbed clip",
+      "evidence": "src/components/home/HomeItems.jsx:25",
+      "evidenceTag": "if (!app.hasMouse) {"
+    }
+  ],
+  "uses": {
+    "primitives": [
+      "shape.step-marker",
+      "text.highlight",
+      "mark.period",
+      "link.underline",
+      "icon.arrow-small"
+    ],
+    "components": [
+      "card.case-index",
+      "mask.reveal-ellipse"
+    ],
+    "tokens": [
+      "type.display-m-index",
+      "type.ui"
+    ]
+  },
+  "templates": [
+    "template.home"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "card.case-index",
+  "description": "Index entry card: number + logo row, title, description, link.",
+  "props": [
+    "index",
+    "title",
+    "description",
+    "href"
+  ],
+  "source": {
+    "file": "src/components/home/HomeItems.jsx",
+    "lines": "83-132",
+    "tag": "<article ref={el}"
+  }
+}

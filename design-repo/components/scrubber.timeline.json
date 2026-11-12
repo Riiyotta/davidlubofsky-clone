@@ -1,0 +1,10 @@
+{
+  "id": "scrubber.timeline",
+  "description": "Thin progress track with yellow handle and timecode.",
+  "props": [],
+  "source": {
+    "file": "src/components/home/IntroModal.jsx",
+    "lines": "151",
+    "tag": "className=\"timeline relative"
+  }
+}

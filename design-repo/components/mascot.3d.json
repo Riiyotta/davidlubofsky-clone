@@ -1,0 +1,12 @@
+{
+  "id": "mascot.3d",
+  "description": "WebGL mascot model with cursor tilt and scroll timeline.",
+  "props": [
+    "model"
+  ],
+  "source": {
+    "file": "src/components/TheLama.jsx",
+    "lines": "10-29",
+    "tag": "export default function TheLama()"
+  }
+}

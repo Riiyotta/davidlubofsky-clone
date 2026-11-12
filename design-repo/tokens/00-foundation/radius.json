@@ -1,0 +1,47 @@
+{
+  "tokens": {
+    "radius.pill": {
+      "value": "2.75rem",
+      "computed": "27.5px",
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:1669-1676",
+          "tag": ".btn {"
+        },
+        "computed:borderRadius 27.5px x21"
+      ]
+    },
+    "radius.full": {
+      "value": "9999px",
+      "evidence": [
+        "computed:borderRadius 9999px x15",
+        {
+          "cite": "src/styles/original.css:847-849",
+          "tag": ".rounded-full {"
+        }
+      ]
+    },
+    "radius.card-l": {
+      "value": "3rem",
+      "computed": "30px",
+      "evidence": [
+        "computed:borderRadius 30px x2",
+        {
+          "cite": "src/components/home/ShapesConnect.jsx:143",
+          "tag": "rounded-[3rem]"
+        }
+      ]
+    },
+    "radius.card-m": {
+      "value": "2.3rem",
+      "computed": "23px",
+      "evidence": [
+        "computed:borderRadius 23px x1",
+        {
+          "cite": "src/components/home/ShapesHeroHome.jsx:205",
+          "tag": "rounded-[2.3rem]"
+        }
+      ]
+    }
+  }
+}

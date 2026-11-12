@@ -1,0 +1,101 @@
+{
+  "easing": {
+    "ease.snappy": {
+      "type": "custom-path",
+      "value": "M0,0 C0.094,0.026 0.124,0.127 0.157,0.29 0.197,0.486 0.254,0.8 0.348,0.884 0.42,0.949 0.374,1 1,1",
+      "evidence": {
+        "cite": "src/lib/gsap.js:14",
+        "tag": "'snappy',"
+      }
+    },
+    "ease.expo-in-out": {
+      "type": "named",
+      "value": "expo.inOut",
+      "evidence": {
+        "cite": "src/components/Loader.jsx:21",
+        "tag": "ease: 'expo.inOut'"
+      }
+    },
+    "ease.expo-out": {
+      "type": "named",
+      "value": "expo.out",
+      "evidence": {
+        "cite": "src/components/ButtonBack.jsx:16",
+        "tag": "ease: 'expo'"
+      }
+    },
+    "ease.power1-out": {
+      "type": "named",
+      "value": "power1.out",
+      "evidence": {
+        "cite": "src/components/Footer.jsx:26",
+        "tag": "ease: 'power1'"
+      }
+    },
+    "ease.power3-in-out": {
+      "type": "named",
+      "value": "power3.inOut",
+      "evidence": {
+        "cite": "src/components/Loader.jsx:23",
+        "tag": "ease: 'power3.inOut'"
+      }
+    },
+    "ease.power3-in": {
+      "type": "named",
+      "value": "power3.in",
+      "evidence": {
+        "cite": "src/lib/router.js:62",
+        "tag": "ease: 'power3.in'"
+      }
+    },
+    "ease.css-quart": {
+      "type": "cubic-bezier",
+      "value": "cubic-bezier(.77,0,.175,1)",
+      "evidence": {
+        "cite": "src/styles/original.css:1677-1684",
+        "tag": ".btn-mask {"
+      }
+    },
+    "ease.css-uline": {
+      "type": "cubic-bezier",
+      "value": "cubic-bezier(.785,.135,.15,.86)",
+      "evidence": {
+        "cite": "src/styles/original.css:1509-1514",
+        "tag": ".uline:before {"
+      }
+    },
+    "ease.css-fade": {
+      "type": "cubic-bezier",
+      "value": "cubic-bezier(.25,.46,.45,.94)",
+      "evidence": {
+        "cite": "src/styles/original.css:1777-1780",
+        "tag": ".lazy img.is-loaded"
+      }
+    }
+  },
+  "duration": {
+    "duration.instant": "0.22s",
+    "duration.fast": "0.35s",
+    "duration.base": "0.5s",
+    "duration.button": "0.55s",
+    "duration.fall": "0.7s",
+    "duration.slow": "1s",
+    "duration.underline": "1.25s",
+    "duration.reveal": "1.5s"
+  },
+  "scroll": {
+    "lerp": 0.12,
+    "wheelMultiplier": {
+      "mac": 0.3,
+      "windows": 0.7
+    },
+    "evidence": {
+      "cite": "src/lib/smoothScroll.js:12",
+      "tag": "ease: 0.12,"
+    }
+  },
+  "reducedMotion": {
+    "sourceSupport": false,
+    "evidence": "grep -rl prefers-reduced-motion src -> 0 files; fallbacks in section contracts are requirements for generated pages, not observed behaviour"
+  }
+}

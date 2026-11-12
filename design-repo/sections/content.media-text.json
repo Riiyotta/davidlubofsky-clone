@@ -1,0 +1,93 @@
+{
+  "id": "content.media-text",
+  "title": "Image + statement",
+  "description": "Half-width image (grey fill) beside a display title with highlighted word and yellow period, 1-2 large paragraphs and an optional underlined external link.",
+  "source": {
+    "id": "src:MediaText",
+    "file": "src/components/blocks/Blocks.jsx",
+    "lines": "14-31",
+    "tag": "className=\"media-text relative"
+  },
+  "semantic": {
+    "id": "content.media-text",
+    "category": "CONTENT"
+  },
+  "retrievalEligible": true,
+  "variants": [],
+  "content": {
+    "title": {
+      "kind": "text",
+      "maxWords": 11
+    },
+    "highlight": {
+      "kind": "text",
+      "maxWords": 1,
+      "optional": true
+    },
+    "body": {
+      "kind": "rich",
+      "maxWords": 55,
+      "maxParagraphs": 2
+    },
+    "cta": {
+      "kind": "link",
+      "labelMaxWords": 4,
+      "optional": true
+    },
+    "image": {
+      "kind": "asset",
+      "roles": [
+        "case.screenshot"
+      ],
+      "generatedRoles": [
+        "generated.product-visual"
+      ]
+    }
+  },
+  "styleSlots": {},
+  "assetRoles": [
+    "case.screenshot"
+  ],
+  "generatedAssetRoles": [
+    "generated.product-visual"
+  ],
+  "constraints": {},
+  "motion": {
+    "allowed": [
+      "image-fade-in",
+      "underline-draw"
+    ],
+    "default": "image-fade-in",
+    "reducedMotionFallback": {
+      "image-fade-in": "instant-visible",
+      "underline-draw": "static-underline"
+    }
+  },
+  "responsive": [
+    {
+      "at": "bp.s",
+      "change": "stack-to-row",
+      "detail": "image above text below 650px; side-by-side from 650px, text margin 9.9rem (18rem from 1024px)",
+      "evidence": "src/styles/original.css:1182-1184",
+      "evidenceTag": ".s\\:flex-row {"
+    }
+  ],
+  "uses": {
+    "primitives": [
+      "text.highlight",
+      "mark.period",
+      "link.underline"
+    ],
+    "components": [
+      "media.figure"
+    ],
+    "tokens": [
+      "type.display-m",
+      "type.body-l",
+      "color.neutral.200"
+    ]
+  },
+  "templates": [
+    "template.case-study"
+  ]
+}

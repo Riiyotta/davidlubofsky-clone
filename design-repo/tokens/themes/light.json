@@ -1,0 +1,21 @@
+{
+  "theme": "light",
+  "templates": [
+    "template.case-study"
+  ],
+  "resolves": {
+    "text.primary": "color.neutral.900",
+    "text.inverse": "color.neutral.0",
+    "surface.page": "color.neutral.0",
+    "surface.brand": "color.brand.yellow",
+    "surface.footer-start": "color.brand.yellow-light",
+    "surface.media-fill": "color.neutral.200",
+    "surface.band": "color.neutral.150",
+    "surface.input": "color.neutral.100",
+    "surface.modal-track": "color.neutral.600",
+    "shape.fill": "accent (per-page style.accent)",
+    "mark.highlight": "color.brand.yellow",
+    "stroke.annotation": "color.brand.yellow-stroke",
+    "logo.secondary": "color.neutral.400"
+  }
+}

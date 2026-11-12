@@ -1,0 +1,175 @@
+{
+  "$comment": "Spacing scale: 1 unit = 0.1rem (1px at the 1440px reference width). Only utilities actually used by the clone's markup.",
+  "tokens": {
+    "space.0": {
+      "value": "0rem",
+      "pxAt1440": 0,
+      "evidence": "utility *-0 used in markup and defined in src/styles/original.css"
+    },
+    "space.1": {
+      "value": "0.1rem",
+      "pxAt1440": 1,
+      "evidence": "utility *-1 used in markup and defined in src/styles/original.css"
+    },
+    "space.3": {
+      "value": "0.3rem",
+      "pxAt1440": 3,
+      "evidence": "utility *-3 used in markup and defined in src/styles/original.css"
+    },
+    "space.5": {
+      "value": "0.5rem",
+      "pxAt1440": 5,
+      "evidence": "utility *-5 used in markup and defined in src/styles/original.css"
+    },
+    "space.6": {
+      "value": "0.6rem",
+      "pxAt1440": 6,
+      "evidence": "utility *-6 used in markup and defined in src/styles/original.css"
+    },
+    "space.10": {
+      "value": "1rem",
+      "pxAt1440": 10,
+      "evidence": "utility *-10 used in markup and defined in src/styles/original.css"
+    },
+    "space.11": {
+      "value": "1.1rem",
+      "pxAt1440": 11,
+      "evidence": "utility *-11 used in markup and defined in src/styles/original.css"
+    },
+    "space.12": {
+      "value": "1.2rem",
+      "pxAt1440": 12,
+      "evidence": "utility *-12 used in markup and defined in src/styles/original.css"
+    },
+    "space.13": {
+      "value": "1.3rem",
+      "pxAt1440": 13,
+      "evidence": "utility *-13 used in markup and defined in src/styles/original.css"
+    },
+    "space.14": {
+      "value": "1.4rem",
+      "pxAt1440": 14,
+      "evidence": "utility *-14 used in markup and defined in src/styles/original.css"
+    },
+    "space.15": {
+      "value": "1.5rem",
+      "pxAt1440": 15,
+      "evidence": "utility *-15 used in markup and defined in src/styles/original.css"
+    },
+    "space.20": {
+      "value": "2rem",
+      "pxAt1440": 20,
+      "evidence": "utility *-20 used in markup and defined in src/styles/original.css"
+    },
+    "space.22": {
+      "value": "2.2rem",
+      "pxAt1440": 22,
+      "evidence": "utility *-22 used in markup and defined in src/styles/original.css"
+    },
+    "space.23": {
+      "value": "2.3rem",
+      "pxAt1440": 23,
+      "evidence": "utility *-23 used in markup and defined in src/styles/original.css"
+    },
+    "space.24": {
+      "value": "2.4rem",
+      "pxAt1440": 24,
+      "evidence": "utility *-24 used in markup and defined in src/styles/original.css"
+    },
+    "space.25": {
+      "value": "2.5rem",
+      "pxAt1440": 25,
+      "evidence": "utility *-25 used in markup and defined in src/styles/original.css"
+    },
+    "space.28": {
+      "value": "2.8rem",
+      "pxAt1440": 28,
+      "evidence": "utility *-28 used in markup and defined in src/styles/original.css"
+    },
+    "space.30": {
+      "value": "3rem",
+      "pxAt1440": 30,
+      "evidence": "utility *-30 used in markup and defined in src/styles/original.css"
+    },
+    "space.35": {
+      "value": "3.5rem",
+      "pxAt1440": 35,
+      "evidence": "utility *-35 used in markup and defined in src/styles/original.css"
+    },
+    "space.40": {
+      "value": "4rem",
+      "pxAt1440": 40,
+      "evidence": "utility *-40 used in markup and defined in src/styles/original.css"
+    },
+    "space.44": {
+      "value": "4.4rem",
+      "pxAt1440": 44,
+      "evidence": "utility *-44 used in markup and defined in src/styles/original.css"
+    },
+    "space.52": {
+      "value": "5.2rem",
+      "pxAt1440": 52,
+      "evidence": "utility *-52 used in markup and defined in src/styles/original.css"
+    },
+    "space.60": {
+      "value": "6rem",
+      "pxAt1440": 60,
+      "evidence": "utility *-60 used in markup and defined in src/styles/original.css"
+    },
+    "space.75": {
+      "value": "7.5rem",
+      "pxAt1440": 75,
+      "evidence": "utility *-75 used in markup and defined in src/styles/original.css"
+    },
+    "space.97": {
+      "value": "9.7rem",
+      "pxAt1440": 97,
+      "evidence": "utility *-97 used in markup and defined in src/styles/original.css"
+    },
+    "space.99": {
+      "value": "9.9rem",
+      "pxAt1440": 99,
+      "evidence": "utility *-99 used in markup and defined in src/styles/original.css"
+    },
+    "space.100": {
+      "value": "10rem",
+      "pxAt1440": 100,
+      "evidence": "utility *-100 used in markup and defined in src/styles/original.css"
+    },
+    "space.110": {
+      "value": "11rem",
+      "pxAt1440": 110,
+      "evidence": "utility *-110 used in markup and defined in src/styles/original.css"
+    },
+    "space.125": {
+      "value": "12.5rem",
+      "pxAt1440": 125,
+      "evidence": "utility *-125 used in markup and defined in src/styles/original.css"
+    },
+    "space.150": {
+      "value": "15rem",
+      "pxAt1440": 150,
+      "evidence": "utility *-150 used in markup and defined in src/styles/original.css"
+    },
+    "space.160": {
+      "value": "16rem",
+      "pxAt1440": 160,
+      "evidence": "utility *-160 used in markup and defined in src/styles/original.css"
+    },
+    "space.175": {
+      "value": "17.5rem",
+      "pxAt1440": 175,
+      "evidence": "utility *-175 used in markup and defined in src/styles/original.css"
+    },
+    "space.180": {
+      "value": "18rem",
+      "pxAt1440": 180,
+      "evidence": "utility *-180 used in markup and defined in src/styles/original.css"
+    },
+    "space.225": {
+      "value": "22.5rem",
+      "pxAt1440": 225,
+      "evidence": "utility *-225 used in markup and defined in src/styles/original.css"
+    }
+  }
+}

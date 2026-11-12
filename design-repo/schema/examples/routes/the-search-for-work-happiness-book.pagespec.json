@@ -1,0 +1,425 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "reference",
+  "template": "template.case-study",
+  "route": "/case/the-search-for-work-happiness-book/",
+  "theme": "light",
+  "access": "public",
+  "meta": {
+    "title": "DL | The portfolio of David Lubofsky"
+  },
+  "nodes": [
+    {
+      "section": "shell.header",
+      "content": {
+        "ownerName": "David Lubofsky",
+        "navLinks": [
+          {
+            "label": "My Work",
+            "href": "/#work"
+          },
+          {
+            "label": "My Book",
+            "href": "https://findworkhappiness.com"
+          },
+          {
+            "label": "in",
+            "href": "https://www.linkedin.com/in/davidalubofsky/"
+          }
+        ],
+        "cta": {
+          "label": "Let’s work together",
+          "href": "mailto:me@davidlubofsky.com"
+        },
+        "logo": {
+          "role": "brand.wordmark",
+          "src": "/favicon.svg"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "hero.case",
+      "content": {
+        "title": "The search for work happiness",
+        "highlight": "search",
+        "rolesLabel": "Roles",
+        "roles": "Creative; Technology",
+        "description": "Unique ways for leaders to create mentally-healthy environments for their teams.",
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1674479724-hero-for-book-final.jpg"
+        }
+      },
+      "style": {
+        "accent": "color.accent.sky"
+      },
+      "motion": {
+        "pattern": "line-reveal",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.media-text",
+      "content": {
+        "title": "A blast from the past, with some tips for the future",
+        "body": [
+          {
+            "text": "The art in this book will take you back to your childhood. And the words within it will hopefully help refine you as an adult by teaching kindness-driven approaches that create happiness for yourself and those around you."
+          }
+        ],
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1675121290-main_book_cover.jpg"
+        },
+        "highlight": "blast",
+        "cta": {
+          "label": "Get the book!",
+          "href": "https://www.findworkhappiness.com"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.title-text",
+      "content": {
+        "title": "Changing the norm really is possible",
+        "body": [
+          {
+            "text": "It's a leader's job to set those around them up for success. To start doing that, you first have to get rid of old practices that drive unhappiness in the workplace, doing away with near-illegal work hours, lack of trust and transparency, and improper human treatment. This book gives some recommendations as to how you can do so, which in turn creates \"work happiness\" for yourself and those around you.",
+            "highlights": [
+              "leader"
+            ]
+          },
+          {
+            "text": "Using breath-taking art and enjoyabke storytelling, I take readers on a journey through some of my learnings on how, as leaders, we can chill the f*** out about productivity and profit—and start treating those around us like the living, breathing humans they are.",
+            "highlights": [
+              "breath-taking"
+            ],
+            "strong": [
+              "Using breath-taking art and enjoyabke storytelling, I take readers on a journey through some of my learnings on how, as leaders, we can chill the f*** out about productivity and profit—and start treating those around us like the living, breathing humans they are."
+            ]
+          }
+        ],
+        "highlight": "really"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.carousel",
+      "content": {
+        "images": [
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672342558-book-carousel-3.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672342882-book-carousel-6.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672342353-book-carousel-1.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672342376-book-carousel-2.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672342877-book-carousel-5.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672342358-book-carousel-4.jpg"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "drag-carousel",
+        "reducedMotionFallback": "native-scroll"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "statement",
+      "content": {
+        "text": [
+          {
+            "text": "How we architected the solution"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "I found the top 12 archaic leadership norms that needed some shaking up, and shook them the hell up.",
+            "highlights": [
+              "top 12"
+            ]
+          }
+        ],
+        "index": "01"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "layout.gray-band",
+      "content": {},
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1673293368-standing-t2.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "A visual manifestation of this content organically came to life, as the stories within the book painted a world that begged for legendary illustrations.",
+            "highlights": [
+              "visual"
+            ]
+          }
+        ],
+        "index": "02"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.carousel",
+      "content": {
+        "images": [
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672509567-1.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672509564-2.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672509560-3.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672509556-4.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672509547-6.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672509552-5.jpg"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "drag-carousel",
+        "reducedMotionFallback": "native-scroll"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "The art was first conceived as larger ideas on a whiteboard, then illustrator Aaron Yeo helped take it from sketch to line art to colored masterpiece.",
+            "highlights": [
+              "masterpiece"
+            ]
+          }
+        ],
+        "index": "03"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "inset",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1674817595-ux.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "Specific sections were then matched across the book layout to specific scenes and a one-of-a-kind, visual-forward business book was formed.",
+            "highlights": [
+              "visual"
+            ]
+          }
+        ],
+        "index": "04"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1672310429-book5.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "statement",
+      "content": {
+        "text": [
+          {
+            "text": "The result? A happy collision of⁠ art + words",
+            "highlights": [
+              "happy"
+            ]
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "inset",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1674772991-book-final.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "navigation.next-case",
+      "content": {
+        "title": "A smile-filled world of UI + visuals",
+        "ctaLabel": "Check it out",
+        "href": "/case/find-work-happiness/",
+        "lettering": [
+          "View",
+          "next",
+          "brand"
+        ],
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1672340831-hero-for-book.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "physics-drop",
+        "reducedMotionFallback": "static-composition"
+      }
+    },
+    {
+      "section": "utility.back-button",
+      "content": {
+        "label": "Back to cases"
+      },
+      "motion": {
+        "pattern": "pop-in-label-slide",
+        "reducedMotionFallback": "static-visible"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "statement": "Putting the human back into humankind",
+        "highlight": "human",
+        "availabilityLabel": "Next availability:",
+        "availabilityValue": "1/1/27",
+        "links": [
+          {
+            "label": "Shoot me a message",
+            "href": "mailto:me@davidlubofsky.com"
+          },
+          {
+            "label": "Connect on LinkedIn",
+            "href": "https://www.linkedin.com/in/davidalubofsky/"
+          },
+          {
+            "label": "Check out my book",
+            "href": "https://findworkhappiness.com"
+          }
+        ],
+        "legal": "UX, Strategy, Design, and Dev. ©2026 David Lubofsky",
+        "mascot": {
+          "role": "decor.mascot-3d",
+          "src": "/lama.glb"
+        }
+      },
+      "motion": {
+        "pattern": "parallax-up",
+        "reducedMotionFallback": "static"
+      }
+    }
+  ]
+}

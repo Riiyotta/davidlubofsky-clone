@@ -1,0 +1,12 @@
+{
+  "id": "video.inline",
+  "description": "Muted, looping, inline video element.",
+  "props": [
+    "src"
+  ],
+  "source": {
+    "file": "src/components/blocks/Blocks.jsx",
+    "lines": "97",
+    "tag": "loop muted playsInline"
+  }
+}

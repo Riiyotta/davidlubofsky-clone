@@ -1,0 +1,13 @@
+{
+  "id": "button.pill",
+  "description": "Yellow pill button; on hover the mask collapses onto the arrow circle and the label slides.",
+  "props": [
+    "label",
+    "href"
+  ],
+  "source": {
+    "file": "src/components/ButtonMain.jsx",
+    "lines": "26-41",
+    "tag": "className={`btn relative"
+  }
+}

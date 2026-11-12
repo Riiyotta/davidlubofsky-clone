@@ -1,0 +1,12 @@
+{
+  "id": "button.circle-icon",
+  "description": "Yellow circle with an animated icon (arrow / play / pause / close).",
+  "props": [
+    "icon"
+  ],
+  "source": {
+    "file": "src/components/home/Buttons.jsx",
+    "lines": "7",
+    "tag": "export const ButtonPlay"
+  }
+}

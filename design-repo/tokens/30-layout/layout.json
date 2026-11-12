@@ -1,0 +1,28 @@
+{
+  "siteMax": {
+    "value": "144rem",
+    "evidence": {
+      "cite": "src/styles/original.css:1498-1501",
+      "tag": ".site-max {"
+    }
+  },
+  "gutter": {
+    "base": "2.4rem",
+    "s": {
+      "left": "4.14rem",
+      "right": "4.4rem"
+    },
+    "evidence": {
+      "cite": "src/styles/original.css:1486-1489",
+      "tag": ".site-gutter {"
+    }
+  },
+  "caseInset": {
+    "s": "17.3rem",
+    "l": "31.4rem",
+    "evidence": {
+      "cite": "src/components/blocks/Blocks.jsx:106",
+      "tag": "l:pl-[31.4rem] l:pr-150'"
+    }
+  }
+}

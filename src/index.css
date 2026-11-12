@@ -1,0 +1,21 @@
+/*
+ * Design tokens (documentation of the values used by the original compiled CSS below).
+ *   black      #161617   (bg-black / text-black / body text)
+ *   yellow     #FFD600   (buttons, underlines, periods)
+ *   yellow-2   #FFDA18   (step-number outline shapes)
+ *   gray-case  rgba(217,217,217,.2)  (section band)
+ *   gray-fill  #DDDCDB   (image placeholder)
+ *   gray-logo  #BBBBBB
+ *   peach      #F9CCA2   (ESPN case accent, hero physics shapes)
+ *   footer     linear-gradient(183deg, #ffe146 8.95%, #ffd600 88.06%)
+ * Type: "pleasure" variable font (300–900, custom TRAP axis), root size = 10px @ 1440 wide
+ * (html font-size scales with viewport: 1000vw / 1440, or / 375 under 650px).
+ * Breakpoints: s = 650px, m/l = 1024px+.
+ */
+@import './styles/original.css';
+
+:root {
+  --color-black: #161617;
+  --color-yellow: #ffd600;
+  --color-peach: #f9cca2;
+}

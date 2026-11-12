@@ -1,0 +1,39 @@
+{
+  "tokens": {
+    "bp.s": {
+      "minWidth": "650px",
+      "evidence": {
+        "cite": "src/styles/original.css:1056-1057",
+        "tag": "@media (min-width: 650px)"
+      }
+    },
+    "bp.m": {
+      "minWidth": "769px",
+      "evidence": {
+        "cite": "src/styles/original.css:1257-1258",
+        "tag": "@media (min-width: 769px)"
+      }
+    },
+    "bp.l": {
+      "minWidth": "1024px",
+      "evidence": {
+        "cite": "src/styles/original.css:1265-1266",
+        "tag": "@media (min-width: 1024px)"
+      }
+    },
+    "bp.xl": {
+      "minWidth": "1280px",
+      "evidence": {
+        "cite": "src/styles/original.css:1295-1296",
+        "tag": "@media (min-width: 1280px)"
+      }
+    },
+    "bp.hover": {
+      "query": "(hover: hover) and (pointer: fine)",
+      "evidence": {
+        "cite": "src/styles/original.css:1326-1327",
+        "tag": "@media (hover: hover) and (pointer: fine)"
+      }
+    }
+  }
+}

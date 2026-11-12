@@ -1,0 +1,323 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "reference",
+  "template": "template.case-study",
+  "route": "/case/designing-a-world-full-of-kindness/",
+  "theme": "light",
+  "access": "public",
+  "meta": {
+    "title": "DL | The portfolio of David Lubofsky"
+  },
+  "nodes": [
+    {
+      "section": "shell.header",
+      "content": {
+        "ownerName": "David Lubofsky",
+        "navLinks": [
+          {
+            "label": "My Work",
+            "href": "/#work"
+          },
+          {
+            "label": "My Book",
+            "href": "https://findworkhappiness.com"
+          },
+          {
+            "label": "in",
+            "href": "https://www.linkedin.com/in/davidalubofsky/"
+          }
+        ],
+        "cta": {
+          "label": "Let’s work together",
+          "href": "mailto:me@davidlubofsky.com"
+        },
+        "logo": {
+          "role": "brand.wordmark",
+          "src": "/favicon.svg"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "hero.case",
+      "content": {
+        "title": "Designing a world full of kindness",
+        "highlight": "full",
+        "rolesLabel": "Roles",
+        "roles": "Creative; Technology",
+        "description": "A full of joy website packed full of unique UI and motion-filled storytelling.",
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1794059467-asset-in-hero-bk.jpg"
+        }
+      },
+      "style": {
+        "accent": "color.accent.mint"
+      },
+      "motion": {
+        "pattern": "line-reveal",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.media-text",
+      "content": {
+        "title": "Kindness, as part of the experience",
+        "body": [
+          {
+            "text": "BK is a studio that believes digital experiences should feel human, so their website should bring that thinking to life through thoughtful design, clever technology, and unexpected moments of delight."
+          }
+        ],
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1793617022-framed-bk.jpg"
+        },
+        "highlight": "Kindness",
+        "cta": {
+          "label": "View the project",
+          "href": "https://www.builtkindly.com/"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.title-text",
+      "content": {
+        "title": "A personality of kindness in the UI",
+        "body": [
+          {
+            "text": "We created a visual world that feels a little different from what you'd expect from a technology studio. Custom illustrations, distinctive characters, subtle interactions, and animation give the site its personality, while the content introduces the studio's approach to websites, platforms, search, and AI."
+          },
+          {
+            "text": "The challenge was making something that felt friendly and approachable without losing the sophistication behind the work. Every detail, from how things move to how complex ideas are explained, was an opportunity to show that good technology doesn't need to feel complicated."
+          }
+        ],
+        "highlight": "kindness"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "Homepage"
+          }
+        ],
+        "index": "01"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1793617110-home.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "Anatomy of Kind Design"
+          }
+        ],
+        "index": "02"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1793617179-anatomy-of-kind-design-05.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "Mobile"
+          }
+        ],
+        "index": "03"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1793617223-mobile.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "statement",
+      "content": {
+        "text": [
+          {
+            "text": "Positioning + Products"
+          }
+        ],
+        "index": "04"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1793617366-2-screens.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "Footer"
+          }
+        ],
+        "index": "05"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1793617413-footer.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "navigation.next-case",
+      "content": {
+        "title": "Speaking, writing, and features",
+        "ctaLabel": "Check it out",
+        "href": "/case/speaking-writing-and-features/",
+        "lettering": [
+          "View",
+          "next",
+          "brand"
+        ],
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1694808114-dlbig2.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "physics-drop",
+        "reducedMotionFallback": "static-composition"
+      }
+    },
+    {
+      "section": "utility.back-button",
+      "content": {
+        "label": "Back to cases"
+      },
+      "motion": {
+        "pattern": "pop-in-label-slide",
+        "reducedMotionFallback": "static-visible"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "statement": "Putting the human back into humankind",
+        "highlight": "human",
+        "availabilityLabel": "Next availability:",
+        "availabilityValue": "1/1/27",
+        "links": [
+          {
+            "label": "Shoot me a message",
+            "href": "mailto:me@davidlubofsky.com"
+          },
+          {
+            "label": "Connect on LinkedIn",
+            "href": "https://www.linkedin.com/in/davidalubofsky/"
+          },
+          {
+            "label": "Check out my book",
+            "href": "https://findworkhappiness.com"
+          }
+        ],
+        "legal": "UX, Strategy, Design, and Dev. ©2026 David Lubofsky",
+        "mascot": {
+          "role": "decor.mascot-3d",
+          "src": "/lama.glb"
+        }
+      },
+      "motion": {
+        "pattern": "parallax-up",
+        "reducedMotionFallback": "static"
+      }
+    }
+  ]
+}

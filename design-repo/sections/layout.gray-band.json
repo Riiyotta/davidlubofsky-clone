@@ -1,0 +1,44 @@
+{
+  "id": "layout.gray-band",
+  "title": "Grey background band",
+  "description": "Out-of-flow light-grey band that starts at the vertical middle of the next block and runs to the next-case section.",
+  "source": {
+    "id": "src:GrayStart",
+    "file": "src/components/blocks/Blocks.jsx",
+    "lines": "139-141",
+    "tag": "bg-gray-case/20"
+  },
+  "semantic": {
+    "id": "layout.gray-band",
+    "category": "LAYOUT"
+  },
+  "retrievalEligible": true,
+  "variants": [],
+  "content": {},
+  "styleSlots": {},
+  "assetRoles": [],
+  "generatedAssetRoles": [],
+  "constraints": {
+    "maxPerPage": 1
+  },
+  "motion": {
+    "allowed": [
+      "none"
+    ],
+    "default": "none",
+    "reducedMotionFallback": {
+      "none": "none"
+    }
+  },
+  "responsive": [],
+  "uses": {
+    "primitives": [],
+    "components": [],
+    "tokens": [
+      "color.neutral.150"
+    ]
+  },
+  "templates": [
+    "template.case-study"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "card.video",
+  "description": "Rounded video card with play circle; opens the video modal.",
+  "props": [
+    "video"
+  ],
+  "source": {
+    "file": "src/components/home/ShapesHeroHome.jsx",
+    "lines": "205",
+    "tag": "play-hover absolute inset-0 media-cover rounded-[2.3rem]"
+  }
+}

@@ -1,0 +1,1615 @@
+{
+  "sectionHeights": {
+    "viewport": 1440,
+    "unit": "px",
+    "measuredWith": "headless chromium via playwright",
+    "settleMs": 6500,
+    "source": "local clone (npm run dev), every route",
+    "routes": {
+      "/": {
+        "pageHeight": 5998,
+        "sections": [
+          {
+            "id": "shell.header",
+            "top": 0,
+            "height": 75,
+            "flow": "fixed"
+          },
+          {
+            "id": "utility.page-transition",
+            "top": 0,
+            "height": 900,
+            "flow": "fixed"
+          },
+          {
+            "id": "hero.home",
+            "top": 0,
+            "height": 900,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.case-index-intro",
+            "top": 1060,
+            "height": 294,
+            "flow": "absolute"
+          },
+          {
+            "id": "content.case-index-item",
+            "top": 1100,
+            "height": 427,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.case-index-item",
+            "top": 1452,
+            "height": 427,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.case-index-item",
+            "top": 1804,
+            "height": 427,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.case-index-item",
+            "top": 2156,
+            "height": 427,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.case-index-item",
+            "top": 2508,
+            "height": 351,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.case-index-item",
+            "top": 2784,
+            "height": 397,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.case-index-item",
+            "top": 3106,
+            "height": 397,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.case-index-item",
+            "top": 3428,
+            "height": 427,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.case-index-item",
+            "top": 3780,
+            "height": 427,
+            "flow": "in-flow"
+          },
+          {
+            "id": "conversion.connect",
+            "top": 4357,
+            "height": 927,
+            "flow": "in-flow"
+          },
+          {
+            "id": "shell.footer",
+            "top": 5288,
+            "height": 710,
+            "flow": "in-flow"
+          }
+        ]
+      },
+      "/case/a-browser-bending-look-at-vision-loss/": {
+        "pageHeight": 11853,
+        "sections": [
+          {
+            "id": "shell.header",
+            "top": 0,
+            "height": 75,
+            "flow": "fixed"
+          },
+          {
+            "id": "utility.page-transition",
+            "top": 0,
+            "height": 900,
+            "flow": "fixed"
+          },
+          {
+            "id": "hero.case",
+            "top": 0,
+            "height": 900,
+            "flow": "in-flow"
+          },
+          {
+            "id": "utility.back-button",
+            "top": 810,
+            "height": 55,
+            "flow": "fixed"
+          },
+          {
+            "id": "content.media-text",
+            "top": 1050,
+            "height": 734,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.video",
+            "top": 1784,
+            "height": 699,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.title-text",
+            "top": 2483,
+            "height": 568,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 3052,
+            "height": 149,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 3201,
+            "height": 1009,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 4210,
+            "height": 149,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 4359,
+            "height": 1016,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 5375,
+            "height": 149,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 5525,
+            "height": 1166,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 6691,
+            "height": 181,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 6872,
+            "height": 1285,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 8157,
+            "height": 149,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 8306,
+            "height": 1917,
+            "flow": "in-flow"
+          },
+          {
+            "id": "navigation.next-case",
+            "top": 10373,
+            "height": 770,
+            "flow": "in-flow"
+          },
+          {
+            "id": "shell.footer",
+            "top": 11143,
+            "height": 710,
+            "flow": "in-flow"
+          }
+        ]
+      },
+      "/case/designing-a-world-full-of-kindness/": {
+        "pageHeight": 10987,
+        "sections": [
+          {
+            "id": "shell.header",
+            "top": 0,
+            "height": 75,
+            "flow": "fixed"
+          },
+          {
+            "id": "utility.page-transition",
+            "top": 0,
+            "height": 900,
+            "flow": "fixed"
+          },
+          {
+            "id": "hero.case",
+            "top": 0,
+            "height": 900,
+            "flow": "in-flow"
+          },
+          {
+            "id": "utility.back-button",
+            "top": 810,
+            "height": 55,
+            "flow": "fixed"
+          },
+          {
+            "id": "content.media-text",
+            "top": 1050,
+            "height": 688,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.title-text",
+            "top": 1738,
+            "height": 509,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 2247,
+            "height": 149,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 2396,
+            "height": 937,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 3333,
+            "height": 149,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 3482,
+            "height": 937,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 4419,
+            "height": 149,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 4568,
+            "height": 1166,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 5734,
+            "height": 267,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 6002,
+            "height": 1238,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 7239,
+            "height": 149,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 7389,
+            "height": 1969,
+            "flow": "in-flow"
+          },
+          {
+            "id": "navigation.next-case",
+            "top": 9507,
+            "height": 770,
+            "flow": "in-flow"
+          },
+          {
+            "id": "shell.footer",
+            "top": 10277,
+            "height": 710,
+            "flow": "in-flow"
+          }
+        ]
+      },
+      "/case/dl-brand/": {
+        "pageHeight": 10635,
+        "sections": [
+          {
+            "id": "shell.header",
+            "top": 0,
+            "height": 75,
+            "flow": "fixed"
+          },
+          {
+            "id": "utility.page-transition",
+            "top": 0,
+            "height": 900,
+            "flow": "fixed"
+          },
+          {
+            "id": "hero.case",
+            "top": 0,
+            "height": 900,
+            "flow": "in-flow"
+          },
+          {
+            "id": "utility.back-button",
+            "top": 810,
+            "height": 55,
+            "flow": "fixed"
+          },
+          {
+            "id": "content.media-text",
+            "top": 1050,
+            "height": 734,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.title-text",
+            "top": 1784,
+            "height": 566,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.carousel",
+            "top": 2351,
+            "height": 490,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 2841,
+            "height": 286,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 3127,
+            "height": 246,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 3372,
+            "height": 810,
+            "flow": "in-flow"
+          },
+          {
+            "id": "layout.gray-band",
+            "top": 3777,
+            "height": 6278,
+            "flow": "absolute"
+          },
+          {
+            "id": "content.text",
+            "top": 4183,
+            "height": 214,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.video",
+            "top": 4396,
+            "height": 699,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 5095,
+            "height": 214,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 5309,
+            "height": 851,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 6089,
+            "height": 1536,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 7625,
+            "height": 214,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 7839,
+            "height": 941,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 8780,
+            "height": 226,
+            "flow": "in-flow"
+          },
+          {
+            "id": "navigation.next-case",
+            "top": 9155,
+            "height": 770,
+            "flow": "in-flow"
+          },
+          {
+            "id": "shell.footer",
+            "top": 9925,
+            "height": 710,
+            "flow": "in-flow"
+          }
+        ]
+      },
+      "/case/espn-who-can-break-calvins-record/": {
+        "pageHeight": 11169,
+        "sections": [
+          {
+            "id": "shell.header",
+            "top": 0,
+            "height": 75,
+            "flow": "fixed"
+          },
+          {
+            "id": "utility.page-transition",
+            "top": 0,
+            "height": 900,
+            "flow": "fixed"
+          },
+          {
+            "id": "hero.case",
+            "top": 0,
+            "height": 900,
+            "flow": "in-flow"
+          },
+          {
+            "id": "utility.back-button",
+            "top": 810,
+            "height": 55,
+            "flow": "fixed"
+          },
+          {
+            "id": "content.media-text",
+            "top": 1050,
+            "height": 734,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.title-text",
+            "top": 1784,
+            "height": 626,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 2410,
+            "height": 286,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 2696,
+            "height": 1076,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 3772,
+            "height": 342,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 4114,
+            "height": 810,
+            "flow": "in-flow"
+          },
+          {
+            "id": "layout.gray-band",
+            "top": 4519,
+            "height": 6070,
+            "flow": "absolute"
+          },
+          {
+            "id": "content.text",
+            "top": 4925,
+            "height": 342,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 5267,
+            "height": 1113,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 6380,
+            "height": 375,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 6755,
+            "height": 1436,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 8191,
+            "height": 286,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.carousel",
+            "top": 8476,
+            "height": 1063,
+            "flow": "in-flow"
+          },
+          {
+            "id": "navigation.next-case",
+            "top": 9689,
+            "height": 770,
+            "flow": "in-flow"
+          },
+          {
+            "id": "shell.footer",
+            "top": 10459,
+            "height": 710,
+            "flow": "in-flow"
+          }
+        ]
+      },
+      "/case/find-work-happiness/": {
+        "pageHeight": 16098,
+        "sections": [
+          {
+            "id": "shell.header",
+            "top": 0,
+            "height": 75,
+            "flow": "fixed"
+          },
+          {
+            "id": "utility.page-transition",
+            "top": 0,
+            "height": 900,
+            "flow": "fixed"
+          },
+          {
+            "id": "hero.case",
+            "top": 0,
+            "height": 900,
+            "flow": "in-flow"
+          },
+          {
+            "id": "utility.back-button",
+            "top": 810,
+            "height": 55,
+            "flow": "fixed"
+          },
+          {
+            "id": "content.media-text",
+            "top": 1050,
+            "height": 688,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.title-text",
+            "top": 1738,
+            "height": 598,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 2336,
+            "height": 286,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 2621,
+            "height": 971,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 3592,
+            "height": 375,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 3967,
+            "height": 810,
+            "flow": "in-flow"
+          },
+          {
+            "id": "layout.gray-band",
+            "top": 4372,
+            "height": 11146,
+            "flow": "absolute"
+          },
+          {
+            "id": "content.text",
+            "top": 4777,
+            "height": 407,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 5184,
+            "height": 837,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 5951,
+            "height": 932,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 6883,
+            "height": 278,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 7161,
+            "height": 1438,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 8529,
+            "height": 1166,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 9695,
+            "height": 310,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 10005,
+            "height": 932,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 10867,
+            "height": 2569,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 13436,
+            "height": 286,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.carousel",
+            "top": 13721,
+            "height": 746,
+            "flow": "in-flow"
+          },
+          {
+            "id": "navigation.next-case",
+            "top": 14618,
+            "height": 770,
+            "flow": "in-flow"
+          },
+          {
+            "id": "shell.footer",
+            "top": 15388,
+            "height": 710,
+            "flow": "in-flow"
+          }
+        ]
+      },
+      "/case/restricted-work/": {
+        "pageHeight": 1610,
+        "sections": [
+          {
+            "id": "shell.header",
+            "top": 0,
+            "height": 75,
+            "flow": "fixed"
+          },
+          {
+            "id": "utility.page-transition",
+            "top": 0,
+            "height": 900,
+            "flow": "fixed"
+          },
+          {
+            "id": "utility.password-gate",
+            "top": 423,
+            "height": 55,
+            "flow": "fixed"
+          },
+          {
+            "id": "shell.footer",
+            "top": 900,
+            "height": 710,
+            "flow": "in-flow"
+          }
+        ]
+      },
+      "/case/speaking-writing-and-features/": {
+        "pageHeight": 6956,
+        "sections": [
+          {
+            "id": "shell.header",
+            "top": 0,
+            "height": 75,
+            "flow": "fixed"
+          },
+          {
+            "id": "utility.page-transition",
+            "top": 0,
+            "height": 900,
+            "flow": "fixed"
+          },
+          {
+            "id": "hero.case",
+            "top": 0,
+            "height": 900,
+            "flow": "in-flow"
+          },
+          {
+            "id": "utility.back-button",
+            "top": 810,
+            "height": 55,
+            "flow": "fixed"
+          },
+          {
+            "id": "content.media-text",
+            "top": 1050,
+            "height": 688,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.media-text",
+            "top": 1738,
+            "height": 688,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.media-text",
+            "top": 2425,
+            "height": 688,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.media-text",
+            "top": 3113,
+            "height": 688,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.media-text",
+            "top": 3800,
+            "height": 688,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.media-text",
+            "top": 4488,
+            "height": 688,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 5175,
+            "height": 150,
+            "flow": "in-flow"
+          },
+          {
+            "id": "navigation.next-case",
+            "top": 5476,
+            "height": 770,
+            "flow": "in-flow"
+          },
+          {
+            "id": "shell.footer",
+            "top": 6246,
+            "height": 710,
+            "flow": "in-flow"
+          }
+        ]
+      },
+      "/case/the-search-for-work-happiness-book/": {
+        "pageHeight": 11854,
+        "sections": [
+          {
+            "id": "shell.header",
+            "top": 0,
+            "height": 75,
+            "flow": "fixed"
+          },
+          {
+            "id": "utility.page-transition",
+            "top": 0,
+            "height": 900,
+            "flow": "fixed"
+          },
+          {
+            "id": "hero.case",
+            "top": 0,
+            "height": 900,
+            "flow": "in-flow"
+          },
+          {
+            "id": "utility.back-button",
+            "top": 810,
+            "height": 55,
+            "flow": "fixed"
+          },
+          {
+            "id": "content.media-text",
+            "top": 1050,
+            "height": 732,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.title-text",
+            "top": 1782,
+            "height": 568,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.carousel",
+            "top": 2350,
+            "height": 575,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 2925,
+            "height": 286,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 3210,
+            "height": 214,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 3424,
+            "height": 810,
+            "flow": "in-flow"
+          },
+          {
+            "id": "layout.gray-band",
+            "top": 3829,
+            "height": 7445,
+            "flow": "absolute"
+          },
+          {
+            "id": "content.text",
+            "top": 4234,
+            "height": 246,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.carousel",
+            "top": 4480,
+            "height": 574,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 5054,
+            "height": 246,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 5300,
+            "height": 932,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 6232,
+            "height": 246,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 6478,
+            "height": 2085,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 8563,
+            "height": 286,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 8848,
+            "height": 1376,
+            "flow": "in-flow"
+          },
+          {
+            "id": "navigation.next-case",
+            "top": 10374,
+            "height": 770,
+            "flow": "in-flow"
+          },
+          {
+            "id": "shell.footer",
+            "top": 11144,
+            "height": 710,
+            "flow": "in-flow"
+          }
+        ]
+      },
+      "/case/understanding-diseases/": {
+        "pageHeight": 12794,
+        "sections": [
+          {
+            "id": "shell.header",
+            "top": 0,
+            "height": 75,
+            "flow": "fixed"
+          },
+          {
+            "id": "utility.page-transition",
+            "top": 0,
+            "height": 900,
+            "flow": "fixed"
+          },
+          {
+            "id": "hero.case",
+            "top": 0,
+            "height": 900,
+            "flow": "in-flow"
+          },
+          {
+            "id": "utility.back-button",
+            "top": 810,
+            "height": 55,
+            "flow": "fixed"
+          },
+          {
+            "id": "content.media-text",
+            "top": 1050,
+            "height": 734,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.title-text",
+            "top": 1784,
+            "height": 507,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 2291,
+            "height": 286,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.video",
+            "top": 2577,
+            "height": 699,
+            "flow": "in-flow"
+          },
+          {
+            "id": "layout.gray-band",
+            "top": 2927,
+            "height": 9288,
+            "flow": "absolute"
+          },
+          {
+            "id": "content.text",
+            "top": 3276,
+            "height": 214,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 3489,
+            "height": 649,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 4138,
+            "height": 214,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 4352,
+            "height": 734,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 5086,
+            "height": 214,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 5299,
+            "height": 810,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 6110,
+            "height": 214,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 6323,
+            "height": 766,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 7020,
+            "height": 861,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 7810,
+            "height": 1616,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 9427,
+            "height": 286,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 9712,
+            "height": 1452,
+            "flow": "in-flow"
+          },
+          {
+            "id": "navigation.next-case",
+            "top": 11314,
+            "height": 770,
+            "flow": "in-flow"
+          },
+          {
+            "id": "shell.footer",
+            "top": 12084,
+            "height": 710,
+            "flow": "in-flow"
+          }
+        ]
+      },
+      "/case/yall-agency/": {
+        "pageHeight": 10374,
+        "sections": [
+          {
+            "id": "shell.header",
+            "top": 0,
+            "height": 75,
+            "flow": "fixed"
+          },
+          {
+            "id": "utility.page-transition",
+            "top": 0,
+            "height": 900,
+            "flow": "fixed"
+          },
+          {
+            "id": "hero.case",
+            "top": 0,
+            "height": 900,
+            "flow": "in-flow"
+          },
+          {
+            "id": "utility.back-button",
+            "top": 810,
+            "height": 55,
+            "flow": "fixed"
+          },
+          {
+            "id": "content.media-text",
+            "top": 1050,
+            "height": 734,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.title-text",
+            "top": 1784,
+            "height": 390,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.video",
+            "top": 2175,
+            "height": 699,
+            "flow": "in-flow"
+          },
+          {
+            "id": "layout.gray-band",
+            "top": 2525,
+            "height": 7270,
+            "flow": "absolute"
+          },
+          {
+            "id": "content.text",
+            "top": 2874,
+            "height": 286,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 3159,
+            "height": 246,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.carousel",
+            "top": 3405,
+            "height": 445,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 3850,
+            "height": 246,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.carousel",
+            "top": 4096,
+            "height": 697,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 4793,
+            "height": 214,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.carousel",
+            "top": 5007,
+            "height": 575,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 5581,
+            "height": 181,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 5763,
+            "height": 810,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 6573,
+            "height": 214,
+            "flow": "in-flow"
+          },
+          {
+            "id": "media.image",
+            "top": 6787,
+            "height": 1732,
+            "flow": "in-flow"
+          },
+          {
+            "id": "content.text",
+            "top": 8518,
+            "height": 226,
+            "flow": "in-flow"
+          },
+          {
+            "id": "navigation.next-case",
+            "top": 8894,
+            "height": 770,
+            "flow": "in-flow"
+          },
+          {
+            "id": "shell.footer",
+            "top": 9664,
+            "height": 710,
+            "flow": "in-flow"
+          }
+        ]
+      }
+    }
+  },
+  "responsiveHeights": {
+    "viewports": [
+      768,
+      390
+    ],
+    "routes": {
+      "/": {
+        "768": {
+          "pageHeight": 4828,
+          "sectionCount": 15
+        },
+        "390": {
+          "pageHeight": 6527,
+          "sectionCount": 15
+        }
+      },
+      "/case/a-browser-bending-look-at-vision-loss/": {
+        "768": {
+          "pageHeight": 7270,
+          "sectionCount": 19
+        },
+        "390": {
+          "pageHeight": 6520,
+          "sectionCount": 19
+        }
+      },
+      "/case/designing-a-world-full-of-kindness/": {
+        "768": {
+          "pageHeight": 6760,
+          "sectionCount": 18
+        },
+        "390": {
+          "pageHeight": 6167,
+          "sectionCount": 18
+        }
+      },
+      "/case/dl-brand/": {
+        "768": {
+          "pageHeight": 6988,
+          "sectionCount": 21
+        },
+        "390": {
+          "pageHeight": 6817,
+          "sectionCount": 21
+        }
+      },
+      "/case/espn-who-can-break-calvins-record/": {
+        "768": {
+          "pageHeight": 7464,
+          "sectionCount": 19
+        },
+        "390": {
+          "pageHeight": 7558,
+          "sectionCount": 19
+        }
+      },
+      "/case/find-work-happiness/": {
+        "768": {
+          "pageHeight": 10010,
+          "sectionCount": 24
+        },
+        "390": {
+          "pageHeight": 8876,
+          "sectionCount": 24
+        }
+      },
+      "/case/restricted-work/": {
+        "768": {
+          "pageHeight": 1397,
+          "sectionCount": 4
+        },
+        "390": {
+          "pageHeight": 1576,
+          "sectionCount": 4
+        }
+      },
+      "/case/speaking-writing-and-features/": {
+        "768": {
+          "pageHeight": 4945,
+          "sectionCount": 13
+        },
+        "390": {
+          "pageHeight": 7548,
+          "sectionCount": 13
+        }
+      },
+      "/case/the-search-for-work-happiness-book/": {
+        "768": {
+          "pageHeight": 8036,
+          "sectionCount": 21
+        },
+        "390": {
+          "pageHeight": 7583,
+          "sectionCount": 21
+        }
+      },
+      "/case/understanding-diseases/": {
+        "768": {
+          "pageHeight": 8822,
+          "sectionCount": 23
+        },
+        "390": {
+          "pageHeight": 7482,
+          "sectionCount": 23
+        }
+      },
+      "/case/yall-agency/": {
+        "768": {
+          "pageHeight": 6978,
+          "sectionCount": 22
+        },
+        "390": {
+          "pageHeight": 7024,
+          "sectionCount": 22
+        }
+      }
+    }
+  },
+  "histograms": {
+    "viewport": 1440,
+    "scope": "all 11 routes, visible elements",
+    "values": {
+      "color": {
+        "rgb(255, 255, 255)": 65,
+        "rgb(22, 22, 23)": 512
+      },
+      "backgroundColor": {
+        "rgb(255, 214, 0)": 33,
+        "rgb(221, 220, 219)": 14,
+        "rgb(255, 255, 255)": 9,
+        "rgba(217, 217, 217, 0.2)": 6,
+        "rgb(241, 241, 241)": 1
+      },
+      "borderColor": {},
+      "fill": {
+        "#BBBBBB": 22,
+        "#FFD600": 97,
+        "#FFFFFF": 2,
+        "#FFF": 5,
+        "#161617": 128,
+        "WHITE": 11
+      },
+      "stroke": {
+        "#FFDA18": 45
+      },
+      "fontFamily": {
+        "pleasure": 577
+      },
+      "fontSize": {
+        "18px": 195,
+        "22px": 11,
+        "28px": 4,
+        "90px": 1,
+        "73px": 104,
+        "45.26px": 11,
+        "23px": 204,
+        "14px": 11,
+        "102px": 18,
+        "12px": 9,
+        "24px": 9
+      },
+      "fontWeight": {
+        "476": 19,
+        "491": 84,
+        "500": 230,
+        "509": 115,
+        "526": 3,
+        "528": 1,
+        "544": 19,
+        "550": 52,
+        "600": 11,
+        "626": 9,
+        "650": 11,
+        "680": 23
+      },
+      "lineHeight": {
+        "19.8px": 42,
+        "24.2px": 11,
+        "27px": 103,
+        "33.6px": 13,
+        "97.2px": 1,
+        "18px": 11,
+        "75.92px": 26,
+        "29.7px": 39,
+        "70.81px": 22,
+        "43.9022px": 11,
+        "34.5px": 44,
+        "23px": 66,
+        "21px": 11,
+        "103.02px": 18,
+        "22.8px": 9,
+        "32.2px": 94,
+        "75.19px": 56
+      },
+      "letterSpacing": {
+        "-0.63px": 222,
+        "-1.12px": 4,
+        "-3.6px": 1,
+        "-2.92px": 115,
+        "-0.23px": 160,
+        "-4.08px": 18,
+        "-0.24px": 18,
+        "-0.18px": 30,
+        "-0.72px": 9
+      },
+      "fontVariationSettings": {
+        "normal": 339,
+        "\"TRAP\" 55": 4,
+        "\"TRAP\" 90": 134,
+        "\"TRAP\" 80": 23,
+        "\"TRAP\" 23": 66,
+        "\"TRAP\" 50": 11
+      },
+      "borderRadius": {
+        "27.5px": 21,
+        "23px": 1,
+        "9999px": 15,
+        "30px": 2
+      }
+    }
+  },
+  "wordBudgets": {
+    "case.title": {
+      "maxWords": 8,
+      "observedMax": 8,
+      "evidence": "data:src/data/site.json cases[*].titleFormated (max over 10 values)"
+    },
+    "case.shortDesc": {
+      "maxWords": 15,
+      "observedMax": 15,
+      "evidence": "data:src/data/site.json cases[*].shortDesc (max over 10 values)"
+    },
+    "case.roles": {
+      "maxWords": 6,
+      "observedMax": 6,
+      "evidence": "data:src/data/site.json cases[*].roles (max over 10 values)"
+    },
+    "media_text.title": {
+      "maxWords": 11,
+      "observedMax": 11,
+      "evidence": "data:src/data/site.json case_media_text.title (max over 14 values)"
+    },
+    "media_text.text": {
+      "maxWords": 55,
+      "observedMax": 55,
+      "evidence": "data:src/data/site.json case_media_text.text (max over 14 values)"
+    },
+    "media_text.cta": {
+      "maxWords": 4,
+      "observedMax": 4,
+      "evidence": "data:src/data/site.json case_media_text.ctaLabel (max over 10 values)"
+    },
+    "title_text.title": {
+      "maxWords": 8,
+      "observedMax": 8,
+      "evidence": "data:src/data/site.json case_title_text.title (max over 8 values)"
+    },
+    "title_text.text": {
+      "maxWords": 132,
+      "observedMax": 132,
+      "evidence": "data:src/data/site.json case_title_text.text (max over 8 values)"
+    },
+    "text.text": {
+      "maxWords": 66,
+      "observedMax": 66,
+      "evidence": "data:src/data/site.json case_text.text (max over 50 values)"
+    },
+    "home.title": {
+      "maxWords": 8,
+      "observedMax": 8,
+      "evidence": "data:src/data/site.json home.featuredCases[*].titleFormated (max over 9 values)"
+    },
+    "home.desc": {
+      "maxWords": 15,
+      "observedMax": 15,
+      "evidence": "data:src/data/site.json home.featuredCases[*].shortDesc (max over 9 values)"
+    }
+  },
+  "paragraphBudgets": {
+    "case_media_text": 2,
+    "case_title_text": 3,
+    "case_text": 1
+  },
+  "carousel": {
+    "minImages": 5,
+    "maxImages": 6
+  },
+  "citations": {
+    "routes": [
+      "src/lib/router.js:8-12",
+      "src/data/case.js:10-15"
+    ],
+    "sourceStackEvidence": [
+      "package.json:16",
+      "package.json:13",
+      "package.json:14",
+      "package.json:18",
+      "package.json:12"
+    ],
+    "themeBinding": "src/lib/router.js:82",
+    "reducedMotion": "grep -rl prefers-reduced-motion src -> 0 files (no reduced-motion handling in the source)"
+  },
+  "sourceIdentity": {
+    "$comment": "R2 registry: literal patterns, each verified to occur in the real source corpus (src/**/*.jsx + src/data/site.json) at build time.",
+    "patterns": {
+      "brand": [
+        "David Lubofsky",
+        "Lubofsky",
+        "davidlubofsky",
+        "DL | The portfolio",
+        "builtkindly",
+        "seewhateyesee",
+        "Work Happiness",
+        "findworkhappiness",
+        "ESPN",
+        "Detroit Lions"
+      ],
+      "person": [
+        "David",
+        "Calvin Johnson",
+        "davidalubofsky"
+      ],
+      "cta": [
+        "Let’s work together",
+        "Shoot me a message",
+        "Back to cases",
+        "Scroll to view my work",
+        "Get to know me a bit better",
+        "Connect on LinkedIn",
+        "Check out my book",
+        "Putting the human back into humankind"
+      ],
+      "recognition": [
+        "Awwwards",
+        "commarts",
+        "Communication Arts",
+        "amazon.com",
+        "spotify",
+        "youtube.com"
+      ],
+      "domains": [
+        "davidlubofsky.com",
+        "findworkhappiness.com",
+        "linkedin.com/in/davidalubofsky",
+        "seewhateyesee.org",
+        "builtkindly.com",
+        "espn.com",
+        "awwwards.com",
+        "commarts.com",
+        "amazon.com",
+        "spotify.com",
+        "youtube.com"
+      ]
+    }
+  }
+}

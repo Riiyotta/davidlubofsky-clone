@@ -1,0 +1,70 @@
+{
+  "id": "content.text",
+  "title": "Numbered note / statement",
+  "description": "Variant 'numbered': step number in a drawn triangle above one paragraph. Variant 'statement': one display line with yellow period. Variant 'note': one paragraph without a number.",
+  "source": {
+    "id": "src:TextBlock",
+    "file": "src/components/blocks/Blocks.jsx",
+    "lines": "54-77",
+    "tag": "className=\"title-text px-24"
+  },
+  "semantic": {
+    "id": "content.text",
+    "category": "CONTENT"
+  },
+  "retrievalEligible": true,
+  "variants": [
+    "numbered",
+    "statement",
+    "note"
+  ],
+  "content": {
+    "index": {
+      "kind": "text",
+      "maxWords": 1,
+      "optional": true
+    },
+    "text": {
+      "kind": "rich",
+      "maxWords": 66,
+      "maxParagraphs": 1
+    }
+  },
+  "styleSlots": {},
+  "assetRoles": [],
+  "generatedAssetRoles": [],
+  "constraints": {},
+  "motion": {
+    "allowed": [
+      "underline-draw"
+    ],
+    "default": "underline-draw",
+    "reducedMotionFallback": {
+      "underline-draw": "static-underline"
+    }
+  },
+  "responsive": [
+    {
+      "at": "bp.s",
+      "change": "gutter-step",
+      "detail": "left inset 2.4rem -> 17.3rem from 650px",
+      "evidence": "src/components/blocks/Blocks.jsx:54",
+      "evidenceTag": "s:pl-[17.3rem] s:pr-0 flex flex-col pb-40"
+    }
+  ],
+  "uses": {
+    "primitives": [
+      "shape.step-marker",
+      "text.highlight",
+      "mark.period"
+    ],
+    "components": [],
+    "tokens": [
+      "type.body-l-trap",
+      "type.display-m"
+    ]
+  },
+  "templates": [
+    "template.case-study"
+  ]
+}

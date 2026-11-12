@@ -1,0 +1,180 @@
+{
+  "patternsVersion": "1.0.0",
+  "patterns": {
+    "physics-drop": {
+      "desc": "Matter.js rigid bodies (SVG paths) drop under gravity into the section and settle; DOM proxies follow body transforms.",
+      "fallback": "static-composition",
+      "evidence": [
+        {
+          "cite": "src/lib/physics.js:9",
+          "tag": "export class PhysicsLoop"
+        },
+        {
+          "cite": "src/components/ShapesHeroCase.jsx:37",
+          "tag": "Bodies.fromVertices("
+        }
+      ]
+    },
+    "line-reveal": {
+      "desc": "Text split into lines (double split, overflow hidden); lines translate from yPercent 100 with 0.15s stagger, 1.5s snappy ease.",
+      "fallback": "instant-visible",
+      "evidence": [
+        {
+          "cite": "src/components/CaseHero.jsx:65",
+          "tag": "tl.from(lines, { yPercent: 100, stagger: 0.15 }, 0)"
+        }
+      ]
+    },
+    "underline-draw": {
+      "desc": "Yellow underline under <em> scales X 0->1 over 1.25s cubic-bezier(.77,0,.175,1), tilted +/-3.3deg at random, triggered 25% into viewport.",
+      "fallback": "static-underline",
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:1561-1569",
+          "tag": "em:after {"
+        },
+        {
+          "cite": "src/lib/usePageUnderlines.js:17",
+          "tag": "start: 'top bottom-=25%'"
+        }
+      ]
+    },
+    "image-fade-in": {
+      "desc": "Lazy image fades opacity 0->1 over 0.5s once loaded.",
+      "fallback": "instant-visible",
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:1777-1780",
+          "tag": ".lazy img.is-loaded"
+        }
+      ]
+    },
+    "drag-carousel": {
+      "desc": "Horizontal drag (2.5x speed) with lerp 0.1 per tick; touch devices use native scroll-snap.",
+      "fallback": "native-scroll",
+      "evidence": [
+        {
+          "cite": "src/components/blocks/Blocks.jsx:158",
+          "tag": "speed: 2.5"
+        }
+      ]
+    },
+    "mask-reveal-follow": {
+      "desc": "Featured image revealed through an elliptical clip-path on hover; clip follows the cursor via quickTo (1s expo).",
+      "fallback": "hidden-until-focus",
+      "evidence": [
+        {
+          "cite": "src/components/home/HomeItems.jsx:27",
+          "tag": "clipPath: 'ellipse(50% 50% at 50% 100%)'"
+        }
+      ]
+    },
+    "scroll-scrub-clip": {
+      "desc": "Touch devices: item image scales 0.5->1 and drifts yPercent 12.5->-12.5 scrubbed to scroll.",
+      "fallback": "static-image",
+      "evidence": [
+        {
+          "cite": "src/components/home/HomeItems.jsx:29",
+          "tag": "scrollTrigger: { trigger: el.current, scrub: 0.1 }"
+        }
+      ]
+    },
+    "parallax-up": {
+      "desc": "Footer content translates yPercent -35->0 scrubbed while the footer scrolls in (hover devices).",
+      "fallback": "static",
+      "evidence": [
+        {
+          "cite": "src/components/Footer.jsx:21",
+          "tag": "{ yPercent: -35 }"
+        }
+      ]
+    },
+    "video-in-view": {
+      "desc": "Muted looping video plays while its section is in view, resets when it leaves.",
+      "fallback": "poster-frame",
+      "evidence": [
+        {
+          "cite": "src/components/blocks/Blocks.jsx:86",
+          "tag": "v.currentTime = 0;"
+        }
+      ]
+    },
+    "draw-annotation": {
+      "desc": "Hand-drawn SVG annotation strokes draw on (DrawSVG 1.5s power3.inOut) with arrowhead pop and rotated line reveal.",
+      "fallback": "static-annotation",
+      "evidence": [
+        {
+          "cite": "src/components/home/HomeItems.jsx:155",
+          "tag": "drawSVG: gsap.utils.wrap(['100% 100%', 0]),"
+        }
+      ]
+    },
+    "pop-in-label-slide": {
+      "desc": "Circle button scales in (1.25s expo) and its label slides up; label hides after first scroll, circle scales out near the footer.",
+      "fallback": "static-visible",
+      "evidence": [
+        {
+          "cite": "src/components/ButtonBack.jsx:17",
+          "tag": ".from(canvas.current, { scale: 0, duration: 1.25 }, 0.8)"
+        }
+      ]
+    },
+    "preloader-sequence": {
+      "desc": "Ring draws, logo parts pop in then fall away; emits start of hero physics.",
+      "fallback": "skip",
+      "evidence": [
+        {
+          "cite": "src/components/Loader.jsx:23",
+          "tag": ".from(circle1.current, { drawSVG: 0, ease: 'power3.inOut' })"
+        }
+      ]
+    },
+    "mask-wipe-transition": {
+      "desc": "Route change: black mask wipes up (1s snappy), or clicked image falls (0.7s power3.in) while a white mask wipes down.",
+      "fallback": "instant-swap",
+      "evidence": [
+        {
+          "cite": "src/lib/router.js:73",
+          "tag": "fromTo(a, { yPercent: 100 }, { yPercent: 0, duration: 1, ease: 'snappy' })"
+        }
+      ]
+    },
+    "flip-modal": {
+      "desc": "Video card Flip-animates into a centred modal (1s snappy); scrubber scales in; cursor-following play/pause.",
+      "fallback": "instant-open",
+      "evidence": [
+        {
+          "cite": "src/components/home/IntroModal.jsx:51",
+          "tag": "Flip.from(state, { duration: 1, ease: 'snappy', scale: true })"
+        }
+      ]
+    },
+    "gate-reveal": {
+      "desc": "Password field and submit circle reveal via clip-path inset/circle (1.5s expo.inOut).",
+      "fallback": "instant-visible",
+      "evidence": [
+        {
+          "cite": "src/components/KnockKnock.jsx:19",
+          "tag": "{ clipPath: 'inset(0 0 0 100% round 5.5rem)' },"
+        }
+      ]
+    },
+    "tilt-3d": {
+      "desc": "3D mascot tilts toward the cursor (lerp 0.075) and advances a position/rotation timeline with downward scroll.",
+      "fallback": "static-render",
+      "evidence": [
+        {
+          "cite": "src/components/TheLama.jsx:14",
+          "tag": "ease: 0.075"
+        }
+      ]
+    },
+    "none": {
+      "desc": "No motion.",
+      "fallback": "none",
+      "evidence": [
+        "no animation code bound to this section in the source"
+      ]
+    }
+  }
+}

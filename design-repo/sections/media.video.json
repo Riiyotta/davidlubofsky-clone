@@ -1,0 +1,64 @@
+{
+  "id": "media.video",
+  "title": "Video",
+  "description": "16:9 muted looping video, inset like the image block; plays only while in view.",
+  "source": {
+    "id": "src:BlockVideo",
+    "file": "src/components/blocks/Blocks.jsx",
+    "lines": "95-102",
+    "tag": "last:pb-0 media-cover px-24 s:px-44"
+  },
+  "semantic": {
+    "id": "media.video",
+    "category": "MEDIA"
+  },
+  "retrievalEligible": true,
+  "variants": [],
+  "content": {
+    "video": {
+      "kind": "asset",
+      "roles": [
+        "case.video"
+      ],
+      "generatedRoles": [
+        "generated.motion-loop"
+      ]
+    }
+  },
+  "styleSlots": {},
+  "assetRoles": [
+    "case.video"
+  ],
+  "generatedAssetRoles": [
+    "generated.motion-loop"
+  ],
+  "constraints": {},
+  "motion": {
+    "allowed": [
+      "video-in-view"
+    ],
+    "default": "video-in-view",
+    "reducedMotionFallback": {
+      "video-in-view": "poster-frame"
+    }
+  },
+  "responsive": [
+    {
+      "at": "bp.l",
+      "change": "gutter-step",
+      "detail": "same inset steps as media.image inset",
+      "evidence": "src/components/blocks/Blocks.jsx:95",
+      "evidenceTag": "last:pb-0 media-cover px-24 s:px-44"
+    }
+  ],
+  "uses": {
+    "primitives": [
+      "video.inline"
+    ],
+    "components": [],
+    "tokens": []
+  },
+  "templates": [
+    "template.case-study"
+  ]
+}

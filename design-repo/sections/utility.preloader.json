@@ -1,0 +1,49 @@
+{
+  "id": "utility.preloader",
+  "title": "Intro preloader",
+  "description": "First-load overlay: ring draws, logo pieces pop in and fall away.",
+  "source": {
+    "id": "src:Loader",
+    "file": "src/components/Loader.jsx",
+    "lines": "48-67",
+    "tag": "bg-black z-10"
+  },
+  "semantic": {
+    "id": "utility.preloader",
+    "category": "UTILITY"
+  },
+  "retrievalEligible": false,
+  "retrievalReason": "First-load intro overlay shown before any content; it carries no page content and is removed after the sequence.",
+  "variants": [],
+  "content": {},
+  "styleSlots": {},
+  "assetRoles": [],
+  "generatedAssetRoles": [],
+  "constraints": {
+    "maxPerPage": 1
+  },
+  "motion": {
+    "allowed": [
+      "preloader-sequence"
+    ],
+    "default": "preloader-sequence",
+    "reducedMotionFallback": {
+      "preloader-sequence": "skip"
+    }
+  },
+  "responsive": [],
+  "uses": {
+    "primitives": [
+      "logo.wordmark"
+    ],
+    "components": [],
+    "tokens": [
+      "color.neutral.900",
+      "color.brand.yellow"
+    ]
+  },
+  "templates": [
+    "template.home",
+    "template.case-study"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "shape-field.physics",
+  "description": "Canvas of geometric physics bodies in a theme colour.",
+  "props": [
+    "color"
+  ],
+  "source": {
+    "file": "src/components/ShapesHeroCase.jsx",
+    "lines": "51-62",
+    "tag": "const shapes = small"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "content.title-text",
+  "title": "Title + long text",
+  "description": "Display title (left half) and up to three body paragraphs (right half) with highlighted words and optional bold paragraph.",
+  "source": {
+    "id": "src:TitleText",
+    "file": "src/components/blocks/Blocks.jsx",
+    "lines": "33-48",
+    "tag": "className=\"content px-24"
+  },
+  "semantic": {
+    "id": "content.title-text",
+    "category": "CONTENT"
+  },
+  "retrievalEligible": true,
+  "variants": [],
+  "content": {
+    "title": {
+      "kind": "text",
+      "maxWords": 8
+    },
+    "highlight": {
+      "kind": "text",
+      "maxWords": 1,
+      "optional": true
+    },
+    "body": {
+      "kind": "rich",
+      "maxWords": 132,
+      "maxParagraphs": 3
+    }
+  },
+  "styleSlots": {},
+  "assetRoles": [],
+  "generatedAssetRoles": [],
+  "constraints": {},
+  "motion": {
+    "allowed": [
+      "underline-draw"
+    ],
+    "default": "underline-draw",
+    "reducedMotionFallback": {
+      "underline-draw": "static-underline"
+    }
+  },
+  "responsive": [
+    {
+      "at": "bp.s",
+      "change": "stack-to-row",
+      "detail": "title above text below 650px; two columns from 650px",
+      "evidence": "src/styles/original.css:1182-1184",
+      "evidenceTag": ".s\\:flex-row {"
+    }
+  ],
+  "uses": {
+    "primitives": [
+      "text.highlight",
+      "mark.period"
+    ],
+    "components": [],
+    "tokens": [
+      "type.display-m",
+      "type.body"
+    ]
+  },
+  "templates": [
+    "template.case-study"
+  ]
+}

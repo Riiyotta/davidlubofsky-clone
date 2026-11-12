@@ -1,0 +1,26 @@
+{
+  "name": "davidlubofsky-espn-case",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5191",
+    "build": "vite build",
+    "preview": "vite preview --port 5191"
+  },
+  "dependencies": {
+    "@rive-app/canvas": "^2.21.0",
+    "gsap": "^3.13.0",
+    "matter-js": "^0.18.0",
+    "pathseg": "^1.2.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "vite": "^5.4.10"
+  }
+}

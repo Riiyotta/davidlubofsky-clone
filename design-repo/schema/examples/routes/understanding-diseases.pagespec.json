@@ -1,0 +1,412 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "reference",
+  "template": "template.case-study",
+  "route": "/case/understanding-diseases/",
+  "theme": "light",
+  "access": "public",
+  "meta": {
+    "title": "DL | The portfolio of David Lubofsky"
+  },
+  "nodes": [
+    {
+      "section": "shell.header",
+      "content": {
+        "ownerName": "David Lubofsky",
+        "navLinks": [
+          {
+            "label": "My Work",
+            "href": "/#work"
+          },
+          {
+            "label": "My Book",
+            "href": "https://findworkhappiness.com"
+          },
+          {
+            "label": "in",
+            "href": "https://www.linkedin.com/in/davidalubofsky/"
+          }
+        ],
+        "cta": {
+          "label": "Let’s work together",
+          "href": "mailto:me@davidlubofsky.com"
+        },
+        "logo": {
+          "role": "brand.wordmark",
+          "src": "/favicon.svg"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "hero.case",
+      "content": {
+        "title": "A platform for dynamic learning",
+        "highlight": "dynamic",
+        "rolesLabel": "Roles",
+        "roles": "Creative; Technology",
+        "description": "Because understanding diseases doesn’t have to be hard.",
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1671798326-case-test.jpg"
+        }
+      },
+      "style": {
+        "accent": "color.accent.steel"
+      },
+      "motion": {
+        "pattern": "line-reveal",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.media-text",
+      "content": {
+        "title": "Content is not one size fits all",
+        "body": [
+          {
+            "text": "As part of a partnership with some amazing humans, we built a ground-breaking web-based platform that offers disease education content at multiple levels of understanding."
+          }
+        ],
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1674905999-udphones.jpg"
+        },
+        "highlight": "not"
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.title-text",
+      "content": {
+        "title": "There were many levels to this problem",
+        "body": [
+          {
+            "text": "Everyone deserves access to important information that makes sense to them. But every person has a different level of understanding and reading ability.",
+            "highlights": [
+              "Everyone"
+            ]
+          },
+          {
+            "text": "How do you bring to life a platform delivering disease learning information that makes sense to each and every individual, at a time when they most need clear, concise answers?"
+          },
+          {
+            "text": "The answer became very clear—we had to create a platform that adjusted to each user’s reading level. This solution clearly didn’t exist. Yet.",
+            "highlights": [
+              "each"
+            ],
+            "strong": [
+              "The answer became very clear—we had to create a platform that adjusted to each user’s reading level. This solution clearly didn’t exist. Yet."
+            ]
+          }
+        ],
+        "highlight": "many"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "statement",
+      "content": {
+        "text": [
+          {
+            "text": "How we architected the solution"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "layout.gray-band",
+      "content": {},
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "media.video",
+      "content": {
+        "video": {
+          "role": "case.video",
+          "src": "/videos/786607979.mp4"
+        }
+      },
+      "motion": {
+        "pattern": "video-in-view",
+        "reducedMotionFallback": "poster-frame"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "We tapped expert partners to help create content at multiple fry-tested levels of reading ability.",
+            "highlights": [
+              "multiple"
+            ],
+            "strong": [
+              "."
+            ]
+          }
+        ],
+        "index": "01"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "inset",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1671793282-group-241.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "We determined some key pieces of content that would need to be brought to life interactively to really tell the story.",
+            "highlights": [
+              "interactively"
+            ]
+          }
+        ],
+        "index": "02"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "inset",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1672576784-udslider.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "A “default” reading level was set, and then UI was created to give the user the ability to change the content to their liking.",
+            "highlights": [
+              "“default”"
+            ]
+          }
+        ],
+        "index": "03"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1672576646-udyellow.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "It was unbelievable—there is something genuinely special about seeing users actually use the tool the way it was intended.",
+            "highlights": [
+              "unbelievable"
+            ]
+          }
+        ],
+        "index": "04"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "inset",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1672576657-udaccordion.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1671798326-case-test.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "inset",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1674817336-map.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "statement",
+      "content": {
+        "text": [
+          {
+            "text": "The result? Learning that's easy + for you",
+            "highlights": [
+              "easy"
+            ]
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "inset",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1674816773-ud-final.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "navigation.next-case",
+      "content": {
+        "title": "What WR can break Calvin’s record?",
+        "ctaLabel": "Check it out",
+        "href": "/case/espn-who-can-break-calvins-record/",
+        "lettering": [
+          "View",
+          "next",
+          "brand"
+        ],
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1694799124-hero-for-book2.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "physics-drop",
+        "reducedMotionFallback": "static-composition"
+      }
+    },
+    {
+      "section": "utility.back-button",
+      "content": {
+        "label": "Back to cases"
+      },
+      "motion": {
+        "pattern": "pop-in-label-slide",
+        "reducedMotionFallback": "static-visible"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "statement": "Putting the human back into humankind",
+        "highlight": "human",
+        "availabilityLabel": "Next availability:",
+        "availabilityValue": "1/1/27",
+        "links": [
+          {
+            "label": "Shoot me a message",
+            "href": "mailto:me@davidlubofsky.com"
+          },
+          {
+            "label": "Connect on LinkedIn",
+            "href": "https://www.linkedin.com/in/davidalubofsky/"
+          },
+          {
+            "label": "Check out my book",
+            "href": "https://findworkhappiness.com"
+          }
+        ],
+        "legal": "UX, Strategy, Design, and Dev. ©2026 David Lubofsky",
+        "mascot": {
+          "role": "decor.mascot-3d",
+          "src": "/lama.glb"
+        }
+      },
+      "motion": {
+        "pattern": "parallax-up",
+        "reducedMotionFallback": "static"
+      }
+    }
+  ]
+}

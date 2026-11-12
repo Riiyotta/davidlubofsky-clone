@@ -1,0 +1,88 @@
+{
+  "id": "shell.header",
+  "title": "Site header",
+  "description": "Fixed header: logo mark + owner name (left), three text links centred, yellow pill CTA (right). Links fade out after 50px of scroll.",
+  "source": {
+    "id": "src:Header",
+    "file": "src/components/Header.jsx",
+    "lines": "65-103",
+    "tag": "className=\"site-head fixed"
+  },
+  "semantic": {
+    "id": "shell.header",
+    "category": "SHELL"
+  },
+  "retrievalEligible": true,
+  "variants": [],
+  "content": {
+    "ownerName": {
+      "kind": "text",
+      "maxWords": 2,
+      "evidenceLiterals": 1
+    },
+    "navLinks": {
+      "kind": "links",
+      "min": 3,
+      "max": 3,
+      "labelMaxWords": 2
+    },
+    "cta": {
+      "kind": "link",
+      "labelMaxWords": 3
+    },
+    "logo": {
+      "kind": "asset",
+      "roles": [
+        "brand.wordmark"
+      ],
+      "generatedRoles": [
+        "placeholder.brand-mark"
+      ]
+    }
+  },
+  "styleSlots": {},
+  "assetRoles": [
+    "brand.wordmark"
+  ],
+  "generatedAssetRoles": [
+    "placeholder.brand-mark"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirst": true
+  },
+  "motion": {
+    "allowed": [
+      "none"
+    ],
+    "default": "none",
+    "reducedMotionFallback": {
+      "none": "none"
+    }
+  },
+  "responsive": [
+    {
+      "at": "bp.s",
+      "change": "hide-to-show",
+      "detail": "owner name and CTA label appear; below 650px the CTA collapses to its circle",
+      "evidence": "src/styles/original.css:1654-1657",
+      "evidenceTag": ".site-head__cta .btn-mask__text,"
+    }
+  ],
+  "uses": {
+    "primitives": [
+      "logo.wordmark",
+      "link.underline",
+      "button.pill"
+    ],
+    "components": [],
+    "tokens": [
+      "type.nav",
+      "color.brand.yellow"
+    ]
+  },
+  "templates": [
+    "template.home",
+    "template.case-study"
+  ]
+}

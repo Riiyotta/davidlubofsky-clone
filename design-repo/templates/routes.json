@@ -1,0 +1,17 @@
+{
+  "$comment": "Every route the clone serves, mapped to exactly one template. Source: route parser + case data (see extraction/measured-values.json -> citations.routes).",
+  "routesVersion": "1.0.0",
+  "routes": [
+    { "path": "/", "template": "template.home", "theme": "dark", "access": "public" },
+    { "path": "/case/a-browser-bending-look-at-vision-loss/", "template": "template.case-study", "theme": "light", "access": "public" },
+    { "path": "/case/designing-a-world-full-of-kindness/", "template": "template.case-study", "theme": "light", "access": "public" },
+    { "path": "/case/dl-brand/", "template": "template.case-study", "theme": "light", "access": "public" },
+    { "path": "/case/espn-who-can-break-calvins-record/", "template": "template.case-study", "theme": "light", "access": "public" },
+    { "path": "/case/find-work-happiness/", "template": "template.case-study", "theme": "light", "access": "public" },
+    { "path": "/case/restricted-work/", "template": "template.case-study", "theme": "light", "access": "password-gated" },
+    { "path": "/case/speaking-writing-and-features/", "template": "template.case-study", "theme": "light", "access": "public" },
+    { "path": "/case/the-search-for-work-happiness-book/", "template": "template.case-study", "theme": "light", "access": "public" },
+    { "path": "/case/understanding-diseases/", "template": "template.case-study", "theme": "light", "access": "public" },
+    { "path": "/case/yall-agency/", "template": "template.case-study", "theme": "light", "access": "public" }
+  ]
+}

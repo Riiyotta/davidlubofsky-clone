@@ -1,0 +1,398 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "reference",
+  "template": "template.case-study",
+  "route": "/case/dl-brand/",
+  "theme": "light",
+  "access": "public",
+  "meta": {
+    "title": "DL | The portfolio of David Lubofsky"
+  },
+  "nodes": [
+    {
+      "section": "shell.header",
+      "content": {
+        "ownerName": "David Lubofsky",
+        "navLinks": [
+          {
+            "label": "My Work",
+            "href": "/#work"
+          },
+          {
+            "label": "My Book",
+            "href": "https://findworkhappiness.com"
+          },
+          {
+            "label": "in",
+            "href": "https://www.linkedin.com/in/davidalubofsky/"
+          }
+        ],
+        "cta": {
+          "label": "Let’s work together",
+          "href": "mailto:me@davidlubofsky.com"
+        },
+        "logo": {
+          "role": "brand.wordmark",
+          "src": "/favicon.svg"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "hero.case",
+      "content": {
+        "title": "A brand as versatile as it is tall",
+        "highlight": "versatile",
+        "rolesLabel": "Roles",
+        "roles": "UX, Creative; Technology",
+        "description": "Crafting a new image + digital strategy that breathes life across all mediums.",
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1673560021-dlbrandhero.jpg"
+        }
+      },
+      "style": {
+        "accent": "color.accent.sun"
+      },
+      "motion": {
+        "pattern": "line-reveal",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.media-text",
+      "content": {
+        "title": "Starting over, without starting over",
+        "body": [
+          {
+            "text": "With most the last two decades spent helping other companies leave their footprint, so little work had been done on my own. This meant I was starting with a blank slate. How exciting. And challenging."
+          }
+        ],
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1673834821-dlphoto.jpg"
+        },
+        "highlight": "without"
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.title-text",
+      "content": {
+        "title": "The identity must truly reflect my identity",
+        "body": [
+          {
+            "text": "I help clients build great digital products. I want to leave the legacy of a kind leader. I want to be known as a friendly visionary who helped create solutions that made a large impact on earth.",
+            "highlights": [
+              "great"
+            ]
+          },
+          {
+            "text": "But that is really hard to encapsulate in a logo mark, especially when it will need to be broken apart and used as the building blocks for the entire design system and brand experience."
+          },
+          {
+            "text": "We put a lot of work into creating some amazing options, all modern and super clever. Some were weird (like me!). Some were classy (like me!). And this great range ultimately got us to a legendary place.",
+            "highlights": [
+              "legendary"
+            ],
+            "strong": [
+              "We put a lot of work into creating some amazing options, all modern and super clever. Some were weird (like me!). Some were classy (like me!). And this great range ultimately got us to a legendary place."
+            ]
+          }
+        ],
+        "highlight": "truly"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.carousel",
+      "content": {
+        "images": [
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1673560434-1-1.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1673560442-1.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1673560449-group-926.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1673560445-group-925.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1673560438-group-721.jpg"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "drag-carousel",
+        "reducedMotionFallback": "native-scroll"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "statement",
+      "content": {
+        "text": [
+          {
+            "text": "How we architected the brand"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "I am an extremely tall softie—one that has an edge—so we landed on a logo that is comprised of just that: a tall shape, a soft shape, and an edgy shape.",
+            "highlights": [
+              "extremely"
+            ]
+          }
+        ],
+        "index": "01"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "layout.gray-band",
+      "content": {},
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1673560174-dl-dotted.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "Then I stood at my whiteboard for weeks, hammering out a solid plan to roll this unbelievable identity out to the world.",
+            "highlights": [
+              "solid"
+            ]
+          }
+        ],
+        "index": "02"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.video",
+      "content": {
+        "video": {
+          "role": "case.video",
+          "src": "/videos/790758375.mp4"
+        }
+      },
+      "motion": {
+        "pattern": "video-in-view",
+        "reducedMotionFallback": "poster-frame"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "The indentity system was leveraged to create visually-arresting emails, provocative social media, and thoughtful videos.",
+            "highlights": [
+              "arresting"
+            ]
+          }
+        ],
+        "index": "03"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "inset",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1674818508-dlstudio.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1674818451-bigdlcollage.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "This set us up great for building an unbelievably enjoyable web experience for the ages.",
+            "highlights": [
+              "enjoyable"
+            ]
+          }
+        ],
+        "index": "04"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1673865191-00-1_hero.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "statement",
+      "content": {
+        "text": [
+          {
+            "text": "The result? A feel of both class + fun",
+            "highlights": [
+              "both"
+            ]
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "navigation.next-case",
+      "content": {
+        "title": "A digital agency for good humans",
+        "ctaLabel": "Check it out",
+        "href": "/case/yall-agency/",
+        "lettering": [
+          "View",
+          "next",
+          "brand"
+        ],
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1672341196-hero-for-yall.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "physics-drop",
+        "reducedMotionFallback": "static-composition"
+      }
+    },
+    {
+      "section": "utility.back-button",
+      "content": {
+        "label": "Back to cases"
+      },
+      "motion": {
+        "pattern": "pop-in-label-slide",
+        "reducedMotionFallback": "static-visible"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "statement": "Putting the human back into humankind",
+        "highlight": "human",
+        "availabilityLabel": "Next availability:",
+        "availabilityValue": "1/1/27",
+        "links": [
+          {
+            "label": "Shoot me a message",
+            "href": "mailto:me@davidlubofsky.com"
+          },
+          {
+            "label": "Connect on LinkedIn",
+            "href": "https://www.linkedin.com/in/davidalubofsky/"
+          },
+          {
+            "label": "Check out my book",
+            "href": "https://findworkhappiness.com"
+          }
+        ],
+        "legal": "UX, Strategy, Design, and Dev. ©2026 David Lubofsky",
+        "mascot": {
+          "role": "decor.mascot-3d",
+          "src": "/lama.glb"
+        }
+      },
+      "motion": {
+        "pattern": "parallax-up",
+        "reducedMotionFallback": "static"
+      }
+    }
+  ]
+}

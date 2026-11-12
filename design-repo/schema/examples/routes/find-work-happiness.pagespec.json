@@ -1,0 +1,439 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "reference",
+  "template": "template.case-study",
+  "route": "/case/find-work-happiness/",
+  "theme": "light",
+  "access": "public",
+  "meta": {
+    "title": "DL | The portfolio of David Lubofsky"
+  },
+  "nodes": [
+    {
+      "section": "shell.header",
+      "content": {
+        "ownerName": "David Lubofsky",
+        "navLinks": [
+          {
+            "label": "My Work",
+            "href": "/#work"
+          },
+          {
+            "label": "My Book",
+            "href": "https://findworkhappiness.com"
+          },
+          {
+            "label": "in",
+            "href": "https://www.linkedin.com/in/davidalubofsky/"
+          }
+        ],
+        "cta": {
+          "label": "Let’s work together",
+          "href": "mailto:me@davidlubofsky.com"
+        },
+        "logo": {
+          "role": "brand.wordmark",
+          "src": "/favicon.svg"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "hero.case",
+      "content": {
+        "title": "A smile-filled world of UI + visuals",
+        "highlight": "smile",
+        "rolesLabel": "Roles",
+        "roles": "Creative; Technology",
+        "description": "An interactive manifestation of the book \"The Search for Work Happiness\".",
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1672340831-hero-for-book.jpg"
+        }
+      },
+      "style": {
+        "accent": "color.accent.sky"
+      },
+      "motion": {
+        "pattern": "line-reveal",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.media-text",
+      "content": {
+        "title": "A book brought to the browser",
+        "body": [
+          {
+            "text": "Drag around a Wimmelbilderbuch-style illustrative environment to breathe color and life into this online version of a physical book, which playfully places you at the center of a \"search\" for work happiness."
+          }
+        ],
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1694796664-screen.jpg"
+        },
+        "highlight": "browser",
+        "cta": {
+          "label": "See it live!",
+          "href": "https://www.findworkhappiness.com"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.title-text",
+      "content": {
+        "title": "The power to paint is in your hands",
+        "body": [
+          {
+            "text": "Interact with chapters to fill the line art with color and get rewarded with written word and audio snippets from the book. Enjoy some insane masking that takes place as you navigate from chapter to chapter. This experience works great without sound, but there are so many audible layers added that will put a smile on your face, including snippets from every chapter, peppy background music, and even some wacky interaction-based sounds.",
+            "highlights": [
+              "insane"
+            ]
+          },
+          {
+            "text": "If you are interested in what the book is about, a segment of every chapter lies within. And don’t forget the About page, which–unlike most About pages–is addictingly fun to scroll through. Plus, if you listen to an entire snippet, the audio timeline smiles at you—and who doesn't like that!",
+            "highlights": [
+              "addictingly"
+            ],
+            "strong": [
+              "If you are interested in what the book is about, a segment of every chapter lies within. And don’t forget the About page, which–unlike most About pages–is addictingly fun to scroll through. Plus, if you listen to an entire snippet, the audio timeline smiles at you—and who doesn't like that!"
+            ]
+          }
+        ],
+        "highlight": "power"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "statement",
+      "content": {
+        "text": [
+          {
+            "text": "How we reinvented the book"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1694796979-nav.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "To pull this off, the first task was figuring out how to load all of this art and visual madness without losing the user. We leveraged some lightweight Rive animations of pieces of art from the book to provide distraction during the load. We also provided access to a small audio intro for users that wanted to hear the book introduction.",
+            "highlights": [
+              "madness"
+            ]
+          }
+        ],
+        "index": "01"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "layout.gray-band",
+      "content": {},
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1694796836-one-hundred.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "Then we had to map out each chapter's correlating art in a method that allowed the user to experience every piece of art the book had in store while listening to audio snippets of each chapter. Or, they can just drag around the full world on their own—it's like a real-life Highlights magazine—and select chapters on their own, which file the line art with vibrant color",
+            "highlights": [
+              "vibrant"
+            ]
+          }
+        ],
+        "index": "02"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "inset",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1694796877-art-direction.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1694797101-searching.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "This experience needed to feel large and immersive for desktop users while also being an unforgettable experience on mobile devices. No animation or interaction is lost, regardless of the device.",
+            "highlights": [
+              "unforgettable"
+            ]
+          }
+        ],
+        "index": "03"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1694796927-big.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1694797077-group-10238.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "Since this book was about happiness, we felt compelled to pull smiles through everything—hover states, page bends, and even by causing the audio player to smile at you as you listen to chapters. Hopefully this also puts a grin on humans' faces, too.",
+            "highlights": [
+              "everything"
+            ]
+          }
+        ],
+        "index": "04"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1694797129-smile.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1694796989-dl-about.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "statement",
+      "content": {
+        "text": [
+          {
+            "text": "The result? An award-winning online book"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.carousel",
+      "content": {
+        "images": [
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1694795907-fotm-1.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1694795895-certificate-the-search-for-work-happiness-sotd-1.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1694795882-cssda-wotd.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1694795901-fotd-2.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1694795889-developer_certificate.jpg"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "drag-carousel",
+        "reducedMotionFallback": "native-scroll"
+      }
+    },
+    {
+      "section": "navigation.next-case",
+      "content": {
+        "title": "A platform for dynamic learning",
+        "ctaLabel": "Check it out",
+        "href": "/case/understanding-diseases/",
+        "lettering": [
+          "View",
+          "next",
+          "brand"
+        ],
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1671798326-case-test.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "physics-drop",
+        "reducedMotionFallback": "static-composition"
+      }
+    },
+    {
+      "section": "utility.back-button",
+      "content": {
+        "label": "Back to cases"
+      },
+      "motion": {
+        "pattern": "pop-in-label-slide",
+        "reducedMotionFallback": "static-visible"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "statement": "Putting the human back into humankind",
+        "highlight": "human",
+        "availabilityLabel": "Next availability:",
+        "availabilityValue": "1/1/27",
+        "links": [
+          {
+            "label": "Shoot me a message",
+            "href": "mailto:me@davidlubofsky.com"
+          },
+          {
+            "label": "Connect on LinkedIn",
+            "href": "https://www.linkedin.com/in/davidalubofsky/"
+          },
+          {
+            "label": "Check out my book",
+            "href": "https://findworkhappiness.com"
+          }
+        ],
+        "legal": "UX, Strategy, Design, and Dev. ©2026 David Lubofsky",
+        "mascot": {
+          "role": "decor.mascot-3d",
+          "src": "/lama.glb"
+        }
+      },
+      "motion": {
+        "pattern": "parallax-up",
+        "reducedMotionFallback": "static"
+      }
+    }
+  ]
+}

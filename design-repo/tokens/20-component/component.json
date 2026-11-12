@@ -1,0 +1,31 @@
+{
+  "button.pill": {
+    "height": "5.5rem",
+    "radius": "radius.pill",
+    "fill": "color.brand.yellow",
+    "type": "type.button",
+    "evidence": {
+      "cite": "src/styles/original.css:1669-1676",
+      "tag": ".btn {"
+    }
+  },
+  "button.circle-icon": {
+    "size": "5.5rem",
+    "fill": "color.brand.yellow",
+    "evidence": {
+      "cite": "src/components/ButtonBack.jsx:65",
+      "tag": "h-[5.5rem] w-[5.5rem]"
+    }
+  },
+  "card.video": {
+    "radius": [
+      "radius.card-m",
+      "radius.card-l"
+    ],
+    "aspectRatio": "300/500",
+    "evidence": {
+      "cite": "src/components/home/ShapesConnect.jsx:139",
+      "tag": "aspectRatio: '300/500'"
+    }
+  }
+}

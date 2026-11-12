@@ -1,0 +1,89 @@
+{
+  "id": "hero.home",
+  "title": "Index hero",
+  "description": "Dark opener: multi-line discipline statement with yellow period, scroll cue bottom-left, physics shapes (triangle, bar, wedge) plus a falling portrait video card with hand-drawn callout.",
+  "source": {
+    "id": "src:HomeHero",
+    "file": "src/components/home/HomeHero.jsx",
+    "lines": "35-52",
+    "tag": "className=\"home-hero relative"
+  },
+  "semantic": {
+    "id": "hero.home",
+    "category": "HERO"
+  },
+  "retrievalEligible": true,
+  "variants": [],
+  "content": {
+    "headline": {
+      "kind": "text",
+      "maxWords": 5,
+      "evidenceLiterals": 1
+    },
+    "scrollCue": {
+      "kind": "text",
+      "maxWords": 5,
+      "evidenceLiterals": 1
+    },
+    "videoCallout": {
+      "kind": "text",
+      "maxWords": 7,
+      "evidenceLiterals": 1
+    },
+    "video": {
+      "kind": "asset",
+      "roles": [
+        "person.intro-video"
+      ],
+      "generatedRoles": [
+        "fictional.person-media"
+      ]
+    }
+  },
+  "styleSlots": {},
+  "assetRoles": [
+    "person.intro-video"
+  ],
+  "generatedAssetRoles": [
+    "fictional.person-media"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowed": [
+      "physics-drop",
+      "underline-draw"
+    ],
+    "default": "physics-drop",
+    "reducedMotionFallback": {
+      "physics-drop": "static-composition",
+      "underline-draw": "static-underline"
+    }
+  },
+  "responsive": [
+    {
+      "at": "bp.s",
+      "change": "font-size-step",
+      "detail": "headline 48px -> 90px; scroll cue label appears",
+      "evidence": "src/styles/original.css:1964-1970",
+      "evidenceTag": ".home-hero__title {"
+    }
+  ],
+  "uses": {
+    "primitives": [
+      "mark.period"
+    ],
+    "components": [
+      "shape-field.physics",
+      "card.video"
+    ],
+    "tokens": [
+      "type.display-l",
+      "color.neutral.700"
+    ]
+  },
+  "templates": [
+    "template.home"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "content.case-index-intro",
+  "title": "Index annotation",
+  "description": "Rotated hand-written style note with drawn loop and arrow that introduces the project list.",
+  "source": {
+    "id": "src:HomeItems.annotation",
+    "file": "src/components/home/HomeItems.jsx",
+    "lines": "175-194",
+    "tag": "left-[62rem] js-t-fade"
+  },
+  "semantic": {
+    "id": "content.case-index-intro",
+    "category": "INDEX"
+  },
+  "retrievalEligible": true,
+  "variants": [],
+  "content": {
+    "annotation": {
+      "kind": "text",
+      "maxWords": 11,
+      "evidenceLiterals": 1
+    }
+  },
+  "styleSlots": {},
+  "assetRoles": [],
+  "generatedAssetRoles": [],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowed": [
+      "draw-annotation"
+    ],
+    "default": "draw-annotation",
+    "reducedMotionFallback": {
+      "draw-annotation": "static-annotation"
+    }
+  },
+  "responsive": [],
+  "uses": {
+    "primitives": [],
+    "components": [],
+    "tokens": [
+      "type.annotation",
+      "color.brand.yellow-stroke"
+    ]
+  },
+  "templates": [
+    "template.home"
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "$comment": "Reviewed exceptions to the wrapper gate. Each entry needs route, section, reviewedBy, justification (>=30 chars) and maxHeightPx above the measured height. Empty: no section on any route reaches a threshold.",
+  "entries": []
+}

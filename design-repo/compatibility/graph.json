@@ -1,0 +1,71 @@
+{
+  "graphVersion": "1.0.0",
+  "rules": [
+    {
+      "id": "TEMPLATE_SEQUENCE",
+      "severity": "error",
+      "rule": "Node sequence must match the declared template's node list (order, required, repeatable, body slot membership).",
+      "evidence": "templates/templates.json"
+    },
+    {
+      "id": "SHELL_HEADER_FIRST",
+      "severity": "error",
+      "rule": "shell.header is the first node."
+    },
+    {
+      "id": "SHELL_FOOTER_LAST_IN_FLOW",
+      "severity": "error",
+      "rule": "shell.footer is the last non-runtime node; only utility.page-transition / utility.preloader may follow it."
+    },
+    {
+      "id": "ONE_HERO",
+      "severity": "error",
+      "rule": "Exactly one hero.* node per page.",
+      "exception": "none: both templates have exactly one hero (templates/templates.json)"
+    },
+    {
+      "id": "HERO_TEMPLATE_BINDING",
+      "severity": "error",
+      "rule": "hero.home only on template.home; hero.case only on template.case-study."
+    },
+    {
+      "id": "GRAY_BAND_MAX_ONE",
+      "severity": "error",
+      "rule": "At most one layout.gray-band per page (observed max 1 across 10 cases).",
+      "evidence": "data:src/data/site.json case_gray_start counts"
+    },
+    {
+      "id": "GRAY_BAND_NEEDS_FOLLOWER",
+      "severity": "error",
+      "rule": "layout.gray-band must be followed by another body block: it positions itself from its next sibling.",
+      "evidence": "src/components/blocks/Blocks.jsx:120"
+    },
+    {
+      "id": "PASSWORD_GATE_ACCESS",
+      "severity": "error",
+      "rule": "utility.password-gate is present if and only if access = password-gated."
+    },
+    {
+      "id": "CASE_INDEX_NUMBERING",
+      "severity": "error",
+      "rule": "content.case-index-item indexes run 01, 02, ... in node order (zero-padded position).",
+      "evidence": "src/components/home/HomeItems.jsx:99"
+    },
+    {
+      "id": "BODY_OPENS_WITH_MEDIA_TEXT",
+      "severity": "warn",
+      "rule": "A case body usually opens with content.media-text (9 of 10 cases; the gated case opens with content.text)."
+    },
+    {
+      "id": "PHYSICS_BUDGET",
+      "severity": "warn",
+      "rule": "At most two physics-drop nodes per page (both templates use exactly two)."
+    },
+    {
+      "id": "THEME_TEMPLATE",
+      "severity": "error",
+      "rule": "template.home uses theme dark; template.case-study uses theme light.",
+      "evidence": "src/lib/router.js:82"
+    }
+  ]
+}

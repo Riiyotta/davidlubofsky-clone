@@ -1,0 +1,10 @@
+node_modules/
+dist/
+design-repo.zip
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+# saved copy of the original site (reference only, never shipped)
+DL _ The portfolio of David Lubofsky.html
+DL _ The portfolio of David Lubofsky_files/

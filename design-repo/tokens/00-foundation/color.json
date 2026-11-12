@@ -1,0 +1,194 @@
+{
+  "$comment": "Foundation colours. Every value is in the computed histogram or cited in source (canvas-only colours).",
+  "tokens": {
+    "color.neutral.900": {
+      "value": "#161617",
+      "evidence": [
+        "computed:color rgb(22,22,23) x512",
+        {
+          "cite": "src/styles/original.css:868-871",
+          "tag": ".bg-black {"
+        }
+      ]
+    },
+    "color.neutral.0": {
+      "value": "#FFFFFF",
+      "evidence": [
+        "computed:color rgb(255,255,255) x65",
+        {
+          "cite": "src/styles/original.css:879-882",
+          "tag": ".bg-white {"
+        }
+      ]
+    },
+    "color.neutral.700": {
+      "value": "#303133",
+      "evidence": [
+        "source:home hero physics fill (canvas, not in DOM histogram)",
+        {
+          "cite": "src/components/home/ShapesHeroHome.jsx:30",
+          "tag": "const theme = ['#303133', '#161617'];"
+        }
+      ]
+    },
+    "color.neutral.600": {
+      "value": "#5A5B5E",
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:856-859",
+          "tag": ".bg-gray-modal {"
+        }
+      ]
+    },
+    "color.neutral.400": {
+      "value": "#BBBBBB",
+      "evidence": [
+        "computed:fill #BBBBBB x22",
+        {
+          "cite": "src/components/Header.jsx:34",
+          "tag": "fill=\"#BBBBBB\""
+        }
+      ]
+    },
+    "color.neutral.200": {
+      "value": "#DDDCDB",
+      "evidence": [
+        "computed:backgroundColor rgb(221,220,219) x14",
+        {
+          "cite": "src/styles/original.css:875-878",
+          "tag": ".bg-gray-fill {"
+        }
+      ]
+    },
+    "color.neutral.150": {
+      "value": "#D9D9D9",
+      "alpha": 0.2,
+      "evidence": [
+        "computed:backgroundColor rgba(217,217,217,0.2) x6",
+        {
+          "cite": "src/styles/original.css:872-874",
+          "tag": ".bg-gray-case"
+        }
+      ]
+    },
+    "color.neutral.100": {
+      "value": "#F1F1F1",
+      "evidence": [
+        "computed:backgroundColor rgb(241,241,241) x1",
+        {
+          "cite": "src/styles/original.css:860-863",
+          "tag": ".bg-gray-light {"
+        }
+      ]
+    },
+    "color.brand.yellow": {
+      "value": "#FFD600",
+      "evidence": [
+        "computed:backgroundColor rgb(255,214,0) x33; fill #FFD600 x97",
+        {
+          "cite": "src/styles/original.css:864-867",
+          "tag": ".bg-yellow {"
+        }
+      ]
+    },
+    "color.brand.yellow-stroke": {
+      "value": "#FFDA18",
+      "evidence": [
+        "computed:stroke #FFDA18 x45",
+        {
+          "cite": "src/data/case.js:23",
+          "tag": "stroke=\"#FFDA18\""
+        }
+      ]
+    },
+    "color.brand.yellow-light": {
+      "value": "#FFE146",
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:1882-1885",
+          "tag": ".foot {"
+        }
+      ]
+    },
+    "color.accent.peach": {
+      "value": "#F9CCA2",
+      "evidence": [
+        "data:site.json cases[*].color.hex used by 1 case(s)",
+        {
+          "cite": "src/components/CaseHero.jsx:91",
+          "tag": "color={info.color?.hex}"
+        }
+      ]
+    },
+    "color.accent.mint": {
+      "value": "#95CEA5",
+      "evidence": [
+        "data:site.json cases[*].color.hex used by 1 case(s)",
+        {
+          "cite": "src/components/CaseHero.jsx:91",
+          "tag": "color={info.color?.hex}"
+        }
+      ]
+    },
+    "color.accent.rose": {
+      "value": "#F0ACAD",
+      "evidence": [
+        "data:site.json cases[*].color.hex used by 1 case(s)",
+        {
+          "cite": "src/components/CaseHero.jsx:91",
+          "tag": "color={info.color?.hex}"
+        }
+      ]
+    },
+    "color.accent.sky": {
+      "value": "#B0D7E6",
+      "evidence": [
+        "data:site.json cases[*].color.hex used by 2 case(s)",
+        {
+          "cite": "src/components/CaseHero.jsx:91",
+          "tag": "color={info.color?.hex}"
+        }
+      ]
+    },
+    "color.accent.steel": {
+      "value": "#7AB0CE",
+      "evidence": [
+        "data:site.json cases[*].color.hex used by 1 case(s)",
+        {
+          "cite": "src/components/CaseHero.jsx:91",
+          "tag": "color={info.color?.hex}"
+        }
+      ]
+    },
+    "color.accent.teal": {
+      "value": "#00AFBC",
+      "evidence": [
+        "data:site.json cases[*].color.hex used by 1 case(s)",
+        {
+          "cite": "src/components/CaseHero.jsx:91",
+          "tag": "color={info.color?.hex}"
+        }
+      ]
+    },
+    "color.accent.sun": {
+      "value": "#FFDA18",
+      "evidence": [
+        "data:site.json cases[*].color.hex used by 2 case(s)",
+        {
+          "cite": "src/components/CaseHero.jsx:91",
+          "tag": "color={info.color?.hex}"
+        }
+      ]
+    },
+    "color.accent.azure": {
+      "value": "#438CC3",
+      "evidence": [
+        "data:site.json cases[*].color.hex used by 1 case(s)",
+        {
+          "cite": "src/components/CaseHero.jsx:91",
+          "tag": "color={info.color?.hex}"
+        }
+      ]
+    }
+  }
+}

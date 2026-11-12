@@ -1,0 +1,109 @@
+{
+  "id": "shell.footer",
+  "title": "Site footer",
+  "description": "Yellow gradient footer: large statement with one white-underlined word, availability date, three contact links, legal line, logo; 3D mascot behind; content parallaxes up on scroll-in.",
+  "source": {
+    "id": "src:Footer",
+    "file": "src/components/Footer.jsx",
+    "lines": "34-93",
+    "tag": "className=\"foot relative"
+  },
+  "semantic": {
+    "id": "shell.footer",
+    "category": "SHELL"
+  },
+  "retrievalEligible": true,
+  "variants": [],
+  "content": {
+    "statement": {
+      "kind": "text",
+      "maxWords": 6,
+      "evidenceLiterals": 1
+    },
+    "highlight": {
+      "kind": "text",
+      "maxWords": 1,
+      "evidenceLiterals": 1
+    },
+    "availabilityLabel": {
+      "kind": "text",
+      "maxWords": 2,
+      "evidenceLiterals": 1
+    },
+    "availabilityValue": {
+      "kind": "text",
+      "maxWords": 1,
+      "evidenceLiterals": 1
+    },
+    "links": {
+      "kind": "links",
+      "min": 3,
+      "max": 3,
+      "labelMaxWords": 4
+    },
+    "legal": {
+      "kind": "text",
+      "maxWords": 8,
+      "evidenceLiterals": 1
+    },
+    "mascot": {
+      "kind": "asset",
+      "roles": [
+        "decor.mascot-3d"
+      ],
+      "generatedRoles": [
+        "generated.decorative-illustration"
+      ],
+      "optional": true
+    }
+  },
+  "styleSlots": {},
+  "assetRoles": [
+    "decor.mascot-3d"
+  ],
+  "generatedAssetRoles": [
+    "generated.decorative-illustration"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustBeLast": true
+  },
+  "motion": {
+    "allowed": [
+      "parallax-up",
+      "tilt-3d"
+    ],
+    "default": "parallax-up",
+    "reducedMotionFallback": {
+      "parallax-up": "static",
+      "tilt-3d": "static-render"
+    }
+  },
+  "responsive": [
+    {
+      "at": "bp.s",
+      "change": "layout-shift",
+      "detail": "contact list moves beside the statement; footer height 65rem -> 71rem",
+      "evidence": "src/components/Footer.jsx:35",
+      "evidenceTag": "h-[65rem] s:h-[71rem]"
+    }
+  ],
+  "uses": {
+    "primitives": [
+      "link.underline",
+      "logo.wordmark"
+    ],
+    "components": [
+      "mascot.3d"
+    ],
+    "tokens": [
+      "type.display-m-footer",
+      "color.brand.yellow",
+      "color.brand.yellow-light"
+    ]
+  },
+  "templates": [
+    "template.home",
+    "template.case-study"
+  ]
+}

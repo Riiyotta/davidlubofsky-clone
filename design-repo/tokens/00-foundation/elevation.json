@@ -1,0 +1,4 @@
+{
+  "tokens": {},
+  "evidence": "no box-shadow other than CSS resets in src/styles/original.css (grep box-shadow -> reset lines only); the design uses flat surfaces"
+}

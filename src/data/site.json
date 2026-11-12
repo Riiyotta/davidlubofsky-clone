@@ -1,0 +1,2110 @@
+{
+ "home": {
+  "featuredCases": [
+   {
+    "slug": "a-browser-bending-look-at-vision-loss",
+    "titleFormated": "A browser-<em>bending</em> look at vision loss",
+    "id": "Zs-sTK5oT4iXogT4b0Oayw",
+    "shortDesc": "An interactive simulator that shows what life looks like for people living with eye conditions.",
+    "company": "",
+    "companyLogo": null,
+    "featuredImage": {
+     "jpg": "/images/1793379946-dl-hero.jpg",
+     "webp": "/images/1793379946-dl-hero.webp",
+     "width": 1420,
+     "height": 745,
+     "alt": null
+    }
+   },
+   {
+    "slug": "find-work-happiness",
+    "titleFormated": "A <em>smile</em>-filled world of UI + visuals",
+    "id": "193157885",
+    "shortDesc": "An interactive manifestation of the book \"The Search for Work Happiness\".",
+    "company": "",
+    "companyLogo": {
+     "svg": "/images/1672322383-dllogo.svg",
+     "width": 80,
+     "height": 65,
+     "alt": null
+    },
+    "featuredImage": {
+     "jpg": "/images/1672340831-hero-for-book.jpg",
+     "webp": "/images/1672340831-hero-for-book.webp",
+     "width": 1420,
+     "height": 745,
+     "alt": null
+    }
+   },
+   {
+    "slug": "designing-a-world-full-of-kindness",
+    "titleFormated": "Designing a world <em>full</em> of kindness",
+    "id": "VyHEYP2mTcO5-GuVou4AAg",
+    "shortDesc": "A full of joy website packed full of unique UI and motion-filled storytelling.",
+    "company": "",
+    "companyLogo": null,
+    "featuredImage": {
+     "jpg": "/images/1794059467-asset-in-hero-bk.jpg",
+     "webp": "/images/1794059467-asset-in-hero-bk.webp",
+     "width": 2000,
+     "height": 1050,
+     "alt": null
+    }
+   },
+   {
+    "slug": "espn-who-can-break-calvins-record",
+    "titleFormated": "What WR can <em>break</em> Calvin’s record",
+    "id": "193157378",
+    "shortDesc": "Leveraging scroll + animation to tell a colorful story about a legendary player",
+    "company": "",
+    "companyLogo": {
+     "svg": "/images/1694791342-espn.svg",
+     "width": 72,
+     "height": 18,
+     "alt": null
+    },
+    "featuredImage": {
+     "jpg": "/images/1694799124-hero-for-book2.jpg",
+     "webp": "/images/1694799124-hero-for-book2.webp",
+     "width": 2840,
+     "height": 1490,
+     "alt": null
+    }
+   },
+   {
+    "slug": "restricted-work",
+    "titleFormated": "<em>Pharma</em> and health work",
+    "id": "fQIiOoTdTnOLyY_H7aPUSg",
+    "shortDesc": "A collection of projects for web, Veeva, conference, and paid media.",
+    "company": "",
+    "companyLogo": {
+     "svg": "/images/1702888825-lock.svg",
+     "width": 55,
+     "height": 65,
+     "alt": null
+    },
+    "featuredImage": {
+     "jpg": "/images/1702889817-hero3-for-pharma.jpg",
+     "webp": "/images/1702889817-hero3-for-pharma.webp",
+     "width": 1420,
+     "height": 745,
+     "alt": null
+    }
+   },
+   {
+    "slug": "understanding-diseases",
+    "titleFormated": "A platform for <em>dynamic</em> learning",
+    "id": "75196253",
+    "shortDesc": "Because understanding diseases doesn’t have to be hard.",
+    "company": "",
+    "companyLogo": {
+     "svg": "/images/1672340478-ud.svg",
+     "width": 84,
+     "height": 65,
+     "alt": null
+    },
+    "featuredImage": {
+     "jpg": "/images/1671798326-case-test.jpg",
+     "webp": "/images/1671798326-case-test.webp",
+     "width": 1353,
+     "height": 710,
+     "alt": null
+    }
+   },
+   {
+    "slug": "yall-agency",
+    "titleFormated": "A digital agency for <em>good</em> humans",
+    "id": "81046535",
+    "shortDesc": "Built from the ground up. Accidentally. Kinda.",
+    "company": "",
+    "companyLogo": {
+     "svg": "/images/1672339920-y.svg",
+     "width": 110,
+     "height": 65,
+     "alt": null
+    },
+    "featuredImage": {
+     "jpg": "/images/1672341196-hero-for-yall.jpg",
+     "webp": "/images/1672341196-hero-for-yall.webp",
+     "width": 1420,
+     "height": 745,
+     "alt": null
+    }
+   },
+   {
+    "slug": "speaking-writing-and-features",
+    "titleFormated": "Speaking, writing, and <em>features</em>",
+    "id": "193172976",
+    "shortDesc": "My thoughts and voice on breaking the browser and treating humans better.",
+    "company": "",
+    "companyLogo": {
+     "svg": "/images/1672322383-dllogo.svg",
+     "width": 80,
+     "height": 65,
+     "alt": null
+    },
+    "featuredImage": {
+     "jpg": "/images/1694808114-dlbig2.jpg",
+     "webp": "/images/1694808114-dlbig2.webp",
+     "width": 1420,
+     "height": 745,
+     "alt": null
+    }
+   },
+   {
+    "slug": "dl-brand",
+    "titleFormated": "A brand as <em>versatile</em> as it is tall",
+    "id": "92942107",
+    "shortDesc": "Crafting a new image + digital strategy that breathes life across all mediums.",
+    "company": "",
+    "companyLogo": {
+     "svg": "/images/1672322383-dllogo.svg",
+     "width": 80,
+     "height": 65,
+     "alt": null
+    },
+    "featuredImage": {
+     "jpg": "/images/1673560021-dlbrandhero.jpg",
+     "webp": "/images/1673560021-dlbrandhero.webp",
+     "width": 2840,
+     "height": 1490,
+     "alt": null
+    }
+   }
+  ]
+ },
+ "cases": {
+  "designing-a-world-full-of-kindness": {
+   "company": "",
+   "companyLogo": null,
+   "id": "VyHEYP2mTcO5-GuVou4AAg",
+   "roles": "Creative; Technology",
+   "shortDesc": "A full of joy website packed full of unique UI and motion-filled storytelling.",
+   "slug": "designing-a-world-full-of-kindness",
+   "title": "Designing a world full of kindness",
+   "titleFormated": "Designing a world <em>full</em> of kindness",
+   "password": "",
+   "protected": false,
+   "featuredImage": {
+    "jpg": "/images/1794059467-asset-in-hero-bk.jpg",
+    "webp": "/images/1794059467-asset-in-hero-bk.webp",
+    "width": 2000,
+    "height": 1050,
+    "alt": null
+   },
+   "color": {
+    "hex": "#95CEA5"
+   },
+   "blocks": [
+    {
+     "id": "aizWqqWKTc6eS4cqfMwPTQ",
+     "type": "case_media_text",
+     "text": "<p>BK is a studio that believes digital experiences should feel human, so their website should bring that thinking to life through thoughtful design, clever technology, and unexpected moments of delight.</p>",
+     "title": "<em>Kindness</em>, as part of the experience",
+     "ctaLink": "https://www.builtkindly.com/",
+     "ctaLabel": "View the project",
+     "image": {
+      "jpg": "/images/1793617022-framed-bk.jpg",
+      "webp": "/images/1793617022-framed-bk.webp",
+      "width": 1346,
+      "height": 1206,
+      "alt": null
+     }
+    },
+    {
+     "id": "CNgcfnWeS2u8x_t7t9lu_w",
+     "type": "case_title_text",
+     "text": "<p>We created a visual world that feels a little different from what you'd expect from a technology studio. Custom illustrations, distinctive characters, subtle interactions, and animation give the site its personality, while the content introduces the studio's approach to websites, platforms, search, and AI.</p>\n<p>The challenge was making something that felt friendly and approachable without losing the sophistication behind the work. Every detail, from how things move to how complex ideas are explained, was an opportunity to show that good technology doesn't need to feel complicated.</p>",
+     "title": "A personality of <em>kindness</em> in the UI",
+     "ctaLink": "",
+     "ctaLabel": ""
+    },
+    {
+     "id": "KI563hz7QHKGEQ2j6uY8MA",
+     "type": "case_text",
+     "text": "<p>Homepage</p>",
+     "index": "01",
+     "bigText": false
+    },
+    {
+     "id": "c4LBJ6hYSvibQQV-zVO26w",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1793617110-home.jpg",
+      "webp": "/images/1793617110-home.webp",
+      "width": 2000,
+      "height": 1162,
+      "alt": null
+     }
+    },
+    {
+     "id": "RDx7g613RdaAymUQzTj0qw",
+     "type": "case_text",
+     "text": "<p>Anatomy of Kind Design</p>",
+     "index": "02",
+     "bigText": false
+    },
+    {
+     "id": "d-gXaz6VTN-wq-ZPjmpE9A",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1793617179-anatomy-of-kind-design-05.jpg",
+      "webp": "/images/1793617179-anatomy-of-kind-design-05.webp",
+      "width": 2000,
+      "height": 1162,
+      "alt": null
+     }
+    },
+    {
+     "id": "HpgrAly_RYuYrLgaF2S9Zw",
+     "type": "case_text",
+     "text": "<p>Mobile</p>",
+     "index": "03",
+     "bigText": false
+    },
+    {
+     "id": "NTFHVxFGTnm2fwYSOM-dxA",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1793617223-mobile.jpg",
+      "webp": "/images/1793617223-mobile.webp",
+      "width": 2000,
+      "height": 1500,
+      "alt": null
+     }
+    },
+    {
+     "id": "Wztf-0BFR5CtgIWvwzkObg",
+     "type": "case_text",
+     "text": "<p>Positioning + Products </p>",
+     "index": "04",
+     "bigText": true
+    },
+    {
+     "id": "ZA2Lp01uRlyoEf5JkdMq0A",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1793617366-2-screens.jpg",
+      "webp": "/images/1793617366-2-screens.webp",
+      "width": 2000,
+      "height": 1606,
+      "alt": null
+     }
+    },
+    {
+     "id": "N5F6msiWQHOfTezsBX1zpw",
+     "type": "case_text",
+     "text": "<p>Footer </p>",
+     "index": "05",
+     "bigText": false
+    },
+    {
+     "id": "JtxBzVLWRHaNZsWyDcRCGQ",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1793617413-footer.jpg",
+      "webp": "/images/1793617413-footer.webp",
+      "width": 2000,
+      "height": 2907,
+      "alt": null
+     }
+    }
+   ]
+  },
+  "a-browser-bending-look-at-vision-loss": {
+   "company": "",
+   "companyLogo": null,
+   "id": "Zs-sTK5oT4iXogT4b0Oayw",
+   "roles": "Creative; Technology",
+   "shortDesc": "An interactive simulator that shows what life looks like for people living with eye conditions.",
+   "slug": "a-browser-bending-look-at-vision-loss",
+   "title": "A browser-bending look at vision loss",
+   "titleFormated": "A browser-<em>bending</em> look at vision loss",
+   "password": "",
+   "protected": false,
+   "featuredImage": {
+    "jpg": "/images/1793379946-dl-hero.jpg",
+    "webp": "/images/1793379946-dl-hero.webp",
+    "width": 1420,
+    "height": 745,
+    "alt": null
+   },
+   "color": {
+    "hex": "#F0ACAD"
+   },
+   "blocks": [
+    {
+     "id": "WRwwBcuNQkqGOTZdqlSX3Q",
+     "type": "case_media_text",
+     "text": "<p>We used Three.js and GSAP to distort everyday scenes and show how eight different eye conditions change what a person sees. And what they feel</p>",
+     "title": "Creating a feeling from <em>only</em> seeing",
+     "ctaLink": "https://www.seewhateyesee.org/",
+     "ctaLabel": "View the project",
+     "image": {
+      "jpg": "/images/1793385258-intro-frame.jpg",
+      "webp": "/images/1793385258-intro-frame.webp",
+      "width": 1238,
+      "height": 1206,
+      "alt": null
+     }
+    },
+    {
+     "id": "enmH2fhET3S2TDvgH3jH-g",
+     "type": "case_video",
+     "videoUrl": "/videos/1241669602.mp4"
+    },
+    {
+     "id": "UT2DMGQOQ7izAQOLE3FSxQ",
+     "type": "case_title_text",
+     "text": "<p>Pick a condition and the scene changes right in front of you. There’s also a slider you can drag to watch the condition get worse over time. The early stages are subtle enough that you might not catch them at first, but by the end you’ll probably find yourself leaning toward the screen trying to make out things that were perfectly clear a minute ago.</p>\n<p>When you want to understand what you’re actually seeing, scroll down for a plain-language explanation of each condition, backed by medical references. There are also resources that may help, whether you’re learning for someone you care about or because some of what you just saw felt a little too familiar.</p>",
+     "title": "<em>Simulating</em> the various eye conditions",
+     "ctaLink": "",
+     "ctaLabel": ""
+    },
+    {
+     "id": "BXZuVqF9Spa8Lvqtcq5Pwg",
+     "type": "case_text",
+     "text": "<p>Entry screen</p>",
+     "index": "01",
+     "bigText": false
+    },
+    {
+     "id": "Ba4PZpGGT6G6Qvc7ODuDDQ",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1793440226-dh-home.jpg",
+      "webp": "/images/1793440226-dh-home.webp",
+      "width": 2000,
+      "height": 1268,
+      "alt": null
+     }
+    },
+    {
+     "id": "Nocr1r1EQ5GuO0Zk0XyHpg",
+     "type": "case_text",
+     "text": "<p>Navigation menu</p>",
+     "index": "02",
+     "bigText": false
+    },
+    {
+     "id": "FtCrEssPSRu6A8IbLc7f2Q",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1793440262-project-3.jpg",
+      "webp": "/images/1793440262-project-3.webp",
+      "width": 2000,
+      "height": 1279,
+      "alt": null
+     }
+    },
+    {
+     "id": "OXU_nmN2TPy-RxaLW8JAFw",
+     "type": "case_text",
+     "text": "<p>Mobile views</p>",
+     "index": "03",
+     "bigText": false
+    },
+    {
+     "id": "R3BsS8xFSGa2i-BXujb4dA",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1793440307-extra-mobile-awww.jpg",
+      "webp": "/images/1793440307-extra-mobile-awww.webp",
+      "width": 2000,
+      "height": 1500,
+      "alt": null
+     }
+    },
+    {
+     "id": "D54yBn9KTvyjUCGTupTNJQ",
+     "type": "case_text",
+     "text": "<p>Condition selection screen + Interior eye-themed effects</p>",
+     "index": "04",
+     "bigText": false
+    },
+    {
+     "id": "G6luI811QwmvE_Yt0b5FcA",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1793440501-interior.jpg",
+      "webp": "/images/1793440501-interior.webp",
+      "width": 2000,
+      "height": 1676,
+      "alt": null
+     }
+    },
+    {
+     "id": "Cadmm2gQTQeCQrLnu1x8DQ",
+     "type": "case_text",
+     "text": "<p>Footer</p>",
+     "index": "05",
+     "bigText": false
+    },
+    {
+     "id": "IgZEjh5WRqKzUXFvRESmeQ",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1793440371-20-double-vision-full-page.jpg",
+      "webp": "/images/1793440371-20-double-vision-full-page.webp",
+      "width": 2000,
+      "height": 2830,
+      "alt": null
+     }
+    }
+   ]
+  },
+  "the-search-for-work-happiness-book": {
+   "company": "",
+   "companyLogo": {
+    "svg": "/images/1672322383-dllogo.svg",
+    "width": 80,
+    "height": 65,
+    "alt": null
+   },
+   "id": "82963325",
+   "roles": "Creative; Technology",
+   "shortDesc": "Unique ways for leaders to create mentally-healthy environments for their teams.",
+   "slug": "the-search-for-work-happiness-book",
+   "title": "The search for work happiness",
+   "titleFormated": "The <em>search</em> for work happiness",
+   "password": "",
+   "protected": null,
+   "featuredImage": {
+    "jpg": "/images/1674479724-hero-for-book-final.jpg",
+    "webp": "/images/1674479724-hero-for-book-final.webp",
+    "width": 2840,
+    "height": 1490,
+    "alt": null
+   },
+   "color": {
+    "hex": "#B0D7E6"
+   },
+   "blocks": [
+    {
+     "id": "83504628",
+     "type": "case_media_text",
+     "text": "<p>The art in this book will take you back to your childhood. And the words within it will hopefully help refine you as an adult by teaching kindness-driven approaches that create happiness for yourself and those around you.</p>",
+     "title": "A <em>blast</em> from the past, with some tips for the future",
+     "ctaLink": "https://www.findworkhappiness.com",
+     "ctaLabel": "Get the book!",
+     "image": {
+      "jpg": "/images/1675121290-main_book_cover.jpg",
+      "webp": "/images/1675121290-main_book_cover.webp",
+      "width": 1212,
+      "height": 1172,
+      "alt": null
+     }
+    },
+    {
+     "id": "83504954",
+     "type": "case_title_text",
+     "text": "<p>It's a <em>leader</em>'s job to set those around them up for success. To start doing that, you first have to get rid of old practices that drive unhappiness in the workplace, doing away with near-illegal work hours, lack of trust and transparency, and improper human treatment. This book gives some recommendations as to how you can do so, which in turn creates \"work happiness\" for yourself and those around you.</p>\n<p><strong>Using <em>breath-taking</em> art and enjoyabke storytelling, I take readers on a journey through some of my learnings on how, as leaders, we can chill the f*** out about productivity and profit—and start treating those around us like the living, breathing humans they are.</strong></p>",
+     "title": "Changing the norm <em>really</em> is possible",
+     "ctaLink": "https://www.findworkhappiness.com",
+     "ctaLabel": "Get the book!"
+    },
+    {
+     "id": "83505053",
+     "type": "case_carousel",
+     "images": [
+      {
+       "jpg": "/images/1672342558-book-carousel-3.jpg",
+       "webp": "/images/1672342558-book-carousel-3.webp",
+       "width": 840,
+       "height": 588,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672342882-book-carousel-6.jpg",
+       "webp": "/images/1672342882-book-carousel-6.webp",
+       "width": 840,
+       "height": 846,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672342353-book-carousel-1.jpg",
+       "webp": "/images/1672342353-book-carousel-1.webp",
+       "width": 840,
+       "height": 514,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672342376-book-carousel-2.jpg",
+       "webp": "/images/1672342376-book-carousel-2.webp",
+       "width": 840,
+       "height": 846,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672342877-book-carousel-5.jpg",
+       "webp": "/images/1672342877-book-carousel-5.webp",
+       "width": 840,
+       "height": 514,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672342358-book-carousel-4.jpg",
+       "webp": "/images/1672342358-book-carousel-4.webp",
+       "width": 840,
+       "height": 846,
+       "alt": null
+      }
+     ]
+    },
+    {
+     "id": "83504956",
+     "type": "case_text",
+     "text": "<p>How we architected the solution</p>",
+     "index": "",
+     "bigText": true
+    },
+    {
+     "id": "83505049",
+     "type": "case_text",
+     "text": "<p>I found the <em>top 12</em> archaic leadership norms that needed some shaking up, and shook them the hell up.</p>",
+     "index": "01",
+     "bigText": false
+    },
+    {
+     "id": "83504957",
+     "type": "case_gray_start"
+    },
+    {
+     "id": "83504958",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1673293368-standing-t2.jpg",
+      "webp": "/images/1673293368-standing-t2.webp",
+      "width": 2706,
+      "height": 1319,
+      "alt": null
+     }
+    },
+    {
+     "id": "83505050",
+     "type": "case_text",
+     "text": "<p>A <em>visual</em> manifestation of this content organically came to life, as the stories within the book painted a world that begged for legendary illustrations.</p>",
+     "index": "02",
+     "bigText": false
+    },
+    {
+     "id": "83594378",
+     "type": "case_carousel",
+     "images": [
+      {
+       "jpg": "/images/1672509567-1.jpg",
+       "webp": "/images/1672509567-1.webp",
+       "width": 1260,
+       "height": 771,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672509564-2.jpg",
+       "webp": "/images/1672509564-2.webp",
+       "width": 1260,
+       "height": 1268,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672509560-3.jpg",
+       "webp": "/images/1672509560-3.webp",
+       "width": 1260,
+       "height": 882,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672509556-4.jpg",
+       "webp": "/images/1672509556-4.webp",
+       "width": 1260,
+       "height": 1209,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672509547-6.jpg",
+       "webp": "/images/1672509547-6.webp",
+       "width": 1260,
+       "height": 882,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672509552-5.jpg",
+       "webp": "/images/1672509552-5.webp",
+       "width": 1260,
+       "height": 1211,
+       "alt": null
+      }
+     ]
+    },
+    {
+     "id": "83505052",
+     "type": "case_text",
+     "text": "<p>The art was first conceived as larger ideas on a whiteboard, then illustrator Aaron Yeo helped take it from sketch to line art to colored <em>masterpiece</em>.</p>",
+     "index": "03",
+     "bigText": false
+    },
+    {
+     "id": "83504955",
+     "type": "case_image",
+     "fullWidth": false,
+     "image": {
+      "jpg": "/images/1674817595-ux.jpg",
+      "webp": "/images/1674817595-ux.webp",
+      "width": 1956,
+      "height": 1568,
+      "alt": null
+     }
+    },
+    {
+     "id": "83505054",
+     "type": "case_text",
+     "text": "<em> </em>\n  <em> </em>\n    <em> </em>\n      <p>Specific sections were then matched across the book layout to specific scenes and a one-of-a-kind, <em>visual</em>-forward business book was formed.</p>\n    \n  \n",
+     "index": "04",
+     "bigText": false
+    },
+    {
+     "id": "83505055",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1672310429-book5.jpg",
+      "webp": "/images/1672310429-book5.webp",
+      "width": 1952,
+      "height": 2788,
+      "alt": null
+     }
+    },
+    {
+     "id": "83505056",
+     "type": "case_text",
+     "text": "<p>The result? A <em>happy</em> collision of⁠ art + words</p>",
+     "index": "",
+     "bigText": true
+    },
+    {
+     "id": "83505057",
+     "type": "case_image",
+     "fullWidth": false,
+     "image": {
+      "jpg": "/images/1674772991-book-final.jpg",
+      "webp": "/images/1674772991-book-final.webp",
+      "width": 1952,
+      "height": 2752,
+      "alt": null
+     }
+    }
+   ]
+  },
+  "find-work-happiness": {
+   "company": "",
+   "companyLogo": {
+    "svg": "/images/1672322383-dllogo.svg",
+    "width": 80,
+    "height": 65,
+    "alt": null
+   },
+   "id": "193157885",
+   "roles": "Creative; Technology",
+   "shortDesc": "An interactive manifestation of the book \"The Search for Work Happiness\".",
+   "slug": "find-work-happiness",
+   "title": "A smile-filled world of UI + visuals",
+   "titleFormated": "A <em>smile</em>-filled world of UI + visuals",
+   "password": "",
+   "protected": null,
+   "featuredImage": {
+    "jpg": "/images/1672340831-hero-for-book.jpg",
+    "webp": "/images/1672340831-hero-for-book.webp",
+    "width": 1420,
+    "height": 745,
+    "alt": null
+   },
+   "color": {
+    "hex": "#B0D7E6"
+   },
+   "blocks": [
+    {
+     "id": "193157867",
+     "type": "case_media_text",
+     "text": "<p>Drag around a Wimmelbilderbuch-style illustrative environment to breathe color and life into this online version of a physical book, which playfully places you at the center of a \"search\" for work happiness.</p>",
+     "title": "A book brought to the <em>browser</em>",
+     "ctaLink": "https://www.findworkhappiness.com",
+     "ctaLabel": "See it live!",
+     "image": {
+      "jpg": "/images/1694796664-screen.jpg",
+      "webp": "/images/1694796664-screen.webp",
+      "width": 1346,
+      "height": 1206,
+      "alt": null
+     }
+    },
+    {
+     "id": "193157868",
+     "type": "case_title_text",
+     "text": "<p>Interact with chapters to fill the line art with color and get rewarded with written word and audio snippets from the book. Enjoy some <em>insane</em> masking that takes place as you navigate from chapter to chapter. This experience works great without sound, but there are so many audible layers added that will put a smile on your face, including snippets from every chapter, peppy background music, and even some wacky interaction-based sounds.</p>\n<p><strong>If you are interested in what the book is about, a segment of every chapter lies within. And don’t forget the About page, which–unlike most About pages–is <em>addictingly</em> fun to scroll through. Plus, if you listen to an entire snippet, the audio timeline smiles at you—and who doesn't like that!</strong></p>",
+     "title": "The <em>power</em> to paint is in your hands",
+     "ctaLink": "https://www.findworkhappiness.com",
+     "ctaLabel": "See it live!"
+    },
+    {
+     "id": "193157870",
+     "type": "case_text",
+     "text": "<p>How we reinvented the book</p>",
+     "index": "",
+     "bigText": true
+    },
+    {
+     "id": "193157876",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1694796979-nav.jpg",
+      "webp": "/images/1694796979-nav.webp",
+      "width": 3043,
+      "height": 1844,
+      "alt": null
+     }
+    },
+    {
+     "id": "193157872",
+     "type": "case_text",
+     "text": "<p>To pull this off, the first task was figuring out how to load all of this art and visual <em>madness</em> without losing the user. We leveraged some lightweight Rive animations of pieces of art from the book to provide distraction during the load. We also provided access to a small audio intro for users that wanted to hear the book introduction.</p>",
+     "index": "01",
+     "bigText": false
+    },
+    {
+     "id": "193157873",
+     "type": "case_gray_start"
+    },
+    {
+     "id": "193157871",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1694796836-one-hundred.jpg",
+      "webp": "/images/1694796836-one-hundred.webp",
+      "width": 2000,
+      "height": 975,
+      "alt": null
+     }
+    },
+    {
+     "id": "193157875",
+     "type": "case_text",
+     "text": "<p>Then we had to map out each chapter's correlating art in a method that allowed the user to experience every piece of art the book had in store while listening to audio snippets of each chapter. Or, they can just drag around the full world on their own—it's like a real-life Highlights magazine—and select chapters on their own, which file the line art with <em>vibrant</em> color</p>",
+     "index": "02",
+     "bigText": false
+    },
+    {
+     "id": "193157874",
+     "type": "case_image",
+     "fullWidth": false,
+     "image": {
+      "jpg": "/images/1694796877-art-direction.jpg",
+      "webp": "/images/1694796877-art-direction.webp",
+      "width": 1920,
+      "height": 1352,
+      "alt": null
+     }
+    },
+    {
+     "id": "193157877",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1694797101-searching.jpg",
+      "webp": "/images/1694797101-searching.webp",
+      "width": 1920,
+      "height": 1109,
+      "alt": null
+     }
+    },
+    {
+     "id": "193157878",
+     "type": "case_text",
+     "text": "<p>This experience needed to feel large and immersive for desktop users while also being an <em>unforgettable</em> experience on mobile devices. No animation or interaction is lost, regardless of the device.</p>",
+     "index": "03",
+     "bigText": false
+    },
+    {
+     "id": "193157879",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1694796927-big.jpg",
+      "webp": "/images/1694796927-big.webp",
+      "width": 2001,
+      "height": 1902,
+      "alt": null
+     }
+    },
+    {
+     "id": "193157881",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1694797077-group-10238.jpg",
+      "webp": "/images/1694797077-group-10238.webp",
+      "width": 1600,
+      "height": 1200,
+      "alt": null
+     }
+    },
+    {
+     "id": "193157880",
+     "type": "case_text",
+     "text": "<p>Since this book was about happiness, we felt compelled to pull smiles through <em>everything</em>—hover states, page bends, and even by causing the audio player to smile at you as you listen to chapters. Hopefully this also puts a grin on humans' faces, too.</p>",
+     "index": "04",
+     "bigText": false
+    },
+    {
+     "id": "193157882",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1694797129-smile.jpg",
+      "webp": "/images/1694797129-smile.webp",
+      "width": 1920,
+      "height": 1109,
+      "alt": null
+     }
+    },
+    {
+     "id": "193157884",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1694796989-dl-about.jpg",
+      "webp": "/images/1694796989-dl-about.webp",
+      "width": 3043,
+      "height": 5433,
+      "alt": null
+     }
+    },
+    {
+     "id": "193157883",
+     "type": "case_text",
+     "text": "<p>The result? An award-winning online book</p>",
+     "index": "",
+     "bigText": true
+    },
+    {
+     "id": "193157869",
+     "type": "case_carousel",
+     "images": [
+      {
+       "jpg": "/images/1694795907-fotm-1.jpg",
+       "webp": "/images/1694795907-fotm-1.webp",
+       "width": 1500,
+       "height": 2121,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1694795895-certificate-the-search-for-work-happiness-sotd-1.jpg",
+       "webp": "/images/1694795895-certificate-the-search-for-work-happiness-sotd-1.webp",
+       "width": 1500,
+       "height": 1990,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1694795882-cssda-wotd.jpg",
+       "webp": "/images/1694795882-cssda-wotd.webp",
+       "width": 1500,
+       "height": 2121,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1694795901-fotd-2.jpg",
+       "webp": "/images/1694795901-fotd-2.webp",
+       "width": 1500,
+       "height": 2121,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1694795889-developer_certificate.jpg",
+       "webp": "/images/1694795889-developer_certificate.webp",
+       "width": 1500,
+       "height": 1990,
+       "alt": null
+      }
+     ]
+    }
+   ]
+  },
+  "espn-who-can-break-calvins-record": {
+   "company": "",
+   "companyLogo": {
+    "svg": "/images/1694791342-espn.svg",
+    "width": 72,
+    "height": 18,
+    "alt": null
+   },
+   "id": "193157378",
+   "roles": "Technology",
+   "shortDesc": "Leveraging scroll + animation to tell a colorful story about a legendary player",
+   "slug": "espn-who-can-break-calvins-record",
+   "title": "What WR can break Calvin’s record?",
+   "titleFormated": "What WR can <em>break</em> Calvin’s record",
+   "password": "",
+   "protected": null,
+   "featuredImage": {
+    "jpg": "/images/1694799124-hero-for-book2.jpg",
+    "webp": "/images/1694799124-hero-for-book2.webp",
+    "width": 2840,
+    "height": 1490,
+    "alt": null
+   },
+   "color": {
+    "hex": "#F9CCA2"
+   },
+   "blocks": [
+    {
+     "id": "193157366",
+     "type": "case_media_text",
+     "text": "<p>The league has evolved to become pass-happy, and is now full of extremely-animated talent at the wide receiver position. So, to match that, the story needed to be an extremely-animated experience that dived deep into the whys, the hows, and the whos.</p>",
+     "title": "A <em>visual</em> story about the field of 96 WRs",
+     "ctaLink": "",
+     "ctaLabel": "",
+     "image": {
+      "jpg": "/images/1694791377-screen.jpg",
+      "webp": "/images/1694791377-screen.webp",
+      "width": 1238,
+      "height": 1206,
+      "alt": null
+     }
+    },
+    {
+     "id": "193157367",
+     "type": "case_title_text",
+     "text": "<p>In 2012, Calvin Johnson, a wide receiver for the Detroit Lions, did something we <em>never</em> thought would happen—he set an NFL record with 1,964 receiving yards. For a wide receiver that has to have the ball throw their way to achieve any success, it is otherworldly that he was able to achieve this feat.</p>\n<p>It probably helps that he had maybe the best hands in football history and was an insanely large creature.</p>\n<p><strong>But how do we bring that larger-than-life player into the browser, and tell the story of almost 100 receivers and their chances to break this decade-long record? Well, it takes some clever design, brilliant copy, and a lot of exciting-to-scroll scrolling that takes your from cut to cut, as we dwindle down to a list of 9 <em>absolute</em> beasts.</strong></p>",
+     "title": "A rare combo of size, speed, and hands",
+     "ctaLink": "https://www.espn.com/espn/feature/story/_/id/37879268/who-break-nfl-single-season-receiving-yards-record",
+     "ctaLabel": "Experience the story"
+    },
+    {
+     "id": "193157368",
+     "type": "case_text",
+     "text": "<p>How we architected the journey</p>",
+     "index": "",
+     "bigText": true
+    },
+    {
+     "id": "193157583",
+     "type": "case_image",
+     "fullWidth": false,
+     "image": {
+      "jpg": "/images/1694793609-wires.jpg",
+      "webp": "/images/1694793609-wires.webp",
+      "width": 2000,
+      "height": 1898,
+      "alt": null
+     }
+    },
+    {
+     "id": "193157370",
+     "type": "case_text",
+     "text": "<p>I teamed up with the <em>unbelievable</em> team at ESPN to concept different methods of interaction and animation, as well as approaches to overcome the hurdle that was mass—96 players. data that goes with each, multiple criteria and cuts, all without losing the user as the dwindle down.</p>",
+     "index": "01",
+     "bigText": false
+    },
+    {
+     "id": "193157371",
+     "type": "case_gray_start"
+    },
+    {
+     "id": "193157369",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1694791714-whocan.jpg",
+      "webp": "/images/1694791714-whocan.webp",
+      "width": 2000,
+      "height": 975,
+      "alt": null
+     }
+    },
+    {
+     "id": "193157372",
+     "type": "case_text",
+     "text": "<p>The design team turned these concepts and approaches into a <em>jaw-dropping</em> set of designs and storyboards that took the viewer through players cuts— from 96 to 79 to 39 to 19 to 14 to a final set of 9 players that we featured in a final showdown of figures and facts.</p>",
+     "index": "02",
+     "bigText": false
+    },
+    {
+     "id": "193157613",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1694793802-desktop.jpg",
+      "webp": "/images/1694793802-desktop.webp",
+      "width": 1440,
+      "height": 1024,
+      "alt": null
+     }
+    },
+    {
+     "id": "193157374",
+     "type": "case_text",
+     "text": "<p>I then leverage the amazing power of GSAP animations and some pretty hefty CSS to take the user on a journey of <em>movement</em>—from grid reordering to player zooms/pans to individual player featuring—all stitched together with some insane scene transitions that include Calvin himself dancing across the screen.</p>",
+     "index": "03",
+     "bigText": false
+    },
+    {
+     "id": "193157376",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1694793095-screens.jpg",
+      "webp": "/images/1694793095-screens.webp",
+      "width": 2000,
+      "height": 1899,
+      "alt": null
+     }
+    },
+    {
+     "id": "193157375",
+     "type": "case_text",
+     "text": "<p>The result? A sports story of <em>legends</em>.</p>",
+     "index": "",
+     "bigText": true
+    },
+    {
+     "id": "193157373",
+     "type": "case_carousel",
+     "images": [
+      {
+       "jpg": "/images/1694791576-8-column-1.jpg",
+       "webp": "/images/1694791576-8-column-1.webp",
+       "width": 750,
+       "height": 1624,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1694791565-8-column-3.jpg",
+       "webp": "/images/1694791565-8-column-3.webp",
+       "width": 750,
+       "height": 1624,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1694792864-8-column.jpg",
+       "webp": "/images/1694792864-8-column.webp",
+       "width": 750,
+       "height": 1624,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1694791570-8-column-2.jpg",
+       "webp": "/images/1694791570-8-column-2.webp",
+       "width": 750,
+       "height": 1624,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1694792874-8-column-1.jpg",
+       "webp": "/images/1694792874-8-column-1.webp",
+       "width": 750,
+       "height": 1624,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1694791583-8-column.jpg",
+       "webp": "/images/1694791583-8-column.webp",
+       "width": 750,
+       "height": 1624,
+       "alt": null
+      }
+     ]
+    }
+   ]
+  },
+  "speaking-writing-and-features": {
+   "company": "",
+   "companyLogo": {
+    "svg": "/images/1672322383-dllogo.svg",
+    "width": 80,
+    "height": 65,
+    "alt": null
+   },
+   "id": "193172976",
+   "roles": "Speaking events, podcasts, and book/article writing",
+   "shortDesc": "My thoughts and voice on breaking the browser and treating humans better.",
+   "slug": "speaking-writing-and-features",
+   "title": "Speaking, writing, and features",
+   "titleFormated": "Speaking, writing, and <em>features</em>",
+   "password": "",
+   "protected": false,
+   "featuredImage": {
+    "jpg": "/images/1694808114-dlbig2.jpg",
+    "webp": "/images/1694808114-dlbig2.webp",
+    "width": 1420,
+    "height": 745,
+    "alt": null
+   },
+   "color": {
+    "hex": "#FFDA18"
+   },
+   "blocks": [
+    {
+     "id": "193172975",
+     "type": "case_media_text",
+     "text": "<p>Brooklyn Product Design <em>talk</em></p>\n<p>From bringing out the best of those around us through better human treatment, to bringing joy and delight to our customers through thoughtful design decisions, this talk is about putting smiles on the faces of others, and the impacts doing so has on our world. And on the products we deliver.</p>",
+     "title": "Making Humans Smile",
+     "ctaLink": "https://www.youtube.com/watch?v=RHLOt9APtKo",
+     "ctaLabel": "WATCH the talk",
+     "image": {
+      "jpg": "/images/1699982212-dlspeech.jpg",
+      "webp": "/images/1699982212-dlspeech.webp",
+      "width": 1346,
+      "height": 1206,
+      "alt": null
+     }
+    },
+    {
+     "id": "193181786",
+     "type": "case_media_text",
+     "text": "<p>Low-Key Legends <em>podcast</em></p>\n<p>A near two hour conversation with legendary podcast host Britton Stipetic about how when we begin to treat the people we work with, and the people that use the products we build, like actual human beings, amazing results will follow.</p>",
+     "title": "Low-Key Legends Ep. 2",
+     "ctaLink": "https://podcasters.spotify.com/pod/show/rogue-studio/episodes/David-Lubofsky--Building-a-22-person-agency-then-leaving-it--to-find-personal-happiness-e28bf6s",
+     "ctaLabel": "LISTEN on Spotify",
+     "image": {
+      "jpg": "/images/1694810419-spotify.jpg",
+      "webp": "/images/1694810419-spotify.webp",
+      "width": 1346,
+      "height": 1206,
+      "alt": null
+     }
+    },
+    {
+     "id": "Fbn89F78Reunt8BLZLpAAQ",
+     "type": "case_media_text",
+     "text": "<p>awwwards <em>case study</em></p>\n<p>This case study from awwwards with myself, Bryan James, and Jesper Landberg takes a deep look into our approach and process to building a smile-filled, animated web version of a heavily-illustrated book.</p>",
+     "title": "awwwards case study",
+     "ctaLink": "https://www.awwwards.com/case-study-the-search-for-work-happiness-web-experience.html",
+     "ctaLabel": "READ the case study",
+     "image": {
+      "jpg": "/images/1699982599-awwww.jpg",
+      "webp": "/images/1699982599-awwww.webp",
+      "width": 1346,
+      "height": 1206,
+      "alt": null
+     }
+    },
+    {
+     "id": "ZJfizFRiT7mtzwlWDowM8g",
+     "type": "case_media_text",
+     "text": "<p>Self-published <em>book</em></p>\n<p>This book offers non-traditional approaches to reducing overwork and burnout, rethinking the pitch process, treating partners like humans, and many other methods to leading and managing that are focused on employee well-being.</p>",
+     "title": "Self-published Book",
+     "ctaLink": "https://www.amazon.com/dp/B0BTRW3DD8",
+     "ctaLabel": "GET the book",
+     "image": {
+      "jpg": "/images/1699983633-book.jpg",
+      "webp": "/images/1699983633-book.webp",
+      "width": 1346,
+      "height": 1206,
+      "alt": null
+     }
+    },
+    {
+     "id": "KetQwXghR267BqenuCsHXQ",
+     "type": "case_media_text",
+     "text": "<p>On Mic with Jordan Rich <em>podcast</em> (ep. 354)</p>\n<p>A lovely conversation about my book with Jordan Rich, a legendary radio voice from Boston Radio. We talk about ways to uniquely treat the people around you and how to create a workplace setting conducive to creativity and happinesss.</p>",
+     "title": "On Mic with Jordan Rich",
+     "ctaLink": "https://open.spotify.com/episode/51SsobaGTwnthTEqX2h37b?si=XDF7xT5DRCyTiQJlgv4hDg",
+     "ctaLabel": "LISTEN on Spotify",
+     "image": {
+      "jpg": "/images/1694810419-spotify.jpg",
+      "webp": "/images/1694810419-spotify.webp",
+      "width": 1346,
+      "height": 1206,
+      "alt": null
+     }
+    },
+    {
+     "id": "193181823",
+     "type": "case_media_text",
+     "text": "<p>Communication Arts <em>article</em></p>\n<p>This featured article with myself, Bryan James, and Jesper Landberg dives into the process, challenges, approach, and technologies that power the \"The Search for Work Happiness\" online experience.</p>",
+     "title": "Comm Arts Webpick",
+     "ctaLink": "https://www.commarts.com/webpicks/the-search-for-work-happiness",
+     "ctaLabel": "READ the article",
+     "image": {
+      "jpg": "/images/1694810410-ca.jpg",
+      "webp": "/images/1694810410-ca.webp",
+      "width": 1346,
+      "height": 1206,
+      "alt": null
+     }
+    },
+    {
+     "id": "193181904",
+     "type": "case_text",
+     "text": "<p>Be kind + make great work</p>",
+     "index": "",
+     "bigText": true
+    }
+   ]
+  },
+  "restricted-work": {
+   "company": "",
+   "companyLogo": {
+    "svg": "/images/1702888825-lock.svg",
+    "width": 55,
+    "height": 65,
+    "alt": null
+   },
+   "id": "fQIiOoTdTnOLyY_H7aPUSg",
+   "roles": "UX, Creative; Technology",
+   "shortDesc": "A collection of projects for web, Veeva, conference, and paid media.",
+   "slug": "restricted-work",
+   "title": "Pharma, and health work",
+   "titleFormated": "<em>Pharma</em> and health work",
+   "password": "pharmahealth",
+   "protected": true,
+   "featuredImage": {
+    "jpg": "/images/1702889817-hero3-for-pharma.jpg",
+    "webp": "/images/1702889817-hero3-for-pharma.webp",
+    "width": 1420,
+    "height": 745,
+    "alt": null
+   },
+   "color": {
+    "hex": "#438CC3"
+   },
+   "blocks": [
+    {
+     "id": "EyqG2jC1TLaErbqTX4udBw",
+     "type": "case_text",
+     "text": "<p>Websites</p>",
+     "index": "",
+     "bigText": true
+    },
+    {
+     "id": "TOKNRokrQw-2W2gnjgqjVw",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1703030835-jelz.jpg",
+      "webp": "/images/1703030835-jelz.webp",
+      "width": 2892,
+      "height": 3566,
+      "alt": null
+     }
+    },
+    {
+     "id": "VgmjZattT_2jldxp-x2myQ",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1703026322-atlas.jpg",
+      "webp": "/images/1703026322-atlas.webp",
+      "width": 2892,
+      "height": 1766,
+      "alt": null
+     }
+    },
+    {
+     "id": "elasb5kCTV-D7oisai6ejA",
+     "type": "case_gray_start"
+    },
+    {
+     "id": "QiyaxeIRQZCQa2qeH3JolA",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1703026334-element.jpg",
+      "webp": "/images/1703026334-element.webp",
+      "width": 3976,
+      "height": 3822,
+      "alt": null
+     }
+    },
+    {
+     "id": "PQPggDxaQ0O2KPFW0aWIzA",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1674817134-yallslides-final.jpg",
+      "webp": "/images/1674817134-yallslides-final.webp",
+      "width": 2706,
+      "height": 3160,
+      "alt": null
+     }
+    },
+    {
+     "id": "CgM9lVsDQUGdiqscvQkXHg",
+     "type": "case_text",
+     "text": "<p>Veeva</p>",
+     "index": "",
+     "bigText": true
+    },
+    {
+     "id": "KCUO4VGIRAyZ_sUCv1plzg",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1703025924-jelyipad.jpg",
+      "webp": "/images/1703025924-jelyipad.webp",
+      "width": 2712,
+      "height": 3236,
+      "alt": null
+     }
+    },
+    {
+     "id": "N12C6lVWShir4MIMlAtmig",
+     "type": "case_video",
+     "videoUrl": "/videos/895747490.mp4"
+    },
+    {
+     "id": "aD_9P14-Qz24SY2omUXQbA",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1703026411-amgen1b.jpg",
+      "webp": "/images/1703026411-amgen1b.webp",
+      "width": 2706,
+      "height": 1862,
+      "alt": null
+     }
+    },
+    {
+     "id": "JmO1MQ0CT_yOr9bxISYGUg",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1703026424-amgen2.jpg",
+      "webp": "/images/1703026424-amgen2.webp",
+      "width": 2706,
+      "height": 1862,
+      "alt": null
+     }
+    },
+    {
+     "id": "RIyszcFlSiCFf1C3TuVuXw",
+     "type": "case_text",
+     "text": "<p>Conference</p>",
+     "index": "",
+     "bigText": true
+    },
+    {
+     "id": "aeGrVnp6T-CUzhVb5Ajk2Q",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1703026435-apa-1.jpg",
+      "webp": "/images/1703026435-apa-1.webp",
+      "width": 2030,
+      "height": 1553,
+      "alt": null
+     }
+    },
+    {
+     "id": "QTUTnTxCRJ2Pgo9yH2wq0A",
+     "type": "case_video",
+     "videoUrl": "/videos/895750457.mp4"
+    },
+    {
+     "id": "V5E3lzj-QOWFb-CADRPyCA",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1703030931-conf2.jpg",
+      "webp": "/images/1703030931-conf2.webp",
+      "width": 2892,
+      "height": 2724,
+      "alt": null
+     }
+    }
+   ]
+  },
+  "understanding-diseases": {
+   "company": "",
+   "companyLogo": {
+    "svg": "/images/1672340478-ud.svg",
+    "width": 84,
+    "height": 65,
+    "alt": null
+   },
+   "id": "75196253",
+   "roles": "Creative; Technology",
+   "shortDesc": "Because understanding diseases doesn’t have to be hard.",
+   "slug": "understanding-diseases",
+   "title": "A platform for dynamic learning",
+   "titleFormated": "A platform for <em>dynamic</em> learning",
+   "password": "",
+   "protected": null,
+   "featuredImage": {
+    "jpg": "/images/1671798326-case-test.jpg",
+    "webp": "/images/1671798326-case-test.webp",
+    "width": 1353,
+    "height": 710,
+    "alt": null
+   },
+   "color": {
+    "hex": "#7AB0CE"
+   },
+   "blocks": [
+    {
+     "id": "77085282",
+     "type": "case_media_text",
+     "text": "<p>As part of a partnership with some amazing humans, we built a ground-breaking web-based platform that offers disease education content at multiple levels of understanding.</p>",
+     "title": "Content is <em>not</em> one size fits all",
+     "ctaLink": "",
+     "ctaLabel": "",
+     "image": {
+      "jpg": "/images/1674905999-udphones.jpg",
+      "webp": "/images/1674905999-udphones.webp",
+      "width": 1238,
+      "height": 1206,
+      "alt": null
+     }
+    },
+    {
+     "id": "77144520",
+     "type": "case_title_text",
+     "text": "<p><em>Everyone</em> deserves access to important information that makes sense to them. But every person has a different level of understanding and reading ability.</p>\n<p>How do you bring to life a platform delivering disease learning information that makes sense to each and every individual, at a time when they most need clear, concise answers?</p>\n<p><strong>The answer became very clear—we had to create a platform that adjusted to <em>each</em> user’s reading level. This solution clearly didn’t exist. Yet.</strong></p>",
+     "title": "There were <em>many</em> levels to this problem",
+     "ctaLink": "",
+     "ctaLabel": ""
+    },
+    {
+     "id": "77085283",
+     "type": "case_text",
+     "text": "<p>How we architected the solution</p>",
+     "index": "",
+     "bigText": true
+    },
+    {
+     "id": "79914092",
+     "type": "case_gray_start"
+    },
+    {
+     "id": "88893461",
+     "type": "case_video",
+     "videoUrl": "/videos/786607979.mp4"
+    },
+    {
+     "id": "79862341",
+     "type": "case_text",
+     "text": "<p>We tapped expert partners to help create content at <em>multiple</em> fry-tested levels of reading ability<strong>.</strong></p>",
+     "index": "01",
+     "bigText": false
+    },
+    {
+     "id": "79862348",
+     "type": "case_image",
+     "fullWidth": false,
+     "image": {
+      "jpg": "/images/1671793282-group-241.jpg",
+      "webp": "/images/1671793282-group-241.webp",
+      "width": 976,
+      "height": 499,
+      "alt": null
+     }
+    },
+    {
+     "id": "79862349",
+     "type": "case_text",
+     "text": "<p>We determined some key pieces of content that would need to be brought to life <em>interactively</em> to really tell the story.</p>",
+     "index": "02",
+     "bigText": false
+    },
+    {
+     "id": "79914022",
+     "type": "case_image",
+     "fullWidth": false,
+     "image": {
+      "jpg": "/images/1672576784-udslider.jpg",
+      "webp": "/images/1672576784-udslider.webp",
+      "width": 1956,
+      "height": 1170,
+      "alt": null
+     }
+    },
+    {
+     "id": "97750240",
+     "type": "case_text",
+     "text": "<p>A <em>“default”</em> reading level was set, and then UI was created to give the user the ability to change the content to their liking.</p>",
+     "index": "03",
+     "bigText": false
+    },
+    {
+     "id": "79862353",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1672576646-udyellow.jpg",
+      "webp": "/images/1672576646-udyellow.webp",
+      "width": 2706,
+      "height": 1319,
+      "alt": null
+     }
+    },
+    {
+     "id": "79914019",
+     "type": "case_text",
+     "text": "<p>It was <em>unbelievable</em>—there is something genuinely special about seeing users actually use the tool the way it was intended.</p>",
+     "index": "04",
+     "bigText": false
+    },
+    {
+     "id": "79914020",
+     "type": "case_image",
+     "fullWidth": false,
+     "image": {
+      "jpg": "/images/1672576657-udaccordion.jpg",
+      "webp": "/images/1672576657-udaccordion.webp",
+      "width": 1951,
+      "height": 1232,
+      "alt": null
+     }
+    },
+    {
+     "id": "79914024",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1671798326-case-test.jpg",
+      "webp": "/images/1671798326-case-test.webp",
+      "width": 1353,
+      "height": 710,
+      "alt": null
+     }
+    },
+    {
+     "id": "105387033",
+     "type": "case_image",
+     "fullWidth": false,
+     "image": {
+      "jpg": "/images/1674817336-map.jpg",
+      "webp": "/images/1674817336-map.webp",
+      "width": 1463,
+      "height": 2198,
+      "alt": null
+     }
+    },
+    {
+     "id": "100013168",
+     "type": "case_text",
+     "text": "<p>The result? Learning that's <em>easy</em> + for you</p>",
+     "index": "",
+     "bigText": true
+    },
+    {
+     "id": "105376862",
+     "type": "case_image",
+     "fullWidth": false,
+     "image": {
+      "jpg": "/images/1674816773-ud-final.jpg",
+      "webp": "/images/1674816773-ud-final.webp",
+      "width": 1948,
+      "height": 2898,
+      "alt": null
+     }
+    }
+   ]
+  },
+  "yall-agency": {
+   "company": "",
+   "companyLogo": {
+    "svg": "/images/1672339920-y.svg",
+    "width": 110,
+    "height": 65,
+    "alt": null
+   },
+   "id": "81046535",
+   "roles": "UX, Creative; Technology",
+   "shortDesc": "Built from the ground up. Accidentally. Kinda.",
+   "slug": "yall-agency",
+   "title": "A digital agency for good humans",
+   "titleFormated": "A digital agency for <em>good</em> humans",
+   "password": "",
+   "protected": null,
+   "featuredImage": {
+    "jpg": "/images/1672341196-hero-for-yall.jpg",
+    "webp": "/images/1672341196-hero-for-yall.webp",
+    "width": 1420,
+    "height": 745,
+    "alt": null
+   },
+   "color": {
+    "hex": "#00AFBC"
+   },
+   "blocks": [
+    {
+     "id": "82998542",
+     "type": "case_media_text",
+     "text": "<p>3+ years and 20+ hires later, there it was —a kind, gentle agency, full of talented creatures.</p>\n<p>We did it... with a little help from Yallie.</p>",
+     "title": "Humans. And some <em>not</em> humans",
+     "ctaLink": "",
+     "ctaLabel": "",
+     "image": {
+      "jpg": "/images/1675242272-yallgroup.jpg",
+      "webp": "/images/1675242272-yallgroup.webp",
+      "width": 1238,
+      "height": 1206,
+      "alt": null
+     }
+    },
+    {
+     "id": "82998543",
+     "type": "case_title_text",
+     "text": "<p>This had, to our knowledge, <em>never</em> been done before. Building an advertising brand from scratch centered around treating humans right, while breaking tons of industry norms like completely bailing on the concept of keeping up with timesheets.</p>\n<p><strong>First things first—determine a few key problems we could build a brand around solving.</strong></p>",
+     "title": "Building a <em>brand</em> with no blueprint",
+     "ctaLink": "",
+     "ctaLabel": ""
+    },
+    {
+     "id": "82998546",
+     "type": "case_gray_start"
+    },
+    {
+     "id": "83504884",
+     "type": "case_video",
+     "videoUrl": "/videos/784958934.mp4"
+    },
+    {
+     "id": "82998545",
+     "type": "case_text",
+     "text": "<p>How we architected the solution</p>",
+     "index": "",
+     "bigText": true
+    },
+    {
+     "id": "82998547",
+     "type": "case_text",
+     "text": "<p>Our brand evolved and our team grew. As that happened, we only hired <em>nice</em> humans, and made sure to treat everyone equally and with unflappable kindness.</p>",
+     "index": "01",
+     "bigText": false
+    },
+    {
+     "id": "82998544",
+     "type": "case_carousel",
+     "images": [
+      {
+       "jpg": "/images/1672578510-group-930.jpg",
+       "webp": "/images/1672578510-group-930.webp",
+       "width": 840,
+       "height": 588,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672578513-group-928.jpg",
+       "webp": "/images/1672578513-group-928.webp",
+       "width": 840,
+       "height": 588,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672578498-group-929.jpg",
+       "webp": "/images/1672578498-group-929.webp",
+       "width": 840,
+       "height": 588,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672578502-group-927.jpg",
+       "webp": "/images/1672578502-group-927.webp",
+       "width": 840,
+       "height": 588,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672578506-group-926.jpg",
+       "webp": "/images/1672578506-group-926.webp",
+       "width": 840,
+       "height": 588,
+       "alt": null
+      }
+     ]
+    },
+    {
+     "id": "82998549",
+     "type": "case_text",
+     "text": "<p>We set a foundation of fun with an anti-boring employee manual that delivered policies like \"no tracking time, just do good work\"—<em>trust</em> at its purest form. </p>",
+     "index": "02",
+     "bigText": false
+    },
+    {
+     "id": "82998551",
+     "type": "case_carousel",
+     "images": [
+      {
+       "jpg": "/images/1672309182-handbook1.jpg",
+       "webp": "/images/1672309182-handbook1.webp",
+       "width": 837,
+       "height": 1086,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672509090-handbook5.jpg",
+       "webp": "/images/1672509090-handbook5.webp",
+       "width": 841,
+       "height": 1088,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672309178-handbook2.jpg",
+       "webp": "/images/1672309178-handbook2.webp",
+       "width": 843,
+       "height": 1088,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672309173-handbook3.jpg",
+       "webp": "/images/1672309173-handbook3.webp",
+       "width": 843,
+       "height": 1088,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672309169-handbook4.jpg",
+       "webp": "/images/1672309169-handbook4.webp",
+       "width": 838,
+       "height": 1088,
+       "alt": null
+      }
+     ]
+    },
+    {
+     "id": "82998556",
+     "type": "case_text",
+     "text": "<p>Setting this early foundation allowed us to grow <em>fast</em> while \"batting 1000\" in Good Human selection.</p>",
+     "index": "03",
+     "bigText": false
+    },
+    {
+     "id": "82998548",
+     "type": "case_carousel",
+     "images": [
+      {
+       "jpg": "/images/1672309049-yall-carousel-1.jpg",
+       "webp": "/images/1672309049-yall-carousel-1.webp",
+       "width": 840,
+       "height": 514,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672309045-yall-carousel-2.jpg",
+       "webp": "/images/1672309045-yall-carousel-2.webp",
+       "width": 840,
+       "height": 846,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672309040-yall-carousel-3.jpg",
+       "webp": "/images/1672309040-yall-carousel-3.webp",
+       "width": 840,
+       "height": 588,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672309125-yall-carousel-4.jpg",
+       "webp": "/images/1672309125-yall-carousel-4.webp",
+       "width": 802,
+       "height": 807,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1672255329-team.jpg",
+       "webp": "/images/1672255329-team.webp",
+       "width": 976,
+       "height": 721,
+       "alt": null
+      }
+     ]
+    },
+    {
+     "id": "82998552",
+     "type": "case_text",
+     "text": "<p>We placed a <em>crazy-high</em> importance on for-good projects.</p>",
+     "index": "04",
+     "bigText": false
+    },
+    {
+     "id": "82998555",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1672255266-yellow.jpg",
+      "webp": "/images/1672255266-yellow.webp",
+      "width": 2706,
+      "height": 1319,
+      "alt": null
+     }
+    },
+    {
+     "id": "82998554",
+     "type": "case_text",
+     "text": "<p>And lastly, we <em>empowered</em> people to bring brands to the browser in ways our industry has never seen.</p>",
+     "index": "05",
+     "bigText": false
+    },
+    {
+     "id": "82998553",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1674817134-yallslides-final.jpg",
+      "webp": "/images/1674817134-yallslides-final.webp",
+      "width": 2706,
+      "height": 3160,
+      "alt": null
+     }
+    },
+    {
+     "id": "100012756",
+     "type": "case_text",
+     "text": "<p>The result? A group of <em>epic</em> people + work</p>",
+     "index": "",
+     "bigText": true
+    }
+   ]
+  },
+  "dl-brand": {
+   "company": "",
+   "companyLogo": {
+    "svg": "/images/1672322383-dllogo.svg",
+    "width": 80,
+    "height": 65,
+    "alt": null
+   },
+   "id": "92942107",
+   "roles": "UX, Creative; Technology",
+   "shortDesc": "Crafting a new image + digital strategy that breathes life across all mediums.",
+   "slug": "dl-brand",
+   "title": "A brand as versatile as it is tall",
+   "titleFormated": "A brand as <em>versatile</em> as it is tall",
+   "password": "",
+   "protected": null,
+   "featuredImage": {
+    "jpg": "/images/1673560021-dlbrandhero.jpg",
+    "webp": "/images/1673560021-dlbrandhero.webp",
+    "width": 2840,
+    "height": 1490,
+    "alt": null
+   },
+   "color": {
+    "hex": "#FFDA18"
+   },
+   "blocks": [
+    {
+     "id": "92942105",
+     "type": "case_media_text",
+     "text": "<p>With most the last two decades spent helping other companies leave their footprint, so little work had been done on my own. This meant I was starting with a blank slate. How exciting. And challenging.</p>",
+     "title": "Starting over, <em>without</em> starting over",
+     "ctaLink": "",
+     "ctaLabel": "",
+     "image": {
+      "jpg": "/images/1673834821-dlphoto.jpg",
+      "webp": "/images/1673834821-dlphoto.webp",
+      "width": 1238,
+      "height": 1206,
+      "alt": null
+     }
+    },
+    {
+     "id": "92942232",
+     "type": "case_title_text",
+     "text": "<p>I help clients build <em>great</em> digital products. I want to leave the legacy of a kind leader. I want to be known as a friendly visionary who helped create solutions that made a large impact on earth. </p>\n<p>But that is really hard to encapsulate in a logo mark, especially when it will need to be broken apart and used as the building blocks for the entire design system and brand experience.</p>\n<p><strong>We put a lot of work into creating some amazing options, all modern and super clever. Some were weird (like me!). Some were classy (like me!). And this great range ultimately got us to a <em>legendary</em> place.</strong></p>",
+     "title": "The identity must <em>truly</em> reflect my identity",
+     "ctaLink": "",
+     "ctaLabel": ""
+    },
+    {
+     "id": "92942120",
+     "type": "case_carousel",
+     "images": [
+      {
+       "jpg": "/images/1673560434-1-1.jpg",
+       "webp": "/images/1673560434-1-1.webp",
+       "width": 1260,
+       "height": 1017,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1673560442-1.jpg",
+       "webp": "/images/1673560442-1.webp",
+       "width": 1260,
+       "height": 1017,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1673560449-group-926.jpg",
+       "webp": "/images/1673560449-group-926.webp",
+       "width": 1260,
+       "height": 1017,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1673560445-group-925.jpg",
+       "webp": "/images/1673560445-group-925.webp",
+       "width": 1260,
+       "height": 1017,
+       "alt": null
+      },
+      {
+       "jpg": "/images/1673560438-group-721.jpg",
+       "webp": "/images/1673560438-group-721.webp",
+       "width": 1260,
+       "height": 1017,
+       "alt": null
+      }
+     ]
+    },
+    {
+     "id": "92942233",
+     "type": "case_text",
+     "text": "<p>How we architected the brand</p>",
+     "index": "",
+     "bigText": true
+    },
+    {
+     "id": "92942234",
+     "type": "case_text",
+     "text": "<p>I am an <em>extremely</em> tall softie—one that has an edge—so we landed on a logo that is comprised of just that: a tall shape, a soft shape, and an edgy shape.</p>",
+     "index": "01",
+     "bigText": false
+    },
+    {
+     "id": "92942130",
+     "type": "case_gray_start"
+    },
+    {
+     "id": "92942106",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1673560174-dl-dotted.jpg",
+      "webp": "/images/1673560174-dl-dotted.webp",
+      "width": 2706,
+      "height": 1319,
+      "alt": null
+     }
+    },
+    {
+     "id": "92942235",
+     "type": "case_text",
+     "text": "<p>Then I stood at my whiteboard for weeks, hammering out a <em>solid</em> plan to roll this unbelievable identity out to the world.</p>",
+     "index": "02",
+     "bigText": false
+    },
+    {
+     "id": "97830607",
+     "type": "case_video",
+     "videoUrl": "/videos/790758375.mp4"
+    },
+    {
+     "id": "97830608",
+     "type": "case_text",
+     "text": "<p>The indentity system was leveraged to create visually-<em>arresting</em> emails, provocative social media, and thoughtful videos.</p>",
+     "index": "03",
+     "bigText": false
+    },
+    {
+     "id": "105403398",
+     "type": "case_image",
+     "fullWidth": false,
+     "image": {
+      "jpg": "/images/1674818508-dlstudio.jpg",
+      "webp": "/images/1674818508-dlstudio.webp",
+      "width": 1950,
+      "height": 1400,
+      "alt": null
+     }
+    },
+    {
+     "id": "92942121",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1674818451-bigdlcollage.jpg",
+      "webp": "/images/1674818451-bigdlcollage.webp",
+      "width": 2706,
+      "height": 2768,
+      "alt": null
+     }
+    },
+    {
+     "id": "92942237",
+     "type": "case_text",
+     "text": "<p>This set us up great for building an unbelievably <em>enjoyable</em> web experience for the ages.</p>",
+     "index": "04",
+     "bigText": false
+    },
+    {
+     "id": "92942122",
+     "type": "case_image",
+     "fullWidth": true,
+     "image": {
+      "jpg": "/images/1673865191-00-1_hero.jpg",
+      "webp": "/images/1673865191-00-1_hero.webp",
+      "width": 2880,
+      "height": 1682,
+      "alt": null
+     }
+    },
+    {
+     "id": "100012703",
+     "type": "case_text",
+     "text": "<p>The result? A feel of <em>both</em> class + fun</p>",
+     "index": "",
+     "bigText": true
+    }
+   ]
+  }
+ },
+ "order": [
+  {
+   "slug": "dl-brand",
+   "protected": false
+  },
+  {
+   "slug": "yall-agency",
+   "protected": false
+  },
+  {
+   "slug": "the-search-for-work-happiness-book",
+   "protected": false
+  },
+  {
+   "slug": "find-work-happiness",
+   "protected": false
+  },
+  {
+   "slug": "restricted-work",
+   "protected": true
+  },
+  {
+   "slug": "understanding-diseases",
+   "protected": false
+  },
+  {
+   "slug": "espn-who-can-break-calvins-record",
+   "protected": false
+  },
+  {
+   "slug": "a-browser-bending-look-at-vision-loss",
+   "protected": false
+  },
+  {
+   "slug": "designing-a-world-full-of-kindness",
+   "protected": false
+  },
+  {
+   "slug": "speaking-writing-and-features",
+   "protected": false
+  }
+ ],
+ "global": {
+  "available": "1/1/27"
+ }
+}

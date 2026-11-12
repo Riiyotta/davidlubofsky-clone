@@ -1,0 +1,12 @@
+{
+  "id": "media.figure",
+  "description": "Aspect-ratio figure with lazy picture that fades in.",
+  "props": [
+    "image"
+  ],
+  "source": {
+    "file": "src/components/LazyPicture.jsx",
+    "lines": "4-33",
+    "tag": "export default function LazyPicture"
+  }
+}

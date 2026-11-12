@@ -1,0 +1,48 @@
+{
+  "policyVersion": "1.0.0",
+  "pageSpecTokenSlots": {
+    "node.style.accent": {
+      "sections": [
+        "hero.case"
+      ],
+      "family": "color.accent",
+      "allowed": [
+        "color.accent.azure",
+        "color.accent.mint",
+        "color.accent.peach",
+        "color.accent.rose",
+        "color.accent.sky",
+        "color.accent.steel",
+        "color.accent.sun",
+        "color.accent.teal"
+      ],
+      "rule": "TOKEN_SLOT_FAMILY"
+    }
+  },
+  "themeBinding": {
+    "template.home": "dark",
+    "template.case-study": "light",
+    "rule": "THEME_TEMPLATE",
+    "evidence": {
+      "cite": "src/lib/router.js:82",
+      "tag": "document.documentElement.classList.toggle('is-dark', state.route.name === 'index');"
+    }
+  },
+  "themeTokenRules": [
+    {
+      "theme": "dark",
+      "forbiddenFamilies": [
+        "color.accent"
+      ],
+      "reason": "accents are only used by the light case hero"
+    }
+  ],
+  "rawValueRestrictions": {
+    "color": "RAW_COLOR: no #hex / rgb() / hsl() literal anywhere in a PageSpec",
+    "spacing": "no spacing field exists on a PageSpec node (schema additionalProperties:false); spacing is owned by section contracts",
+    "fontFamily": "no font field exists on a PageSpec node; the only family is pleasure",
+    "fontSize": "owned by section contracts",
+    "fontWeight": "owned by section contracts"
+  },
+  "overrides": "PageSpecs carry exactly one token slot (hero.case style.accent). Spacing, type and radius are fixed by section contracts; there is no per-instance override mechanism in the source, so none is offered."
+}

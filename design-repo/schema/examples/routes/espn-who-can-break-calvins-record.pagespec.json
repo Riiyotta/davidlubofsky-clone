@@ -1,0 +1,369 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "reference",
+  "template": "template.case-study",
+  "route": "/case/espn-who-can-break-calvins-record/",
+  "theme": "light",
+  "access": "public",
+  "meta": {
+    "title": "DL | The portfolio of David Lubofsky"
+  },
+  "nodes": [
+    {
+      "section": "shell.header",
+      "content": {
+        "ownerName": "David Lubofsky",
+        "navLinks": [
+          {
+            "label": "My Work",
+            "href": "/#work"
+          },
+          {
+            "label": "My Book",
+            "href": "https://findworkhappiness.com"
+          },
+          {
+            "label": "in",
+            "href": "https://www.linkedin.com/in/davidalubofsky/"
+          }
+        ],
+        "cta": {
+          "label": "Let’s work together",
+          "href": "mailto:me@davidlubofsky.com"
+        },
+        "logo": {
+          "role": "brand.wordmark",
+          "src": "/favicon.svg"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "hero.case",
+      "content": {
+        "title": "What WR can break Calvin’s record",
+        "highlight": "break",
+        "rolesLabel": "Roles",
+        "roles": "Technology",
+        "description": "Leveraging scroll + animation to tell a colorful story about a legendary player",
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1694799124-hero-for-book2.jpg"
+        }
+      },
+      "style": {
+        "accent": "color.accent.peach"
+      },
+      "motion": {
+        "pattern": "line-reveal",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.media-text",
+      "content": {
+        "title": "A visual story about the field of 96 WRs",
+        "body": [
+          {
+            "text": "The league has evolved to become pass-happy, and is now full of extremely-animated talent at the wide receiver position. So, to match that, the story needed to be an extremely-animated experience that dived deep into the whys, the hows, and the whos."
+          }
+        ],
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1694791377-screen.jpg"
+        },
+        "highlight": "visual"
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.title-text",
+      "content": {
+        "title": "A rare combo of size, speed, and hands",
+        "body": [
+          {
+            "text": "In 2012, Calvin Johnson, a wide receiver for the Detroit Lions, did something we never thought would happen—he set an NFL record with 1,964 receiving yards. For a wide receiver that has to have the ball throw their way to achieve any success, it is otherworldly that he was able to achieve this feat.",
+            "highlights": [
+              "never"
+            ]
+          },
+          {
+            "text": "It probably helps that he had maybe the best hands in football history and was an insanely large creature."
+          },
+          {
+            "text": "But how do we bring that larger-than-life player into the browser, and tell the story of almost 100 receivers and their chances to break this decade-long record? Well, it takes some clever design, brilliant copy, and a lot of exciting-to-scroll scrolling that takes your from cut to cut, as we dwindle down to a list of 9 absolute beasts.",
+            "highlights": [
+              "absolute"
+            ],
+            "strong": [
+              "But how do we bring that larger-than-life player into the browser, and tell the story of almost 100 receivers and their chances to break this decade-long record? Well, it takes some clever design, brilliant copy, and a lot of exciting-to-scroll scrolling that takes your from cut to cut, as we dwindle down to a list of 9 absolute beasts."
+            ]
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "statement",
+      "content": {
+        "text": [
+          {
+            "text": "How we architected the journey"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "inset",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1694793609-wires.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "I teamed up with the unbelievable team at ESPN to concept different methods of interaction and animation, as well as approaches to overcome the hurdle that was mass—96 players. data that goes with each, multiple criteria and cuts, all without losing the user as the dwindle down.",
+            "highlights": [
+              "unbelievable"
+            ]
+          }
+        ],
+        "index": "01"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "layout.gray-band",
+      "content": {},
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1694791714-whocan.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "The design team turned these concepts and approaches into a jaw-dropping set of designs and storyboards that took the viewer through players cuts— from 96 to 79 to 39 to 19 to 14 to a final set of 9 players that we featured in a final showdown of figures and facts.",
+            "highlights": [
+              "jaw-dropping"
+            ]
+          }
+        ],
+        "index": "02"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1694793802-desktop.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "I then leverage the amazing power of GSAP animations and some pretty hefty CSS to take the user on a journey of movement—from grid reordering to player zooms/pans to individual player featuring—all stitched together with some insane scene transitions that include Calvin himself dancing across the screen.",
+            "highlights": [
+              "movement"
+            ]
+          }
+        ],
+        "index": "03"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1694793095-screens.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "statement",
+      "content": {
+        "text": [
+          {
+            "text": "The result? A sports story of legends.",
+            "highlights": [
+              "legends"
+            ]
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.carousel",
+      "content": {
+        "images": [
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1694791576-8-column-1.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1694791565-8-column-3.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1694792864-8-column.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1694791570-8-column-2.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1694792874-8-column-1.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1694791583-8-column.jpg"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "drag-carousel",
+        "reducedMotionFallback": "native-scroll"
+      }
+    },
+    {
+      "section": "navigation.next-case",
+      "content": {
+        "title": "A browser-bending look at vision loss",
+        "ctaLabel": "Check it out",
+        "href": "/case/a-browser-bending-look-at-vision-loss/",
+        "lettering": [
+          "View",
+          "next",
+          "brand"
+        ],
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1793379946-dl-hero.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "physics-drop",
+        "reducedMotionFallback": "static-composition"
+      }
+    },
+    {
+      "section": "utility.back-button",
+      "content": {
+        "label": "Back to cases"
+      },
+      "motion": {
+        "pattern": "pop-in-label-slide",
+        "reducedMotionFallback": "static-visible"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "statement": "Putting the human back into humankind",
+        "highlight": "human",
+        "availabilityLabel": "Next availability:",
+        "availabilityValue": "1/1/27",
+        "links": [
+          {
+            "label": "Shoot me a message",
+            "href": "mailto:me@davidlubofsky.com"
+          },
+          {
+            "label": "Connect on LinkedIn",
+            "href": "https://www.linkedin.com/in/davidalubofsky/"
+          },
+          {
+            "label": "Check out my book",
+            "href": "https://findworkhappiness.com"
+          }
+        ],
+        "legal": "UX, Strategy, Design, and Dev. ©2026 David Lubofsky",
+        "mascot": {
+          "role": "decor.mascot-3d",
+          "src": "/lama.glb"
+        }
+      },
+      "motion": {
+        "pattern": "parallax-up",
+        "reducedMotionFallback": "static"
+      }
+    }
+  ]
+}

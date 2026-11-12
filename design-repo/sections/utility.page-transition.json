@@ -1,0 +1,47 @@
+{
+  "id": "utility.page-transition",
+  "title": "Route transition mask",
+  "description": "Fixed full-viewport masks used only during route changes (black wipe; white wipe from the home index).",
+  "source": {
+    "id": "src:App.js-mask",
+    "file": "src/App.jsx",
+    "lines": "78",
+    "tag": "js-mask"
+  },
+  "semantic": {
+    "id": "utility.page-transition",
+    "category": "UTILITY"
+  },
+  "retrievalEligible": false,
+  "retrievalReason": "Full-viewport mask that only exists to cover a route change; it is invisible at rest and carries no content.",
+  "variants": [],
+  "content": {},
+  "styleSlots": {},
+  "assetRoles": [],
+  "generatedAssetRoles": [],
+  "constraints": {
+    "maxPerPage": 1
+  },
+  "motion": {
+    "allowed": [
+      "mask-wipe-transition"
+    ],
+    "default": "mask-wipe-transition",
+    "reducedMotionFallback": {
+      "mask-wipe-transition": "instant-swap"
+    }
+  },
+  "responsive": [],
+  "uses": {
+    "primitives": [],
+    "components": [],
+    "tokens": [
+      "color.neutral.900",
+      "color.neutral.0"
+    ]
+  },
+  "templates": [
+    "template.home",
+    "template.case-study"
+  ]
+}

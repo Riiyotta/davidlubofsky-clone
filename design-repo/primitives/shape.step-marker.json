@@ -1,0 +1,12 @@
+{
+  "id": "shape.step-marker",
+  "description": "Thin yellow outline triangle/semicircle/bar framing a step number.",
+  "props": [
+    "shape"
+  ],
+  "source": {
+    "file": "src/data/case.js",
+    "lines": "22",
+    "tag": "export const SMALL_SHAPES"
+  }
+}

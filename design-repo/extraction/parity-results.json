@@ -1,0 +1,1497 @@
+{
+  "$comment": "Text-free parity evidence (BASELINE R12). Screenshots are not committed; re-run parity_capture.mjs + parity_score.py to reproduce.",
+  "method": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "frameStep": 900,
+    "pixelThreshold": 40,
+    "sectionGate": 0.8,
+    "capture": "extraction/parity_capture.mjs",
+    "score": "extraction/parity_score.py",
+    "determinism": "fonts.ready + networkidle + 6.5s settle, full scroll pass for lazy images, videos paused at t=0 (seek awaited) before every frame, identical waits both sides, no clicks",
+    "liveSide": "the original site",
+    "cloneSide": "local clone dev server"
+  },
+  "summary": {
+    "averageScore": 0.973,
+    "sections": 160,
+    "sectionsBelowGate": 5
+  },
+  "routes": {
+    "/": {
+      "pageHeight": {
+        "clone": 5998,
+        "live": 5998
+      },
+      "sections": [
+        {
+          "section": "hero.home",
+          "order": 0,
+          "score": 0.9727,
+          "pixels": 1244160
+        },
+        {
+          "section": "content.case-index-item",
+          "order": 1,
+          "score": 0.9956,
+          "pixels": 614880
+        },
+        {
+          "section": "content.case-index-item",
+          "order": 2,
+          "score": 0.9985,
+          "pixels": 614880
+        },
+        {
+          "section": "content.case-index-item",
+          "order": 3,
+          "score": 1.0,
+          "pixels": 614880
+        },
+        {
+          "section": "content.case-index-item",
+          "order": 4,
+          "score": 1.0,
+          "pixels": 614880
+        },
+        {
+          "section": "content.case-index-item",
+          "order": 5,
+          "score": 0.9949,
+          "pixels": 505440
+        },
+        {
+          "section": "content.case-index-item",
+          "order": 6,
+          "score": 1.0,
+          "pixels": 571680
+        },
+        {
+          "section": "content.case-index-item",
+          "order": 7,
+          "score": 1.0,
+          "pixels": 571680
+        },
+        {
+          "section": "content.case-index-item",
+          "order": 8,
+          "score": 1.0,
+          "pixels": 614880
+        },
+        {
+          "section": "content.case-index-item",
+          "order": 9,
+          "score": 1.0,
+          "pixels": 614880
+        },
+        {
+          "section": "conversion.connect",
+          "order": 10,
+          "score": 0.9089,
+          "pixels": 1602720
+        },
+        {
+          "section": "shell.footer",
+          "order": 11,
+          "score": 1.0,
+          "pixels": 1235520
+        }
+      ]
+    },
+    "/case/a-browser-bending-look-at-vision-loss/": {
+      "pageHeight": {
+        "clone": 11853,
+        "live": 11853
+      },
+      "sections": [
+        {
+          "section": "hero.case",
+          "order": 0,
+          "score": 0.7986,
+          "pixels": 1244160
+        },
+        {
+          "section": "content.media-text",
+          "order": 1,
+          "score": 1.0,
+          "pixels": 1056960
+        },
+        {
+          "section": "media.video",
+          "order": 2,
+          "score": 1.0,
+          "pixels": 1006560
+        },
+        {
+          "section": "content.title-text",
+          "order": 3,
+          "score": 0.9953,
+          "pixels": 817920
+        },
+        {
+          "section": "content.text",
+          "order": 4,
+          "score": 1.0,
+          "pixels": 214560
+        },
+        {
+          "section": "media.image",
+          "order": 5,
+          "score": 0.9994,
+          "pixels": 1452960
+        },
+        {
+          "section": "content.text",
+          "order": 6,
+          "score": 1.0,
+          "pixels": 214560
+        },
+        {
+          "section": "media.image",
+          "order": 7,
+          "score": 0.9981,
+          "pixels": 1463040
+        },
+        {
+          "section": "content.text",
+          "order": 8,
+          "score": 1.0,
+          "pixels": 214560
+        },
+        {
+          "section": "media.image",
+          "order": 9,
+          "score": 0.9993,
+          "pixels": 1679040
+        },
+        {
+          "section": "content.text",
+          "order": 10,
+          "score": 1.0,
+          "pixels": 260640
+        },
+        {
+          "section": "media.image",
+          "order": 11,
+          "score": 0.999,
+          "pixels": 1850400
+        },
+        {
+          "section": "content.text",
+          "order": 12,
+          "score": 1.0,
+          "pixels": 214560
+        },
+        {
+          "section": "media.image",
+          "order": 13,
+          "score": 0.9976,
+          "pixels": 2760480
+        },
+        {
+          "section": "navigation.next-case",
+          "order": 14,
+          "score": 0.8342,
+          "pixels": 1382400
+        },
+        {
+          "section": "shell.footer",
+          "order": 15,
+          "score": 0.9998,
+          "pixels": 1876320
+        }
+      ]
+    },
+    "/case/designing-a-world-full-of-kindness/": {
+      "pageHeight": {
+        "clone": 10987,
+        "live": 10987
+      },
+      "sections": [
+        {
+          "section": "hero.case",
+          "order": 0,
+          "score": 0.8281,
+          "pixels": 1244160
+        },
+        {
+          "section": "content.media-text",
+          "order": 1,
+          "score": 1.0,
+          "pixels": 990720
+        },
+        {
+          "section": "content.title-text",
+          "order": 2,
+          "score": 0.9965,
+          "pixels": 732960
+        },
+        {
+          "section": "content.text",
+          "order": 3,
+          "score": 1.0,
+          "pixels": 214560
+        },
+        {
+          "section": "media.image",
+          "order": 4,
+          "score": 0.9973,
+          "pixels": 1349280
+        },
+        {
+          "section": "content.text",
+          "order": 5,
+          "score": 1.0,
+          "pixels": 214560
+        },
+        {
+          "section": "media.image",
+          "order": 6,
+          "score": 0.9973,
+          "pixels": 1349280
+        },
+        {
+          "section": "content.text",
+          "order": 7,
+          "score": 1.0,
+          "pixels": 214560
+        },
+        {
+          "section": "media.image",
+          "order": 8,
+          "score": 0.9991,
+          "pixels": 1679040
+        },
+        {
+          "section": "content.text",
+          "order": 9,
+          "score": 1.0,
+          "pixels": 384480
+        },
+        {
+          "section": "media.image",
+          "order": 10,
+          "score": 0.9895,
+          "pixels": 1782720
+        },
+        {
+          "section": "content.text",
+          "order": 11,
+          "score": 1.0,
+          "pixels": 214560
+        },
+        {
+          "section": "media.image",
+          "order": 12,
+          "score": 0.9867,
+          "pixels": 2835360
+        },
+        {
+          "section": "navigation.next-case",
+          "order": 13,
+          "score": 0.8575,
+          "pixels": 1382400
+        },
+        {
+          "section": "shell.footer",
+          "order": 14,
+          "score": 1.0,
+          "pixels": 1827360
+        }
+      ]
+    },
+    "/case/dl-brand/": {
+      "pageHeight": {
+        "clone": 10635,
+        "live": 10635
+      },
+      "sections": [
+        {
+          "section": "hero.case",
+          "order": 0,
+          "score": 0.8125,
+          "pixels": 1244160
+        },
+        {
+          "section": "content.media-text",
+          "order": 1,
+          "score": 0.9981,
+          "pixels": 1056960
+        },
+        {
+          "section": "content.title-text",
+          "order": 2,
+          "score": 1.0,
+          "pixels": 815040
+        },
+        {
+          "section": "media.carousel",
+          "order": 3,
+          "score": 1.0,
+          "pixels": 705600
+        },
+        {
+          "section": "content.text",
+          "order": 4,
+          "score": 1.0,
+          "pixels": 411840
+        },
+        {
+          "section": "content.text",
+          "order": 5,
+          "score": 0.9992,
+          "pixels": 354240
+        },
+        {
+          "section": "media.image",
+          "order": 6,
+          "score": 0.9997,
+          "pixels": 1166400
+        },
+        {
+          "section": "content.text",
+          "order": 7,
+          "score": 1.0,
+          "pixels": 308160
+        },
+        {
+          "section": "media.video",
+          "order": 8,
+          "score": 1.0,
+          "pixels": 1006560
+        },
+        {
+          "section": "content.text",
+          "order": 9,
+          "score": 1.0,
+          "pixels": 308160
+        },
+        {
+          "section": "media.image",
+          "order": 10,
+          "score": 1.0,
+          "pixels": 1225440
+        },
+        {
+          "section": "media.image",
+          "order": 11,
+          "score": 0.9987,
+          "pixels": 2211840
+        },
+        {
+          "section": "content.text",
+          "order": 12,
+          "score": 1.0,
+          "pixels": 308160
+        },
+        {
+          "section": "media.image",
+          "order": 13,
+          "score": 0.9968,
+          "pixels": 1355040
+        },
+        {
+          "section": "content.text",
+          "order": 14,
+          "score": 1.0,
+          "pixels": 325440
+        },
+        {
+          "section": "navigation.next-case",
+          "order": 15,
+          "score": 0.8865,
+          "pixels": 1382400
+        },
+        {
+          "section": "shell.footer",
+          "order": 16,
+          "score": 1.0,
+          "pixels": 1038240
+        }
+      ]
+    },
+    "/case/espn-who-can-break-calvins-record/": {
+      "pageHeight": {
+        "clone": 11169,
+        "live": 11169
+      },
+      "sections": [
+        {
+          "section": "hero.case",
+          "order": 0,
+          "score": 0.7446,
+          "pixels": 1244160
+        },
+        {
+          "section": "content.media-text",
+          "order": 1,
+          "score": 0.9992,
+          "pixels": 1056960
+        },
+        {
+          "section": "content.title-text",
+          "order": 2,
+          "score": 1.0,
+          "pixels": 901440
+        },
+        {
+          "section": "content.text",
+          "order": 3,
+          "score": 1.0,
+          "pixels": 411840
+        },
+        {
+          "section": "media.image",
+          "order": 4,
+          "score": 0.9989,
+          "pixels": 1549440
+        },
+        {
+          "section": "content.text",
+          "order": 5,
+          "score": 1.0,
+          "pixels": 492480
+        },
+        {
+          "section": "media.image",
+          "order": 6,
+          "score": 0.9973,
+          "pixels": 1166400
+        },
+        {
+          "section": "content.text",
+          "order": 7,
+          "score": 0.9992,
+          "pixels": 492480
+        },
+        {
+          "section": "media.image",
+          "order": 8,
+          "score": 1.0,
+          "pixels": 1602720
+        },
+        {
+          "section": "content.text",
+          "order": 9,
+          "score": 1.0,
+          "pixels": 540000
+        },
+        {
+          "section": "media.image",
+          "order": 10,
+          "score": 0.9982,
+          "pixels": 2067840
+        },
+        {
+          "section": "content.text",
+          "order": 11,
+          "score": 0.9955,
+          "pixels": 411840
+        },
+        {
+          "section": "media.carousel",
+          "order": 12,
+          "score": 1.0,
+          "pixels": 1530720
+        },
+        {
+          "section": "navigation.next-case",
+          "order": 13,
+          "score": 0.8707,
+          "pixels": 1382400
+        },
+        {
+          "section": "shell.footer",
+          "order": 14,
+          "score": 1.0,
+          "pixels": 1565280
+        }
+      ]
+    },
+    "/case/find-work-happiness/": {
+      "pageHeight": {
+        "clone": 16098,
+        "live": 16098
+      },
+      "sections": [
+        {
+          "section": "hero.case",
+          "order": 0,
+          "score": 0.7712,
+          "pixels": 1244160
+        },
+        {
+          "section": "content.media-text",
+          "order": 1,
+          "score": 0.9977,
+          "pixels": 990720
+        },
+        {
+          "section": "content.title-text",
+          "order": 2,
+          "score": 0.9997,
+          "pixels": 861120
+        },
+        {
+          "section": "content.text",
+          "order": 3,
+          "score": 1.0,
+          "pixels": 411840
+        },
+        {
+          "section": "media.image",
+          "order": 4,
+          "score": 0.9985,
+          "pixels": 1398240
+        },
+        {
+          "section": "content.text",
+          "order": 5,
+          "score": 0.9995,
+          "pixels": 540000
+        },
+        {
+          "section": "media.image",
+          "order": 6,
+          "score": 0.9991,
+          "pixels": 1166400
+        },
+        {
+          "section": "content.text",
+          "order": 7,
+          "score": 1.0,
+          "pixels": 586080
+        },
+        {
+          "section": "media.image",
+          "order": 8,
+          "score": 0.9984,
+          "pixels": 1205280
+        },
+        {
+          "section": "media.image",
+          "order": 9,
+          "score": 0.9998,
+          "pixels": 1342080
+        },
+        {
+          "section": "content.text",
+          "order": 10,
+          "score": 0.9988,
+          "pixels": 400320
+        },
+        {
+          "section": "media.image",
+          "order": 11,
+          "score": 0.9973,
+          "pixels": 2070720
+        },
+        {
+          "section": "media.image",
+          "order": 12,
+          "score": 1.0,
+          "pixels": 1679040
+        },
+        {
+          "section": "content.text",
+          "order": 13,
+          "score": 1.0,
+          "pixels": 446400
+        },
+        {
+          "section": "media.image",
+          "order": 14,
+          "score": 0.9996,
+          "pixels": 1342080
+        },
+        {
+          "section": "media.image",
+          "order": 15,
+          "score": 0.9988,
+          "pixels": 3699360
+        },
+        {
+          "section": "content.text",
+          "order": 16,
+          "score": 1.0,
+          "pixels": 411840
+        },
+        {
+          "section": "media.carousel",
+          "order": 17,
+          "score": 1.0,
+          "pixels": 1074240
+        },
+        {
+          "section": "navigation.next-case",
+          "order": 18,
+          "score": 0.9503,
+          "pixels": 1307520
+        },
+        {
+          "section": "shell.footer",
+          "order": 19,
+          "score": 0.9949,
+          "pixels": 1022400
+        }
+      ]
+    },
+    "/case/restricted-work/": {
+      "pageHeight": {
+        "clone": 1610,
+        "live": 1610
+      },
+      "sections": [
+        {
+          "section": "shell.footer",
+          "order": 0,
+          "score": 1.0,
+          "pixels": 1074240
+        }
+      ]
+    },
+    "/case/speaking-writing-and-features/": {
+      "pageHeight": {
+        "clone": 6956,
+        "live": 6956
+      },
+      "sections": [
+        {
+          "section": "hero.case",
+          "order": 0,
+          "score": 0.8007,
+          "pixels": 1244160
+        },
+        {
+          "section": "content.media-text",
+          "order": 1,
+          "score": 1.0,
+          "pixels": 990720
+        },
+        {
+          "section": "content.media-text",
+          "order": 2,
+          "score": 1.0,
+          "pixels": 990720
+        },
+        {
+          "section": "content.media-text",
+          "order": 3,
+          "score": 0.9996,
+          "pixels": 990720
+        },
+        {
+          "section": "content.media-text",
+          "order": 4,
+          "score": 0.9999,
+          "pixels": 990720
+        },
+        {
+          "section": "content.media-text",
+          "order": 5,
+          "score": 0.9998,
+          "pixels": 990720
+        },
+        {
+          "section": "content.media-text",
+          "order": 6,
+          "score": 1.0,
+          "pixels": 990720
+        },
+        {
+          "section": "content.text",
+          "order": 7,
+          "score": 1.0,
+          "pixels": 216000
+        },
+        {
+          "section": "navigation.next-case",
+          "order": 8,
+          "score": 0.8776,
+          "pixels": 1382400
+        },
+        {
+          "section": "shell.footer",
+          "order": 9,
+          "score": 0.9939,
+          "pixels": 1152000
+        }
+      ]
+    },
+    "/case/the-search-for-work-happiness-book/": {
+      "pageHeight": {
+        "clone": 11854,
+        "live": 11854
+      },
+      "sections": [
+        {
+          "section": "hero.case",
+          "order": 0,
+          "score": 0.806,
+          "pixels": 1244160
+        },
+        {
+          "section": "content.media-text",
+          "order": 1,
+          "score": 0.9994,
+          "pixels": 1054080
+        },
+        {
+          "section": "content.title-text",
+          "order": 2,
+          "score": 0.9991,
+          "pixels": 817920
+        },
+        {
+          "section": "media.carousel",
+          "order": 3,
+          "score": 1.0,
+          "pixels": 828000
+        },
+        {
+          "section": "content.text",
+          "order": 4,
+          "score": 1.0,
+          "pixels": 411840
+        },
+        {
+          "section": "content.text",
+          "order": 5,
+          "score": 1.0,
+          "pixels": 308160
+        },
+        {
+          "section": "media.image",
+          "order": 6,
+          "score": 0.9995,
+          "pixels": 1166400
+        },
+        {
+          "section": "content.text",
+          "order": 7,
+          "score": 0.9999,
+          "pixels": 354240
+        },
+        {
+          "section": "media.carousel",
+          "order": 8,
+          "score": 1.0,
+          "pixels": 826560
+        },
+        {
+          "section": "content.text",
+          "order": 9,
+          "score": 1.0,
+          "pixels": 354240
+        },
+        {
+          "section": "media.image",
+          "order": 10,
+          "score": 0.9981,
+          "pixels": 1342080
+        },
+        {
+          "section": "content.text",
+          "order": 11,
+          "score": 0.9999,
+          "pixels": 354240
+        },
+        {
+          "section": "media.image",
+          "order": 12,
+          "score": 0.9994,
+          "pixels": 3002400
+        },
+        {
+          "section": "content.text",
+          "order": 13,
+          "score": 1.0,
+          "pixels": 411840
+        },
+        {
+          "section": "media.image",
+          "order": 14,
+          "score": 0.9996,
+          "pixels": 1981440
+        },
+        {
+          "section": "navigation.next-case",
+          "order": 15,
+          "score": 0.8436,
+          "pixels": 1382400
+        },
+        {
+          "section": "shell.footer",
+          "order": 16,
+          "score": 1.0,
+          "pixels": 1874880
+        }
+      ]
+    },
+    "/case/understanding-diseases/": {
+      "pageHeight": {
+        "clone": 12794,
+        "live": 12794
+      },
+      "sections": [
+        {
+          "section": "hero.case",
+          "order": 0,
+          "score": 0.7437,
+          "pixels": 1244160
+        },
+        {
+          "section": "content.media-text",
+          "order": 1,
+          "score": 0.9998,
+          "pixels": 1056960
+        },
+        {
+          "section": "content.title-text",
+          "order": 2,
+          "score": 1.0,
+          "pixels": 730080
+        },
+        {
+          "section": "content.text",
+          "order": 3,
+          "score": 1.0,
+          "pixels": 411840
+        },
+        {
+          "section": "media.video",
+          "order": 4,
+          "score": 1.0,
+          "pixels": 1006560
+        },
+        {
+          "section": "content.text",
+          "order": 5,
+          "score": 0.9996,
+          "pixels": 308160
+        },
+        {
+          "section": "media.image",
+          "order": 6,
+          "score": 1.0,
+          "pixels": 934560
+        },
+        {
+          "section": "content.text",
+          "order": 7,
+          "score": 1.0,
+          "pixels": 308160
+        },
+        {
+          "section": "media.image",
+          "order": 8,
+          "score": 0.9996,
+          "pixels": 1056960
+        },
+        {
+          "section": "content.text",
+          "order": 9,
+          "score": 1.0,
+          "pixels": 308160
+        },
+        {
+          "section": "media.image",
+          "order": 10,
+          "score": 0.9999,
+          "pixels": 1166400
+        },
+        {
+          "section": "content.text",
+          "order": 11,
+          "score": 1.0,
+          "pixels": 308160
+        },
+        {
+          "section": "media.image",
+          "order": 12,
+          "score": 0.9981,
+          "pixels": 1103040
+        },
+        {
+          "section": "media.image",
+          "order": 13,
+          "score": 1.0,
+          "pixels": 1239840
+        },
+        {
+          "section": "media.image",
+          "order": 14,
+          "score": 1.0,
+          "pixels": 2327040
+        },
+        {
+          "section": "content.text",
+          "order": 15,
+          "score": 1.0,
+          "pixels": 411840
+        },
+        {
+          "section": "media.image",
+          "order": 16,
+          "score": 0.9979,
+          "pixels": 2090880
+        },
+        {
+          "section": "navigation.next-case",
+          "order": 17,
+          "score": 0.8615,
+          "pixels": 1382400
+        },
+        {
+          "section": "shell.footer",
+          "order": 18,
+          "score": 1.0,
+          "pixels": 1817280
+        }
+      ]
+    },
+    "/case/yall-agency/": {
+      "pageHeight": {
+        "clone": 10374,
+        "live": 10374
+      },
+      "sections": [
+        {
+          "section": "hero.case",
+          "order": 0,
+          "score": 0.7519,
+          "pixels": 1244160
+        },
+        {
+          "section": "content.media-text",
+          "order": 1,
+          "score": 1.0,
+          "pixels": 1056960
+        },
+        {
+          "section": "content.title-text",
+          "order": 2,
+          "score": 0.998,
+          "pixels": 561600
+        },
+        {
+          "section": "media.video",
+          "order": 3,
+          "score": 1.0,
+          "pixels": 1006560
+        },
+        {
+          "section": "content.text",
+          "order": 4,
+          "score": 1.0,
+          "pixels": 411840
+        },
+        {
+          "section": "content.text",
+          "order": 5,
+          "score": 1.0,
+          "pixels": 354240
+        },
+        {
+          "section": "media.carousel",
+          "order": 6,
+          "score": 1.0,
+          "pixels": 640800
+        },
+        {
+          "section": "content.text",
+          "order": 7,
+          "score": 1.0,
+          "pixels": 354240
+        },
+        {
+          "section": "media.carousel",
+          "order": 8,
+          "score": 1.0,
+          "pixels": 1003680
+        },
+        {
+          "section": "content.text",
+          "order": 9,
+          "score": 1.0,
+          "pixels": 308160
+        },
+        {
+          "section": "media.carousel",
+          "order": 10,
+          "score": 1.0,
+          "pixels": 828000
+        },
+        {
+          "section": "content.text",
+          "order": 11,
+          "score": 0.9989,
+          "pixels": 260640
+        },
+        {
+          "section": "media.image",
+          "order": 12,
+          "score": 0.9998,
+          "pixels": 1166400
+        },
+        {
+          "section": "content.text",
+          "order": 13,
+          "score": 0.9988,
+          "pixels": 308160
+        },
+        {
+          "section": "media.image",
+          "order": 14,
+          "score": 0.9918,
+          "pixels": 2494080
+        },
+        {
+          "section": "content.text",
+          "order": 15,
+          "score": 1.0,
+          "pixels": 325440
+        },
+        {
+          "section": "navigation.next-case",
+          "order": 16,
+          "score": 0.8732,
+          "pixels": 1382400
+        },
+        {
+          "section": "shell.footer",
+          "order": 17,
+          "score": 1.0,
+          "pixels": 1414080
+        }
+      ]
+    }
+  },
+  "runs": [
+    {
+      "average": 0.9731,
+      "belowGate": 6,
+      "perSection": {
+        "/": {
+          "0:hero.home": 0.9832,
+          "1:content.case-index-item": 1.0,
+          "2:content.case-index-item": 1.0,
+          "3:content.case-index-item": 1.0,
+          "4:content.case-index-item": 1.0,
+          "5:content.case-index-item": 1.0,
+          "6:content.case-index-item": 0.9947,
+          "7:content.case-index-item": 0.9983,
+          "8:content.case-index-item": 1.0,
+          "9:content.case-index-item": 1.0,
+          "10:conversion.connect": 0.9126,
+          "11:shell.footer": 1.0
+        },
+        "/case/a-browser-bending-look-at-vision-loss/": {
+          "0:hero.case": 0.8637,
+          "1:content.media-text": 1.0,
+          "2:media.video": 1.0,
+          "3:content.title-text": 0.9953,
+          "4:content.text": 1.0,
+          "5:media.image": 0.9994,
+          "6:content.text": 1.0,
+          "7:media.image": 0.9981,
+          "8:content.text": 1.0,
+          "9:media.image": 0.9993,
+          "10:content.text": 1.0,
+          "11:media.image": 0.999,
+          "12:content.text": 1.0,
+          "13:media.image": 0.9976,
+          "14:navigation.next-case": 0.8489,
+          "15:shell.footer": 1.0
+        },
+        "/case/designing-a-world-full-of-kindness/": {
+          "0:hero.case": 0.8038,
+          "1:content.media-text": 1.0,
+          "2:content.title-text": 0.9965,
+          "3:content.text": 1.0,
+          "4:media.image": 0.9973,
+          "5:content.text": 1.0,
+          "6:media.image": 0.9973,
+          "7:content.text": 1.0,
+          "8:media.image": 0.9991,
+          "9:content.text": 1.0,
+          "10:media.image": 0.9895,
+          "11:content.text": 1.0,
+          "12:media.image": 0.9867,
+          "13:navigation.next-case": 0.8613,
+          "14:shell.footer": 1.0
+        },
+        "/case/dl-brand/": {
+          "0:hero.case": 0.7782,
+          "1:content.media-text": 1.0,
+          "2:content.title-text": 0.9998,
+          "3:media.carousel": 1.0,
+          "4:content.text": 1.0,
+          "5:content.text": 0.9992,
+          "6:media.image": 0.9997,
+          "7:content.text": 0.9999,
+          "8:media.video": 1.0,
+          "9:content.text": 0.9993,
+          "10:media.image": 1.0,
+          "11:media.image": 0.9987,
+          "12:content.text": 1.0,
+          "13:media.image": 0.9968,
+          "14:content.text": 1.0,
+          "15:navigation.next-case": 0.8838,
+          "16:shell.footer": 1.0
+        },
+        "/case/espn-who-can-break-calvins-record/": {
+          "0:hero.case": 0.7432,
+          "1:content.media-text": 0.9992,
+          "2:content.title-text": 1.0,
+          "3:content.text": 1.0,
+          "4:media.image": 0.9989,
+          "5:content.text": 1.0,
+          "6:media.image": 0.9973,
+          "7:content.text": 1.0,
+          "8:media.image": 1.0,
+          "9:content.text": 0.9995,
+          "10:media.image": 0.9982,
+          "11:content.text": 0.9955,
+          "12:media.carousel": 1.0,
+          "13:navigation.next-case": 0.8764,
+          "14:shell.footer": 1.0
+        },
+        "/case/find-work-happiness/": {
+          "0:hero.case": 0.7192,
+          "1:content.media-text": 0.9977,
+          "2:content.title-text": 0.9997,
+          "3:content.text": 1.0,
+          "4:media.image": 0.9985,
+          "5:content.text": 1.0,
+          "6:media.image": 0.9991,
+          "7:content.text": 0.9998,
+          "8:media.image": 0.9984,
+          "9:media.image": 0.9998,
+          "10:content.text": 0.9988,
+          "11:media.image": 0.9973,
+          "12:media.image": 1.0,
+          "13:content.text": 1.0,
+          "14:media.image": 0.9996,
+          "15:media.image": 0.9988,
+          "16:content.text": 1.0,
+          "17:media.carousel": 1.0,
+          "18:navigation.next-case": 0.8806,
+          "19:shell.footer": 0.9948
+        },
+        "/case/restricted-work/": {
+          "0:shell.footer": 1.0
+        },
+        "/case/speaking-writing-and-features/": {
+          "0:hero.case": 0.6969,
+          "1:content.media-text": 1.0,
+          "2:content.media-text": 1.0,
+          "3:content.media-text": 0.9996,
+          "4:content.media-text": 0.9999,
+          "5:content.media-text": 0.9998,
+          "6:content.media-text": 1.0,
+          "7:content.text": 1.0,
+          "8:navigation.next-case": 0.8805,
+          "9:shell.footer": 0.9939
+        },
+        "/case/the-search-for-work-happiness-book/": {
+          "0:hero.case": 0.7561,
+          "1:content.media-text": 1.0,
+          "2:content.title-text": 0.9986,
+          "3:media.carousel": 1.0,
+          "4:content.text": 1.0,
+          "5:content.text": 1.0,
+          "6:media.image": 0.9995,
+          "7:content.text": 0.9999,
+          "8:media.carousel": 1.0,
+          "9:content.text": 0.999,
+          "10:media.image": 0.9981,
+          "11:content.text": 1.0,
+          "12:media.image": 0.9994,
+          "13:content.text": 0.9975,
+          "14:media.image": 0.9996,
+          "15:navigation.next-case": 0.8475,
+          "16:shell.footer": 1.0
+        },
+        "/case/understanding-diseases/": {
+          "0:hero.case": 0.7777,
+          "1:content.media-text": 1.0,
+          "2:content.title-text": 0.9988,
+          "3:content.text": 1.0,
+          "4:media.video": 1.0,
+          "5:content.text": 1.0,
+          "6:media.image": 1.0,
+          "7:content.text": 0.9988,
+          "8:media.image": 0.9996,
+          "9:content.text": 0.9994,
+          "10:media.image": 0.9999,
+          "11:content.text": 1.0,
+          "12:media.image": 0.9981,
+          "13:media.image": 1.0,
+          "14:media.image": 1.0,
+          "15:content.text": 1.0,
+          "16:media.image": 0.9979,
+          "17:navigation.next-case": 0.8593,
+          "18:shell.footer": 0.9998
+        },
+        "/case/yall-agency/": {
+          "0:hero.case": 0.9471,
+          "1:content.media-text": 1.0,
+          "2:content.title-text": 0.9999,
+          "3:media.video": 1.0,
+          "4:content.text": 1.0,
+          "5:content.text": 1.0,
+          "6:media.carousel": 1.0,
+          "7:content.text": 0.9999,
+          "8:media.carousel": 1.0,
+          "9:content.text": 1.0,
+          "10:media.carousel": 1.0,
+          "11:content.text": 0.9989,
+          "12:media.image": 0.9998,
+          "13:content.text": 0.9988,
+          "14:media.image": 0.9918,
+          "15:content.text": 0.9989,
+          "16:navigation.next-case": 0.8842,
+          "17:shell.footer": 1.0
+        }
+      }
+    },
+    {
+      "average": 0.973,
+      "belowGate": 5,
+      "perSection": {
+        "/": {
+          "0:hero.home": 0.9727,
+          "1:content.case-index-item": 0.9956,
+          "2:content.case-index-item": 0.9985,
+          "3:content.case-index-item": 1.0,
+          "4:content.case-index-item": 1.0,
+          "5:content.case-index-item": 0.9949,
+          "6:content.case-index-item": 1.0,
+          "7:content.case-index-item": 1.0,
+          "8:content.case-index-item": 1.0,
+          "9:content.case-index-item": 1.0,
+          "10:conversion.connect": 0.9089,
+          "11:shell.footer": 1.0
+        },
+        "/case/a-browser-bending-look-at-vision-loss/": {
+          "0:hero.case": 0.7986,
+          "1:content.media-text": 1.0,
+          "2:media.video": 1.0,
+          "3:content.title-text": 0.9953,
+          "4:content.text": 1.0,
+          "5:media.image": 0.9994,
+          "6:content.text": 1.0,
+          "7:media.image": 0.9981,
+          "8:content.text": 1.0,
+          "9:media.image": 0.9993,
+          "10:content.text": 1.0,
+          "11:media.image": 0.999,
+          "12:content.text": 1.0,
+          "13:media.image": 0.9976,
+          "14:navigation.next-case": 0.8342,
+          "15:shell.footer": 0.9998
+        },
+        "/case/designing-a-world-full-of-kindness/": {
+          "0:hero.case": 0.8281,
+          "1:content.media-text": 1.0,
+          "2:content.title-text": 0.9965,
+          "3:content.text": 1.0,
+          "4:media.image": 0.9973,
+          "5:content.text": 1.0,
+          "6:media.image": 0.9973,
+          "7:content.text": 1.0,
+          "8:media.image": 0.9991,
+          "9:content.text": 1.0,
+          "10:media.image": 0.9895,
+          "11:content.text": 1.0,
+          "12:media.image": 0.9867,
+          "13:navigation.next-case": 0.8575,
+          "14:shell.footer": 1.0
+        },
+        "/case/dl-brand/": {
+          "0:hero.case": 0.8125,
+          "1:content.media-text": 0.9981,
+          "2:content.title-text": 1.0,
+          "3:media.carousel": 1.0,
+          "4:content.text": 1.0,
+          "5:content.text": 0.9992,
+          "6:media.image": 0.9997,
+          "7:content.text": 1.0,
+          "8:media.video": 1.0,
+          "9:content.text": 1.0,
+          "10:media.image": 1.0,
+          "11:media.image": 0.9987,
+          "12:content.text": 1.0,
+          "13:media.image": 0.9968,
+          "14:content.text": 1.0,
+          "15:navigation.next-case": 0.8865,
+          "16:shell.footer": 1.0
+        },
+        "/case/espn-who-can-break-calvins-record/": {
+          "0:hero.case": 0.7446,
+          "1:content.media-text": 0.9992,
+          "2:content.title-text": 1.0,
+          "3:content.text": 1.0,
+          "4:media.image": 0.9989,
+          "5:content.text": 1.0,
+          "6:media.image": 0.9973,
+          "7:content.text": 0.9992,
+          "8:media.image": 1.0,
+          "9:content.text": 1.0,
+          "10:media.image": 0.9982,
+          "11:content.text": 0.9955,
+          "12:media.carousel": 1.0,
+          "13:navigation.next-case": 0.8707,
+          "14:shell.footer": 1.0
+        },
+        "/case/find-work-happiness/": {
+          "0:hero.case": 0.7712,
+          "1:content.media-text": 0.9977,
+          "2:content.title-text": 0.9997,
+          "3:content.text": 1.0,
+          "4:media.image": 0.9985,
+          "5:content.text": 0.9995,
+          "6:media.image": 0.9991,
+          "7:content.text": 1.0,
+          "8:media.image": 0.9984,
+          "9:media.image": 0.9998,
+          "10:content.text": 0.9988,
+          "11:media.image": 0.9973,
+          "12:media.image": 1.0,
+          "13:content.text": 1.0,
+          "14:media.image": 0.9996,
+          "15:media.image": 0.9988,
+          "16:content.text": 1.0,
+          "17:media.carousel": 1.0,
+          "18:navigation.next-case": 0.9503,
+          "19:shell.footer": 0.9949
+        },
+        "/case/restricted-work/": {
+          "0:shell.footer": 1.0
+        },
+        "/case/speaking-writing-and-features/": {
+          "0:hero.case": 0.8007,
+          "1:content.media-text": 1.0,
+          "2:content.media-text": 1.0,
+          "3:content.media-text": 0.9996,
+          "4:content.media-text": 0.9999,
+          "5:content.media-text": 0.9998,
+          "6:content.media-text": 1.0,
+          "7:content.text": 1.0,
+          "8:navigation.next-case": 0.8776,
+          "9:shell.footer": 0.9939
+        },
+        "/case/the-search-for-work-happiness-book/": {
+          "0:hero.case": 0.806,
+          "1:content.media-text": 0.9994,
+          "2:content.title-text": 0.9991,
+          "3:media.carousel": 1.0,
+          "4:content.text": 1.0,
+          "5:content.text": 1.0,
+          "6:media.image": 0.9995,
+          "7:content.text": 0.9999,
+          "8:media.carousel": 1.0,
+          "9:content.text": 1.0,
+          "10:media.image": 0.9981,
+          "11:content.text": 0.9999,
+          "12:media.image": 0.9994,
+          "13:content.text": 1.0,
+          "14:media.image": 0.9996,
+          "15:navigation.next-case": 0.8436,
+          "16:shell.footer": 1.0
+        },
+        "/case/understanding-diseases/": {
+          "0:hero.case": 0.7437,
+          "1:content.media-text": 0.9998,
+          "2:content.title-text": 1.0,
+          "3:content.text": 1.0,
+          "4:media.video": 1.0,
+          "5:content.text": 0.9996,
+          "6:media.image": 1.0,
+          "7:content.text": 1.0,
+          "8:media.image": 0.9996,
+          "9:content.text": 1.0,
+          "10:media.image": 0.9999,
+          "11:content.text": 1.0,
+          "12:media.image": 0.9981,
+          "13:media.image": 1.0,
+          "14:media.image": 1.0,
+          "15:content.text": 1.0,
+          "16:media.image": 0.9979,
+          "17:navigation.next-case": 0.8615,
+          "18:shell.footer": 1.0
+        },
+        "/case/yall-agency/": {
+          "0:hero.case": 0.7519,
+          "1:content.media-text": 1.0,
+          "2:content.title-text": 0.998,
+          "3:media.video": 1.0,
+          "4:content.text": 1.0,
+          "5:content.text": 1.0,
+          "6:media.carousel": 1.0,
+          "7:content.text": 1.0,
+          "8:media.carousel": 1.0,
+          "9:content.text": 1.0,
+          "10:media.carousel": 1.0,
+          "11:content.text": 0.9989,
+          "12:media.image": 0.9998,
+          "13:content.text": 0.9988,
+          "14:media.image": 0.9918,
+          "15:content.text": 1.0,
+          "16:navigation.next-case": 0.8732,
+          "17:shell.footer": 1.0
+        }
+      }
+    }
+  ],
+  "exceptions": [
+    {
+      "route": "/case/a-browser-bending-look-at-vision-loss/",
+      "section": "hero.case",
+      "order": 0,
+      "score": 0.7986,
+      "cause": "Matter.js physics bodies get Math.random() angular velocity on every load (src/components/ShapesHeroCase.jsx) on BOTH sides; shape and photo positions differ per load by design.",
+      "status": "pending human approval",
+      "approvedBy": null
+    },
+    {
+      "route": "/case/espn-who-can-break-calvins-record/",
+      "section": "hero.case",
+      "order": 0,
+      "score": 0.7446,
+      "cause": "Matter.js physics bodies get Math.random() angular velocity on every load (src/components/ShapesHeroCase.jsx) on BOTH sides; shape and photo positions differ per load by design.",
+      "status": "pending human approval",
+      "approvedBy": null
+    },
+    {
+      "route": "/case/find-work-happiness/",
+      "section": "hero.case",
+      "order": 0,
+      "score": 0.7712,
+      "cause": "Matter.js physics bodies get Math.random() angular velocity on every load (src/components/ShapesHeroCase.jsx) on BOTH sides; shape and photo positions differ per load by design.",
+      "status": "pending human approval",
+      "approvedBy": null
+    },
+    {
+      "route": "/case/understanding-diseases/",
+      "section": "hero.case",
+      "order": 0,
+      "score": 0.7437,
+      "cause": "Matter.js physics bodies get Math.random() angular velocity on every load (src/components/ShapesHeroCase.jsx) on BOTH sides; shape and photo positions differ per load by design.",
+      "status": "pending human approval",
+      "approvedBy": null
+    },
+    {
+      "route": "/case/yall-agency/",
+      "section": "hero.case",
+      "order": 0,
+      "score": 0.7519,
+      "cause": "Matter.js physics bodies get Math.random() angular velocity on every load (src/components/ShapesHeroCase.jsx) on BOTH sides; shape and photo positions differ per load by design.",
+      "status": "pending human approval",
+      "approvedBy": null
+    }
+  ]
+}

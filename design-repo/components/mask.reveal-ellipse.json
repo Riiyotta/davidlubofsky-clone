@@ -1,0 +1,10 @@
+{
+  "id": "mask.reveal-ellipse",
+  "description": "Elliptical clip mask that follows the cursor.",
+  "props": [],
+  "source": {
+    "file": "src/components/home/HomeItems.jsx",
+    "lines": "88",
+    "tag": "home-item__clip-mask absolute inset-0"
+  }
+}

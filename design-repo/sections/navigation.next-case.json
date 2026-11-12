@@ -1,0 +1,87 @@
+{
+  "id": "navigation.next-case",
+  "title": "Next case",
+  "description": "White band linking to the next case: small title + pill button top-left, lettered words and an arrow fall as physics bodies onto a rotated semicircle holding the next case's image.",
+  "source": {
+    "id": "src:ShapesNext",
+    "file": "src/components/ShapesNext.jsx",
+    "lines": "128-157",
+    "tag": "className=\"next relative bg-white\""
+  },
+  "semantic": {
+    "id": "navigation.next-case",
+    "category": "NAVIGATION"
+  },
+  "retrievalEligible": true,
+  "variants": [],
+  "content": {
+    "title": {
+      "kind": "text",
+      "maxWords": 8
+    },
+    "ctaLabel": {
+      "kind": "text",
+      "maxWords": 3,
+      "evidenceLiterals": 1
+    },
+    "href": {
+      "kind": "href"
+    },
+    "lettering": {
+      "kind": "words",
+      "min": 1,
+      "max": 3
+    },
+    "featuredImage": {
+      "kind": "asset",
+      "roles": [
+        "case.featured-image"
+      ],
+      "generatedRoles": [
+        "generated.case-visual"
+      ]
+    }
+  },
+  "styleSlots": {},
+  "assetRoles": [
+    "case.featured-image"
+  ],
+  "generatedAssetRoles": [
+    "generated.case-visual"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowed": [
+      "physics-drop"
+    ],
+    "default": "physics-drop",
+    "reducedMotionFallback": {
+      "physics-drop": "static-composition"
+    }
+  },
+  "responsive": [
+    {
+      "at": "bp.s",
+      "change": "height-step",
+      "detail": "height 60rem -> 77rem; text column moves to 17.3rem",
+      "evidence": "src/components/ShapesNext.jsx:129",
+      "evidenceTag": "h-[60rem] s:h-[77rem]"
+    }
+  ],
+  "uses": {
+    "primitives": [
+      "button.pill"
+    ],
+    "components": [
+      "lettering.physics"
+    ],
+    "tokens": [
+      "type.subhead"
+    ]
+  },
+  "templates": [
+    "template.case-study"
+  ]
+}

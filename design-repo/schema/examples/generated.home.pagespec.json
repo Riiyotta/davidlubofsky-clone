@@ -1,0 +1,93 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "generated",
+  "template": "template.home",
+  "route": "/",
+  "theme": "dark",
+  "access": "public",
+  "meta": { "title": "Juniper Vale | Product design studio" },
+  "nodes": [
+    {
+      "section": "shell.header",
+      "content": {
+        "ownerName": "Juniper Vale",
+        "navLinks": [
+          { "label": "Projects", "href": "/#work" },
+          { "label": "Journal", "href": "https://journal.junipervale.example" },
+          { "label": "ig", "href": "https://social.junipervale.example" }
+        ],
+        "cta": { "label": "Start a project", "href": "mailto:hello@junipervale.example" },
+        "logo": { "role": "placeholder.brand-mark", "src": "placeholder:juniper-mark" }
+      },
+      "motion": { "pattern": "none", "reducedMotionFallback": "none" }
+    },
+    {
+      "section": "hero.home",
+      "content": {
+        "headline": "Research, Interfaces, Prototypes, and Launches",
+        "scrollCue": "Scroll for selected projects",
+        "videoCallout": "Meet the studio in sixty seconds",
+        "video": { "role": "fictional.person-media", "src": "generated:studio-portrait-loop" }
+      },
+      "motion": { "pattern": "physics-drop", "reducedMotionFallback": "static-composition" }
+    },
+    {
+      "section": "content.case-index-intro",
+      "content": { "annotation": "A few launches we shaped with kind, curious teams." },
+      "motion": { "pattern": "draw-annotation", "reducedMotionFallback": "static-annotation" }
+    },
+    {
+      "section": "content.case-index-item",
+      "content": {
+        "index": "01",
+        "title": "A calmer way to catch the ferry",
+        "highlight": "calmer",
+        "description": "A transit companion that turns timetables into gentle, glanceable nudges.",
+        "linkLabel": "Read the story",
+        "href": "/case/tidepool-transit/",
+        "clientLogo": { "role": "placeholder.brand-mark", "src": "placeholder:tidepool-mark" },
+        "featuredImage": { "role": "generated.case-visual", "src": "generated:tidepool-cover" }
+      },
+      "motion": { "pattern": "mask-reveal-follow", "reducedMotionFallback": "hidden-until-focus" }
+    },
+    {
+      "section": "content.case-index-item",
+      "content": {
+        "index": "02",
+        "title": "Bookkeeping that feels like gardening",
+        "highlight": "gardening",
+        "description": "Turning monthly accounts for small bakeries into a ten minute ritual.",
+        "linkLabel": "Read the story",
+        "href": "/case/fernleaf-ledger/",
+        "featuredImage": { "role": "generated.case-visual", "src": "generated:fernleaf-cover" }
+      },
+      "motion": { "pattern": "mask-reveal-follow", "reducedMotionFallback": "hidden-until-focus" }
+    },
+    {
+      "section": "conversion.connect",
+      "content": {
+        "lettering": ["Say", "hello", "anytime"],
+        "video": { "role": "fictional.person-media", "src": "generated:studio-portrait-loop" },
+        "cta": { "label": "Write to us", "href": "mailto:hello@junipervale.example" }
+      },
+      "motion": { "pattern": "physics-drop", "reducedMotionFallback": "static-composition" }
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "statement": "Design that keeps people first",
+        "highlight": "people",
+        "availabilityLabel": "Booking from:",
+        "availabilityValue": "September",
+        "links": [
+          { "label": "Email the studio", "href": "mailto:hello@junipervale.example" },
+          { "label": "Studio journal", "href": "https://journal.junipervale.example" },
+          { "label": "Open roles", "href": "https://jobs.junipervale.example" }
+        ],
+        "legal": "Juniper Vale studio, est. 2019",
+        "mascot": { "role": "generated.decorative-illustration", "src": "generated:paper-crane" }
+      },
+      "motion": { "pattern": "parallax-up", "reducedMotionFallback": "static" }
+    }
+  ]
+}

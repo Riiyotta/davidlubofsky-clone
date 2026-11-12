@@ -1,0 +1,81 @@
+{
+  "id": "conversion.connect",
+  "title": "Contact invitation",
+  "description": "Words of an invitation fall as physics bodies around a centred video card with play button and a pill 'message' CTA.",
+  "source": {
+    "id": "src:ShapesConnect",
+    "file": "src/components/home/ShapesConnect.jsx",
+    "lines": "133-152",
+    "tag": "relative pb-175"
+  },
+  "semantic": {
+    "id": "conversion.connect",
+    "category": "CONVERSION"
+  },
+  "retrievalEligible": true,
+  "variants": [],
+  "content": {
+    "lettering": {
+      "kind": "words",
+      "min": 1,
+      "max": 4
+    },
+    "video": {
+      "kind": "asset",
+      "roles": [
+        "person.intro-video"
+      ],
+      "generatedRoles": [
+        "fictional.person-media"
+      ]
+    },
+    "cta": {
+      "kind": "link",
+      "labelMaxWords": 4
+    }
+  },
+  "styleSlots": {},
+  "assetRoles": [
+    "person.intro-video"
+  ],
+  "generatedAssetRoles": [
+    "fictional.person-media"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowed": [
+      "physics-drop"
+    ],
+    "default": "physics-drop",
+    "reducedMotionFallback": {
+      "physics-drop": "static-composition"
+    }
+  },
+  "responsive": [
+    {
+      "at": "bp.s",
+      "change": "size-step",
+      "detail": "video card 17.5rem -> 29.5rem wide; physics scale x2 below 650px",
+      "evidence": "src/components/home/ShapesConnect.jsx:138",
+      "evidenceTag": "w-[17.5rem] s:w-[29.5rem]"
+    }
+  ],
+  "uses": {
+    "primitives": [
+      "button.pill"
+    ],
+    "components": [
+      "card.video",
+      "lettering.physics"
+    ],
+    "tokens": [
+      "type.lettering-xxl",
+      "radius.card-l"
+    ]
+  },
+  "templates": [
+    "template.home"
+  ]
+}

@@ -1,0 +1,22 @@
+section,category,templates,routes,Home (dark project index),Case: images + carousel + grey band,Case: video + carousels + images + grey band,Case: video + images + grey band,Case: opening video then numbered images,Case: numbered images only,Case: list of image + statement blocks,Case: password-gated client work
+shell.header,SHELL,8,11,x,x,x,x,x,x,x,x
+shell.footer,SHELL,8,11,x,x,x,x,x,x,x,x
+utility.preloader,UTILITY,8,11,x,x,x,x,x,x,x,x
+utility.page-transition,UTILITY,8,11,x,x,x,x,x,x,x,x
+utility.back-button,UTILITY,7,10,,x,x,x,x,x,x,x
+hero.case,HERO,7,10,,x,x,x,x,x,x,x
+content.text,CONTENT,7,10,,x,x,x,x,x,x,x
+navigation.next-case,NAVIGATION,7,10,,x,x,x,x,x,x,x
+content.media-text,CONTENT,6,9,,x,x,x,x,x,x,
+media.image,MEDIA,6,9,,x,x,x,x,x,,x
+content.title-text,CONTENT,5,8,,x,x,x,x,x,,
+layout.gray-band,LAYOUT,4,7,,x,x,x,,,,x
+media.video,MEDIA,4,5,,,x,x,x,,,x
+media.carousel,MEDIA,2,5,,x,x,,,,,
+utility.video-modal,UTILITY,1,1,x,,,,,,,
+utility.password-gate,UTILITY,1,1,,,,,,,,x
+hero.home,HERO,1,1,x,,,,,,,
+content.case-index-intro,INDEX,1,1,x,,,,,,,
+content.case-index-item,INDEX,1,1,x,,,,,,,
+conversion.connect,CONVERSION,1,1,x,,,,,,,
+ROUTE COUNT,,,11,1,3,2,1,1,1,1,1

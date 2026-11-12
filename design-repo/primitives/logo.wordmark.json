@@ -1,0 +1,10 @@
+{
+  "id": "logo.wordmark",
+  "description": "Three-part logo mark (half-disc, bar, wedge).",
+  "props": [],
+  "source": {
+    "file": "src/components/Header.jsx",
+    "lines": "33",
+    "tag": "viewBox=\"0 0 60 49\""
+  }
+}

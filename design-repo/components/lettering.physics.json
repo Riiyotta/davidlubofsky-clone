@@ -1,0 +1,12 @@
+{
+  "id": "lettering.physics",
+  "description": "SVG words plus convex hull shapes that fall as physics bodies.",
+  "props": [
+    "words"
+  ],
+  "source": {
+    "file": "src/components/ShapesNext.jsx",
+    "lines": "36-50",
+    "tag": "const shape = (i = 0, x = 1, yMul = 1, av = 0) => {"
+  }
+}

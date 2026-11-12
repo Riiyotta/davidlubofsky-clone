@@ -1,0 +1,26 @@
+{
+  "$comment": "Semantic section id -> CSS selector used by measure_sections.mjs / parity tooling to locate each section in the rendered clone. Selectors target the clone's rendered DOM only; they are measurement plumbing, not part of any content contract.",
+  "selectorsVersion": "1.0.0",
+  "sections": {
+    "shell.header": { "selector": "header.site-head" },
+    "shell.footer": { "selector": "footer.foot" },
+    "utility.preloader": { "selector": "div.fixed.inset-0.bg-black.z-10", "runtime": true },
+    "utility.page-transition": { "selector": "div.js-mask", "runtime": true },
+    "utility.video-modal": { "selector": "aside.fixed.inset-0", "runtime": true },
+    "utility.back-button": { "selector": "a.back", "runtime": true },
+    "utility.password-gate": { "selector": "form#login", "runtime": true },
+    "hero.home": { "selector": "div.home-hero" },
+    "content.case-index-intro": { "selector": "#work > div.absolute" },
+    "content.case-index-item": { "selector": "article.home-item" },
+    "conversion.connect": { "selector": "#work ~ section" },
+    "hero.case": { "selector": "div.case-hero" },
+    "content.media-text": { "selector": "section.media-text" },
+    "content.title-text": { "selector": "div.content" },
+    "content.text": { "selector": "div.title-text" },
+    "media.image": { "selector": "div.block-media:not(:has(video))" },
+    "media.video": { "selector": "div.block-media:has(video)" },
+    "media.carousel": { "selector": "div.carousel" },
+    "layout.gray-band": { "selector": "div[class*='bg-gray-case']" },
+    "navigation.next-case": { "selector": "div.js-bg-end" }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "theme": "dark",
+  "templates": [
+    "template.home"
+  ],
+  "resolves": {
+    "text.primary": "color.neutral.0",
+    "text.inverse": "color.neutral.900",
+    "surface.page": "color.neutral.900",
+    "surface.brand": "color.brand.yellow",
+    "surface.footer-start": "color.brand.yellow-light",
+    "surface.media-fill": "color.neutral.200",
+    "surface.band": "color.neutral.150",
+    "surface.input": "color.neutral.100",
+    "surface.modal-track": "color.neutral.600",
+    "shape.fill": "color.neutral.700",
+    "mark.highlight": "color.brand.yellow",
+    "stroke.annotation": "color.brand.yellow-stroke",
+    "logo.secondary": "color.neutral.400"
+  }
+}

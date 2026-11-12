@@ -1,0 +1,307 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "generated",
+  "template": "template.case-study",
+  "route": "/case/tidepool-transit/",
+  "theme": "light",
+  "access": "public",
+  "meta": {
+    "title": "Tidepool Transit | Juniper Vale"
+  },
+  "nodes": [
+    {
+      "section": "shell.header",
+      "content": {
+        "ownerName": "Juniper Vale",
+        "navLinks": [
+          {
+            "label": "Projects",
+            "href": "/#work"
+          },
+          {
+            "label": "Journal",
+            "href": "https://journal.junipervale.example"
+          },
+          {
+            "label": "ig",
+            "href": "https://social.junipervale.example"
+          }
+        ],
+        "cta": {
+          "label": "Start a project",
+          "href": "mailto:hello@junipervale.example"
+        },
+        "logo": {
+          "role": "placeholder.brand-mark",
+          "src": "placeholder:juniper-mark"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "hero.case",
+      "content": {
+        "title": "A calmer way to catch the ferry",
+        "highlight": "calmer",
+        "rolesLabel": "Roles",
+        "roles": "Research, Interaction design",
+        "description": "A transit companion that turns timetables into gentle, glanceable nudges",
+        "featuredImage": {
+          "role": "generated.case-visual",
+          "src": "generated:tidepool-cover"
+        }
+      },
+      "style": {
+        "accent": "color.accent.teal"
+      },
+      "motion": {
+        "pattern": "line-reveal",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.media-text",
+      "content": {
+        "title": "Commuters wanted fewer surprises",
+        "highlight": "fewer",
+        "body": [
+          {
+            "text": "Island commuters juggle three ferry operators and a bus that rarely waits. We sat with them at the terminal for a week and mapped every moment of doubt."
+          }
+        ],
+        "cta": {
+          "label": "Try the prototype",
+          "href": "https://tidepool.example"
+        },
+        "image": {
+          "role": "generated.product-visual",
+          "src": "generated:tidepool-terminal"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.title-text",
+      "content": {
+        "title": "One timeline, three operators",
+        "body": [
+          {
+            "text": "Instead of three apps, riders see a single timeline that merges every sailing and connection.",
+            "highlights": [
+              "single"
+            ]
+          },
+          {
+            "text": "Delays ripple forward automatically, so the next leg is always honest.",
+            "strong": [
+              "Delays ripple forward automatically"
+            ]
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "index": "01",
+        "text": [
+          {
+            "text": "We prototyped glanceable cards that answer one question: do I need to hurry?",
+            "highlights": [
+              "glanceable"
+            ]
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "inset",
+      "content": {
+        "image": {
+          "role": "generated.product-visual",
+          "src": "generated:tidepool-cards"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "layout.gray-band",
+      "content": {},
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "generated.product-visual",
+          "src": "generated:tidepool-wall"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "index": "02",
+        "text": [
+          {
+            "text": "Field tests on the morning crossing cut missed connections by a third."
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.carousel",
+      "content": {
+        "images": [
+          {
+            "role": "generated.product-visual",
+            "src": "generated:tidepool-screen-1"
+          },
+          {
+            "role": "generated.product-visual",
+            "src": "generated:tidepool-screen-2"
+          },
+          {
+            "role": "generated.product-visual",
+            "src": "generated:tidepool-screen-3"
+          },
+          {
+            "role": "generated.product-visual",
+            "src": "generated:tidepool-screen-4"
+          },
+          {
+            "role": "generated.product-visual",
+            "src": "generated:tidepool-screen-5"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "drag-carousel",
+        "reducedMotionFallback": "native-scroll"
+      }
+    },
+    {
+      "section": "media.video",
+      "content": {
+        "video": {
+          "role": "generated.motion-loop",
+          "src": "generated:tidepool-walkthrough"
+        }
+      },
+      "motion": {
+        "pattern": "video-in-view",
+        "reducedMotionFallback": "poster-frame"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "statement",
+      "content": {
+        "text": [
+          {
+            "text": "Calm is a feature."
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "navigation.next-case",
+      "content": {
+        "title": "Bookkeeping that feels like gardening",
+        "ctaLabel": "Read it next",
+        "href": "/case/fernleaf-ledger/",
+        "lettering": [
+          "Up",
+          "next"
+        ],
+        "featuredImage": {
+          "role": "generated.case-visual",
+          "src": "generated:fernleaf-cover"
+        }
+      },
+      "motion": {
+        "pattern": "physics-drop",
+        "reducedMotionFallback": "static-composition"
+      }
+    },
+    {
+      "section": "utility.back-button",
+      "content": {
+        "label": "All projects"
+      },
+      "motion": {
+        "pattern": "pop-in-label-slide",
+        "reducedMotionFallback": "static-visible"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "statement": "Design that keeps people first",
+        "highlight": "people",
+        "availabilityLabel": "Booking from:",
+        "availabilityValue": "September",
+        "links": [
+          {
+            "label": "Email the studio",
+            "href": "mailto:hello@junipervale.example"
+          },
+          {
+            "label": "Studio journal",
+            "href": "https://journal.junipervale.example"
+          },
+          {
+            "label": "Open roles",
+            "href": "https://jobs.junipervale.example"
+          }
+        ],
+        "legal": "Juniper Vale studio, est. 2019",
+        "mascot": {
+          "role": "generated.decorative-illustration",
+          "src": "generated:paper-crane"
+        }
+      },
+      "motion": {
+        "pattern": "parallax-up",
+        "reducedMotionFallback": "static"
+      }
+    }
+  ]
+}

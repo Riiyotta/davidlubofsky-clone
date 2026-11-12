@@ -1,0 +1,319 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "reference",
+  "template": "template.case-study",
+  "route": "/case/speaking-writing-and-features/",
+  "theme": "light",
+  "access": "public",
+  "meta": {
+    "title": "DL | The portfolio of David Lubofsky"
+  },
+  "nodes": [
+    {
+      "section": "shell.header",
+      "content": {
+        "ownerName": "David Lubofsky",
+        "navLinks": [
+          {
+            "label": "My Work",
+            "href": "/#work"
+          },
+          {
+            "label": "My Book",
+            "href": "https://findworkhappiness.com"
+          },
+          {
+            "label": "in",
+            "href": "https://www.linkedin.com/in/davidalubofsky/"
+          }
+        ],
+        "cta": {
+          "label": "Let’s work together",
+          "href": "mailto:me@davidlubofsky.com"
+        },
+        "logo": {
+          "role": "brand.wordmark",
+          "src": "/favicon.svg"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "hero.case",
+      "content": {
+        "title": "Speaking, writing, and features",
+        "highlight": "features",
+        "rolesLabel": "Roles",
+        "roles": "Speaking events, podcasts, and book/article writing",
+        "description": "My thoughts and voice on breaking the browser and treating humans better.",
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1694808114-dlbig2.jpg"
+        }
+      },
+      "style": {
+        "accent": "color.accent.sun"
+      },
+      "motion": {
+        "pattern": "line-reveal",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.media-text",
+      "content": {
+        "title": "Making Humans Smile",
+        "body": [
+          {
+            "text": "Brooklyn Product Design talk",
+            "highlights": [
+              "talk"
+            ]
+          },
+          {
+            "text": "From bringing out the best of those around us through better human treatment, to bringing joy and delight to our customers through thoughtful design decisions, this talk is about putting smiles on the faces of others, and the impacts doing so has on our world. And on the products we deliver."
+          }
+        ],
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1699982212-dlspeech.jpg"
+        },
+        "cta": {
+          "label": "WATCH the talk",
+          "href": "https://www.youtube.com/watch?v=RHLOt9APtKo"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.media-text",
+      "content": {
+        "title": "Low-Key Legends Ep. 2",
+        "body": [
+          {
+            "text": "Low-Key Legends podcast",
+            "highlights": [
+              "podcast"
+            ]
+          },
+          {
+            "text": "A near two hour conversation with legendary podcast host Britton Stipetic about how when we begin to treat the people we work with, and the people that use the products we build, like actual human beings, amazing results will follow."
+          }
+        ],
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1694810419-spotify.jpg"
+        },
+        "cta": {
+          "label": "LISTEN on Spotify",
+          "href": "https://podcasters.spotify.com/pod/show/rogue-studio/episodes/David-Lubofsky--Building-a-22-person-agency-then-leaving-it--to-find-personal-happiness-e28bf6s"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.media-text",
+      "content": {
+        "title": "awwwards case study",
+        "body": [
+          {
+            "text": "awwwards case study",
+            "highlights": [
+              "case study"
+            ]
+          },
+          {
+            "text": "This case study from awwwards with myself, Bryan James, and Jesper Landberg takes a deep look into our approach and process to building a smile-filled, animated web version of a heavily-illustrated book."
+          }
+        ],
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1699982599-awwww.jpg"
+        },
+        "cta": {
+          "label": "READ the case study",
+          "href": "https://www.awwwards.com/case-study-the-search-for-work-happiness-web-experience.html"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.media-text",
+      "content": {
+        "title": "Self-published Book",
+        "body": [
+          {
+            "text": "Self-published book",
+            "highlights": [
+              "book"
+            ]
+          },
+          {
+            "text": "This book offers non-traditional approaches to reducing overwork and burnout, rethinking the pitch process, treating partners like humans, and many other methods to leading and managing that are focused on employee well-being."
+          }
+        ],
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1699983633-book.jpg"
+        },
+        "cta": {
+          "label": "GET the book",
+          "href": "https://www.amazon.com/dp/B0BTRW3DD8"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.media-text",
+      "content": {
+        "title": "On Mic with Jordan Rich",
+        "body": [
+          {
+            "text": "On Mic with Jordan Rich podcast (ep. 354)",
+            "highlights": [
+              "podcast"
+            ]
+          },
+          {
+            "text": "A lovely conversation about my book with Jordan Rich, a legendary radio voice from Boston Radio. We talk about ways to uniquely treat the people around you and how to create a workplace setting conducive to creativity and happinesss."
+          }
+        ],
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1694810419-spotify.jpg"
+        },
+        "cta": {
+          "label": "LISTEN on Spotify",
+          "href": "https://open.spotify.com/episode/51SsobaGTwnthTEqX2h37b?si=XDF7xT5DRCyTiQJlgv4hDg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.media-text",
+      "content": {
+        "title": "Comm Arts Webpick",
+        "body": [
+          {
+            "text": "Communication Arts article",
+            "highlights": [
+              "article"
+            ]
+          },
+          {
+            "text": "This featured article with myself, Bryan James, and Jesper Landberg dives into the process, challenges, approach, and technologies that power the \"The Search for Work Happiness\" online experience."
+          }
+        ],
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1694810410-ca.jpg"
+        },
+        "cta": {
+          "label": "READ the article",
+          "href": "https://www.commarts.com/webpicks/the-search-for-work-happiness"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "statement",
+      "content": {
+        "text": [
+          {
+            "text": "Be kind + make great work"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "navigation.next-case",
+      "content": {
+        "title": "A brand as versatile as it is tall",
+        "ctaLabel": "Check it out",
+        "href": "/case/dl-brand/",
+        "lettering": [
+          "View",
+          "next",
+          "brand"
+        ],
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1673560021-dlbrandhero.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "physics-drop",
+        "reducedMotionFallback": "static-composition"
+      }
+    },
+    {
+      "section": "utility.back-button",
+      "content": {
+        "label": "Back to cases"
+      },
+      "motion": {
+        "pattern": "pop-in-label-slide",
+        "reducedMotionFallback": "static-visible"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "statement": "Putting the human back into humankind",
+        "highlight": "human",
+        "availabilityLabel": "Next availability:",
+        "availabilityValue": "1/1/27",
+        "links": [
+          {
+            "label": "Shoot me a message",
+            "href": "mailto:me@davidlubofsky.com"
+          },
+          {
+            "label": "Connect on LinkedIn",
+            "href": "https://www.linkedin.com/in/davidalubofsky/"
+          },
+          {
+            "label": "Check out my book",
+            "href": "https://findworkhappiness.com"
+          }
+        ],
+        "legal": "UX, Strategy, Design, and Dev. ©2026 David Lubofsky",
+        "mascot": {
+          "role": "decor.mascot-3d",
+          "src": "/lama.glb"
+        }
+      },
+      "motion": {
+        "pattern": "parallax-up",
+        "reducedMotionFallback": "static"
+      }
+    }
+  ]
+}

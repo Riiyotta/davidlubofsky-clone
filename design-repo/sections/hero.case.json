@@ -1,0 +1,101 @@
+{
+  "id": "hero.case",
+  "title": "Case hero",
+  "description": "Light opener: huge title with highlighted word and yellow period, 'roles' label + roles, short description bottom-right; accent-coloured physics shapes and the featured image in a semicircle mask.",
+  "source": {
+    "id": "src:CaseHero",
+    "file": "src/components/CaseHero.jsx",
+    "lines": "90-113",
+    "tag": "className=\"case-hero relative"
+  },
+  "semantic": {
+    "id": "hero.case",
+    "category": "HERO"
+  },
+  "retrievalEligible": true,
+  "variants": [],
+  "content": {
+    "title": {
+      "kind": "text",
+      "maxWords": 8
+    },
+    "highlight": {
+      "kind": "text",
+      "maxWords": 1
+    },
+    "rolesLabel": {
+      "kind": "text",
+      "maxWords": 1,
+      "evidenceLiterals": 1
+    },
+    "roles": {
+      "kind": "text",
+      "maxWords": 6
+    },
+    "description": {
+      "kind": "text",
+      "maxWords": 15
+    },
+    "featuredImage": {
+      "kind": "asset",
+      "roles": [
+        "case.featured-image"
+      ],
+      "generatedRoles": [
+        "generated.case-visual"
+      ]
+    }
+  },
+  "styleSlots": {
+    "accent": {
+      "tokenFamily": "color.accent",
+      "required": true
+    }
+  },
+  "assetRoles": [
+    "case.featured-image"
+  ],
+  "generatedAssetRoles": [
+    "generated.case-visual"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowed": [
+      "physics-drop",
+      "line-reveal"
+    ],
+    "default": "line-reveal",
+    "reducedMotionFallback": {
+      "physics-drop": "static-composition",
+      "line-reveal": "instant-visible"
+    }
+  },
+  "responsive": [
+    {
+      "at": "bp.s",
+      "change": "font-size-step",
+      "detail": "title 48px -> 102px; description 16px -> 23px; physics scale ww/800 -> ww/1680",
+      "evidence": "src/styles/original.css:1718-1729",
+      "evidenceTag": ".case-hero__title {"
+    }
+  ],
+  "uses": {
+    "primitives": [
+      "text.highlight",
+      "mark.period"
+    ],
+    "components": [
+      "shape-field.physics"
+    ],
+    "tokens": [
+      "type.display-xl",
+      "type.lede",
+      "type.label"
+    ]
+  },
+  "templates": [
+    "template.case-study"
+  ]
+}

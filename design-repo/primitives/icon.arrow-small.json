@@ -1,0 +1,10 @@
+{
+  "id": "icon.arrow-small",
+  "description": "Small yellow arrow after index links.",
+  "props": [],
+  "source": {
+    "file": "src/components/home/HomeItems.jsx",
+    "lines": "118",
+    "tag": "viewBox=\"0 0 18 10\""
+  }
+}

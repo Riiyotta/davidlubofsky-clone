@@ -1,0 +1,135 @@
+{
+  "templatesVersion": "1.0.0",
+  "templates": {
+    "template.home": {
+      "description": "Dark index page: hero, annotated project list, contact invitation.",
+      "theme": "dark",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.home",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.case-index-intro",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.case-index-item",
+          "required": true,
+          "repeatable": true
+        },
+        {
+          "section": "conversion.connect",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "utility.video-modal",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "utility.page-transition",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "utility.preloader",
+          "required": false,
+          "repeatable": false
+        }
+      ],
+      "evidence": "src/pages/HomePage.jsx:17-24",
+      "evidenceTag": "<div ref={ref} className=\"text-white site-max z-2\">",
+      "routes": [
+        "/"
+      ]
+    },
+    "template.case-study": {
+      "description": "Light case study: hero, a free sequence of content/media blocks, next-case link. One family for public and password-gated cases.",
+      "theme": "light",
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "utility.password-gate",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "hero.case",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "slot": "body",
+          "oneOf": [
+            "content.media-text",
+            "content.title-text",
+            "content.text",
+            "media.image",
+            "media.video",
+            "media.carousel",
+            "layout.gray-band"
+          ],
+          "required": true,
+          "repeatable": true
+        },
+        {
+          "section": "navigation.next-case",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "utility.back-button",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "utility.page-transition",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "utility.preloader",
+          "required": false,
+          "repeatable": false
+        }
+      ],
+      "evidence": "src/pages/CasePage.jsx:10-45",
+      "evidenceTag": "export default function CasePage",
+      "routes": [
+        "/case/a-browser-bending-look-at-vision-loss/",
+        "/case/designing-a-world-full-of-kindness/",
+        "/case/dl-brand/",
+        "/case/espn-who-can-break-calvins-record/",
+        "/case/find-work-happiness/",
+        "/case/restricted-work/",
+        "/case/speaking-writing-and-features/",
+        "/case/the-search-for-work-happiness-book/",
+        "/case/understanding-diseases/",
+        "/case/yall-agency/"
+      ]
+    }
+  }
+}

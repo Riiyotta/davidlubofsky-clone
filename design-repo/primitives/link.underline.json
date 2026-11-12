@@ -1,0 +1,14 @@
+{
+  "id": "link.underline",
+  "description": "Text link with a yellow (or white) underline that wipes out and back in on hover.",
+  "props": [
+    "label",
+    "href",
+    "tone"
+  ],
+  "source": {
+    "file": "src/styles/original.css",
+    "lines": "1509-1514",
+    "tag": ".uline:before {"
+  }
+}

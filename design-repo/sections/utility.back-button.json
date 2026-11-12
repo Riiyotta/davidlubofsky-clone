@@ -1,0 +1,61 @@
+{
+  "id": "utility.back-button",
+  "title": "Back to index button",
+  "description": "Fixed bottom-left yellow circle with arrow and label linking back to the index.",
+  "source": {
+    "id": "src:ButtonBack",
+    "file": "src/components/ButtonBack.jsx",
+    "lines": "57-73",
+    "tag": "className=\"back inline-flex"
+  },
+  "semantic": {
+    "id": "utility.back-button",
+    "category": "UTILITY"
+  },
+  "retrievalEligible": false,
+  "retrievalReason": "Fixed floating navigation control that sits over the page; it is chrome, not a content section.",
+  "variants": [],
+  "content": {
+    "label": {
+      "kind": "text",
+      "maxWords": 3,
+      "evidenceLiterals": 1
+    }
+  },
+  "styleSlots": {},
+  "assetRoles": [],
+  "generatedAssetRoles": [],
+  "constraints": {
+    "maxPerPage": 1
+  },
+  "motion": {
+    "allowed": [
+      "pop-in-label-slide"
+    ],
+    "default": "pop-in-label-slide",
+    "reducedMotionFallback": {
+      "pop-in-label-slide": "static-visible"
+    }
+  },
+  "responsive": [
+    {
+      "at": "bp.s",
+      "change": "hide-to-show",
+      "detail": "label shows from 650px; below, circle only and right-aligned",
+      "evidence": "src/components/ButtonBack.jsx:68",
+      "evidenceTag": "hidden s:inline-flex ml-13"
+    }
+  ],
+  "uses": {
+    "primitives": [
+      "button.circle-icon"
+    ],
+    "components": [],
+    "tokens": [
+      "color.brand.yellow"
+    ]
+  },
+  "templates": [
+    "template.case-study"
+  ]
+}

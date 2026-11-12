@@ -1,0 +1,70 @@
+{
+  "id": "media.image",
+  "title": "Image",
+  "description": "Variant 'inset': image offset right (31.4rem left inset at 1024px+). Variant 'full-width': edge-to-gutter image. Consecutive images overlap upward by 7rem.",
+  "source": {
+    "id": "src:BlockImage",
+    "file": "src/components/blocks/Blocks.jsx",
+    "lines": "105-112",
+    "tag": "className=\"block-media relative pb-75 s:pb-150 last:pb-0 site-max\">"
+  },
+  "semantic": {
+    "id": "media.image",
+    "category": "MEDIA"
+  },
+  "retrievalEligible": true,
+  "variants": [
+    "inset",
+    "full-width"
+  ],
+  "content": {
+    "image": {
+      "kind": "asset",
+      "roles": [
+        "case.screenshot"
+      ],
+      "generatedRoles": [
+        "generated.product-visual"
+      ]
+    }
+  },
+  "styleSlots": {},
+  "assetRoles": [
+    "case.screenshot"
+  ],
+  "generatedAssetRoles": [
+    "generated.product-visual"
+  ],
+  "constraints": {},
+  "motion": {
+    "allowed": [
+      "image-fade-in"
+    ],
+    "default": "image-fade-in",
+    "reducedMotionFallback": {
+      "image-fade-in": "instant-visible"
+    }
+  },
+  "responsive": [
+    {
+      "at": "bp.l",
+      "change": "gutter-step",
+      "detail": "inset variant: 2.4rem -> 4.4rem (650px) -> 17.3rem (769px) -> 31.4rem left / 15rem right (1024px)",
+      "evidence": "src/components/blocks/Blocks.jsx:106",
+      "evidenceTag": "l:pl-[31.4rem] l:pr-150'"
+    }
+  ],
+  "uses": {
+    "primitives": [],
+    "components": [
+      "media.figure"
+    ],
+    "tokens": [
+      "space.75",
+      "space.150"
+    ]
+  },
+  "templates": [
+    "template.case-study"
+  ]
+}

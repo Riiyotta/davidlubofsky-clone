@@ -1,0 +1,357 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "reference",
+  "template": "template.home",
+  "route": "/",
+  "theme": "dark",
+  "access": "public",
+  "meta": {
+    "title": "DL | The portfolio of David Lubofsky"
+  },
+  "nodes": [
+    {
+      "section": "shell.header",
+      "content": {
+        "ownerName": "David Lubofsky",
+        "navLinks": [
+          {
+            "label": "My Work",
+            "href": "/#work"
+          },
+          {
+            "label": "My Book",
+            "href": "https://findworkhappiness.com"
+          },
+          {
+            "label": "in",
+            "href": "https://www.linkedin.com/in/davidalubofsky/"
+          }
+        ],
+        "cta": {
+          "label": "Let’s work together",
+          "href": "mailto:me@davidlubofsky.com"
+        },
+        "logo": {
+          "role": "brand.wordmark",
+          "src": "/favicon.svg"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "hero.home",
+      "content": {
+        "headline": "UX, Strategy, Design, and Development",
+        "scrollCue": "Scroll to view my work",
+        "videoCallout": "Get to know me a bit better",
+        "video": {
+          "role": "person.intro-video",
+          "src": "/intro-short.mp4"
+        }
+      },
+      "motion": {
+        "pattern": "physics-drop",
+        "reducedMotionFallback": "static-composition"
+      }
+    },
+    {
+      "section": "content.case-index-intro",
+      "content": {
+        "annotation": "Web experiences and products I’ve been lucky enough to help build."
+      },
+      "motion": {
+        "pattern": "draw-annotation",
+        "reducedMotionFallback": "static-annotation"
+      }
+    },
+    {
+      "section": "content.case-index-item",
+      "content": {
+        "index": "01",
+        "title": "A browser-bending look at vision loss",
+        "highlight": "bending",
+        "description": "An interactive simulator that shows what life looks like for people living with eye conditions.",
+        "linkLabel": "Check it out",
+        "href": "/case/a-browser-bending-look-at-vision-loss/",
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1793379946-dl-hero.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "mask-reveal-follow",
+        "reducedMotionFallback": "hidden-until-focus"
+      }
+    },
+    {
+      "section": "content.case-index-item",
+      "content": {
+        "index": "02",
+        "title": "A smile-filled world of UI + visuals",
+        "highlight": "smile",
+        "description": "An interactive manifestation of the book \"The Search for Work Happiness\".",
+        "linkLabel": "Check it out",
+        "href": "/case/find-work-happiness/",
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1672340831-hero-for-book.jpg"
+        },
+        "clientLogo": {
+          "role": "client.logo",
+          "src": "/images/1672322383-dllogo.svg"
+        }
+      },
+      "motion": {
+        "pattern": "mask-reveal-follow",
+        "reducedMotionFallback": "hidden-until-focus"
+      }
+    },
+    {
+      "section": "content.case-index-item",
+      "content": {
+        "index": "03",
+        "title": "Designing a world full of kindness",
+        "highlight": "full",
+        "description": "A full of joy website packed full of unique UI and motion-filled storytelling.",
+        "linkLabel": "Check it out",
+        "href": "/case/designing-a-world-full-of-kindness/",
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1794059467-asset-in-hero-bk.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "mask-reveal-follow",
+        "reducedMotionFallback": "hidden-until-focus"
+      }
+    },
+    {
+      "section": "content.case-index-item",
+      "content": {
+        "index": "04",
+        "title": "What WR can break Calvin’s record",
+        "highlight": "break",
+        "description": "Leveraging scroll + animation to tell a colorful story about a legendary player",
+        "linkLabel": "Check it out",
+        "href": "/case/espn-who-can-break-calvins-record/",
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1694799124-hero-for-book2.jpg"
+        },
+        "clientLogo": {
+          "role": "client.logo",
+          "src": "/images/1694791342-espn.svg"
+        }
+      },
+      "motion": {
+        "pattern": "mask-reveal-follow",
+        "reducedMotionFallback": "hidden-until-focus"
+      }
+    },
+    {
+      "section": "content.case-index-item",
+      "content": {
+        "index": "05",
+        "title": "Pharma and health work",
+        "highlight": "Pharma",
+        "description": "A collection of projects for web, Veeva, conference, and paid media.",
+        "linkLabel": "Check it out",
+        "href": "/case/restricted-work/",
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1702889817-hero3-for-pharma.jpg"
+        },
+        "clientLogo": {
+          "role": "client.logo",
+          "src": "/images/1702888825-lock.svg"
+        }
+      },
+      "motion": {
+        "pattern": "mask-reveal-follow",
+        "reducedMotionFallback": "hidden-until-focus"
+      }
+    },
+    {
+      "section": "content.case-index-item",
+      "content": {
+        "index": "06",
+        "title": "A platform for dynamic learning",
+        "highlight": "dynamic",
+        "description": "Because understanding diseases doesn’t have to be hard.",
+        "linkLabel": "Check it out",
+        "href": "/case/understanding-diseases/",
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1671798326-case-test.jpg"
+        },
+        "clientLogo": {
+          "role": "client.logo",
+          "src": "/images/1672340478-ud.svg"
+        }
+      },
+      "motion": {
+        "pattern": "mask-reveal-follow",
+        "reducedMotionFallback": "hidden-until-focus"
+      }
+    },
+    {
+      "section": "content.case-index-item",
+      "content": {
+        "index": "07",
+        "title": "A digital agency for good humans",
+        "highlight": "good",
+        "description": "Built from the ground up. Accidentally. Kinda.",
+        "linkLabel": "Check it out",
+        "href": "/case/yall-agency/",
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1672341196-hero-for-yall.jpg"
+        },
+        "clientLogo": {
+          "role": "client.logo",
+          "src": "/images/1672339920-y.svg"
+        }
+      },
+      "motion": {
+        "pattern": "mask-reveal-follow",
+        "reducedMotionFallback": "hidden-until-focus"
+      }
+    },
+    {
+      "section": "content.case-index-item",
+      "content": {
+        "index": "08",
+        "title": "Speaking, writing, and features",
+        "highlight": "features",
+        "description": "My thoughts and voice on breaking the browser and treating humans better.",
+        "linkLabel": "Check it out",
+        "href": "/case/speaking-writing-and-features/",
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1694808114-dlbig2.jpg"
+        },
+        "clientLogo": {
+          "role": "client.logo",
+          "src": "/images/1672322383-dllogo.svg"
+        }
+      },
+      "motion": {
+        "pattern": "mask-reveal-follow",
+        "reducedMotionFallback": "hidden-until-focus"
+      }
+    },
+    {
+      "section": "content.case-index-item",
+      "content": {
+        "index": "09",
+        "title": "A brand as versatile as it is tall",
+        "highlight": "versatile",
+        "description": "Crafting a new image + digital strategy that breathes life across all mediums.",
+        "linkLabel": "Check it out",
+        "href": "/case/dl-brand/",
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1673560021-dlbrandhero.jpg"
+        },
+        "clientLogo": {
+          "role": "client.logo",
+          "src": "/images/1672322383-dllogo.svg"
+        }
+      },
+      "motion": {
+        "pattern": "mask-reveal-follow",
+        "reducedMotionFallback": "hidden-until-focus"
+      }
+    },
+    {
+      "section": "conversion.connect",
+      "content": {
+        "lettering": [
+          "Want",
+          "to",
+          "partner",
+          "together"
+        ],
+        "video": {
+          "role": "person.intro-video",
+          "src": "/intro-short.mp4"
+        },
+        "cta": {
+          "label": "Shoot me a message",
+          "href": "mailto:me@davidlubofsky.com"
+        }
+      },
+      "motion": {
+        "pattern": "physics-drop",
+        "reducedMotionFallback": "static-composition"
+      }
+    },
+    {
+      "section": "utility.video-modal",
+      "content": {
+        "video": {
+          "role": "person.intro-video",
+          "src": "/videos/intro-full.mp4"
+        }
+      },
+      "motion": {
+        "pattern": "flip-modal",
+        "reducedMotionFallback": "instant-open"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "statement": "Putting the human back into humankind",
+        "highlight": "human",
+        "availabilityLabel": "Next availability:",
+        "availabilityValue": "1/1/27",
+        "links": [
+          {
+            "label": "Shoot me a message",
+            "href": "mailto:me@davidlubofsky.com"
+          },
+          {
+            "label": "Connect on LinkedIn",
+            "href": "https://www.linkedin.com/in/davidalubofsky/"
+          },
+          {
+            "label": "Check out my book",
+            "href": "https://findworkhappiness.com"
+          }
+        ],
+        "legal": "UX, Strategy, Design, and Dev. ©2026 David Lubofsky",
+        "mascot": {
+          "role": "decor.mascot-3d",
+          "src": "/lama.glb"
+        }
+      },
+      "motion": {
+        "pattern": "parallax-up",
+        "reducedMotionFallback": "static"
+      }
+    },
+    {
+      "section": "utility.page-transition",
+      "content": {},
+      "motion": {
+        "pattern": "mask-wipe-transition",
+        "reducedMotionFallback": "instant-swap"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "utility.preloader",
+      "content": {},
+      "motion": {
+        "pattern": "preloader-sequence",
+        "reducedMotionFallback": "skip"
+      },
+      "retrievalEligible": false
+    }
+  ]
+}

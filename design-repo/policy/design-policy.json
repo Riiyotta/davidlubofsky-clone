@@ -1,0 +1,42 @@
+{
+  "policyId": "n0-design-constraints-common",
+  "policyVersion": "0.1.0",
+  "commonIrVersion": "0.5",
+  "enforcementMode": "hard-and-soft",
+  "domain": "personal-portfolio",
+  "classification": {
+    "category": "portfolio",
+    "evidence": [
+      "One person's own site: an index of their client case studies (templates/routes.json: 1 index + 10 case routes).",
+      "Calls to action are personal contact links (email, LinkedIn, book); no pricing, plans, sign-up, accounts, dashboards or integrations exist in the clone (src/pages/HomePage.jsx, src/pages/CasePage.jsx).",
+      "One case is password-gated client work (templates/routes.json access=password-gated)."
+    ]
+  },
+  "localExtension": {
+    "id": "dl-portfolio-local",
+    "rules": [
+      "Generated pages describe a fictional studio or person; never the source owner, their clients, or their work.",
+      "Real client logos, the owner's likeness, case screenshots/videos and the 3D mascot are reference-only or blocked (assets/asset-roles.json, pinned in code).",
+      "Password-gated content is reference evidence only; a generated page never reproduces gated client material.",
+      "Exactly one accent token per case page (hero.case style.accent); everything else is fixed by section contracts."
+    ]
+  },
+  "generationRules": {
+    "mode": "PageSpec.mode is required; generated mode triggers GENERATED_MODE_* rules in schema/semantic_validate.py.",
+    "tokens": "tokens/llm/token-policy.json",
+    "structure": "compatibility/graph.json + templates/templates.json",
+    "assets": "assets/asset-roles.json (availability pinned in code)"
+  },
+  "enforcedBy": [
+    "tokens/llm/token-policy.json",
+    "compatibility/graph.json",
+    "schema/pagespec.schema.json",
+    "schema/semantic_validate.py"
+  ],
+  "approval": {
+    "status": "defined-pending-architecture-review",
+    "architectureDecisionRecorded": false,
+    "note": "Classification and binding were proposed by an automated build pass and have not been ratified by the human owner."
+  },
+  "contentHash": "sha256:f0651330bdb218fc017ffd82dd9ebd1cbe7aa3851d36dabf41bc48886f53fe00"
+}

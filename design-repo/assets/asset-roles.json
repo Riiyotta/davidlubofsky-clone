@@ -1,0 +1,157 @@
+{
+  "rolesVersion": "1.0.0",
+  "$comment": "Closed asset-role vocabulary. availability is also pinned in code (PINNED_AVAILABILITY in schema/semantic_validate.py and extraction/verify_all.py). The source is a real person's live portfolio with real client work: generated pages must never reproduce its logos, likeness, screenshots, videos or 3D model.",
+  "srcSchemes": {
+    "reference": "site-relative path to the clone's own asset (e.g. /images/...)",
+    "generated": "placeholder:<slug> | generated:<slug> | user-supplied:<slug>"
+  },
+  "roles": {
+    "case.featured-image": {
+      "availability": "reference-only",
+      "generationPolicy": "must-not-reuse",
+      "desc": "Case featured photo/illustration (hero semicircle, next-case image, home index reveal).",
+      "evidence": "src/components/ShapesHeroCase.jsx:131",
+      "generationSafeSubstitutes": [
+        "generated.case-visual"
+      ],
+      "evidenceTag": "<img src={image.jpg}"
+    },
+    "case.screenshot": {
+      "availability": "reference-only",
+      "generationPolicy": "must-not-reuse",
+      "desc": "Real product screenshots, device mockups and storyboards from client work.",
+      "evidence": "src/components/blocks/Blocks.jsx:107",
+      "generationSafeSubstitutes": [
+        "generated.product-visual"
+      ],
+      "evidenceTag": "<LazyPicture image={block.image} />"
+    },
+    "case.phone-screen": {
+      "availability": "reference-only",
+      "generationPolicy": "must-not-reuse",
+      "desc": "Real mobile screen captures (750x1624) in carousels.",
+      "evidence": "src/components/blocks/Blocks.jsx:222",
+      "generationSafeSubstitutes": [
+        "generated.product-visual"
+      ],
+      "evidenceTag": "className=\"carousel-slide mr-24 s:mr-30\""
+    },
+    "case.video": {
+      "availability": "reference-only",
+      "generationPolicy": "must-not-reuse",
+      "desc": "Real screen-recording / case videos.",
+      "evidence": "src/components/blocks/Blocks.jsx:97",
+      "generationSafeSubstitutes": [
+        "generated.motion-loop"
+      ],
+      "evidenceTag": "<video ref={media} src={block.videoUrl}"
+    },
+    "client.logo": {
+      "availability": "blocked-for-generation",
+      "generationPolicy": "must-not-fabricate",
+      "desc": "Real client / company logos shown on the home index.",
+      "evidence": "src/components/home/HomeItems.jsx:107",
+      "generationSafeSubstitutes": [
+        "placeholder.brand-mark"
+      ],
+      "evidenceTag": "alt={`${homeCase.company || 'Client'} logo`}"
+    },
+    "brand.wordmark": {
+      "availability": "blocked-for-generation",
+      "generationPolicy": "must-not-fabricate",
+      "desc": "The source owner's own logo mark (header, footer, loader).",
+      "evidence": "src/components/Header.jsx:31",
+      "generationSafeSubstitutes": [
+        "placeholder.brand-mark"
+      ],
+      "evidenceTag": "aria-label=\"Go to homepage\""
+    },
+    "person.intro-video": {
+      "availability": "blocked-for-generation",
+      "generationPolicy": "must-not-fabricate",
+      "desc": "Video and poster of the real site owner (a real person's likeness).",
+      "evidence": "src/components/home/ShapesHeroHome.jsx:207",
+      "generationSafeSubstitutes": [
+        "fictional.person-media"
+      ],
+      "evidenceTag": "src=\"/intro-short.mp4\""
+    },
+    "decor.mascot-3d": {
+      "availability": "reference-only",
+      "generationPolicy": "must-not-reuse",
+      "desc": "Proprietary 3D mascot model rendered in the footer.",
+      "evidence": "src/components/TheLama.jsx:98",
+      "generationSafeSubstitutes": [
+        "generated.decorative-illustration"
+      ],
+      "evidenceTag": "loader.load('/lama.glb'"
+    },
+    "decor.lettered-shape": {
+      "availability": "reference-only",
+      "generationPolicy": "must-not-reuse",
+      "desc": "Source copy rendered as SVG lettering for physics (e.g. the next-case and connect words).",
+      "evidence": "src/components/ShapesNext.jsx:135",
+      "generationSafeSubstitutes": [
+        "generated.lettering"
+      ],
+      "evidenceTag": "className=\"absolute bottom-full left-0 js-text z-2\""
+    },
+    "decor.geometric-shape": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-reuse-shape",
+      "desc": "Plain geometric physics shapes (triangle, semicircle, bar) defined as SVG paths.",
+      "evidence": "src/components/ShapesHeroCase.jsx:125",
+      "evidenceTag": "<path d=\"M0,0l0,473.3h299.8L0,0z\" />"
+    },
+    "ui.rive-icon": {
+      "availability": "reference-only",
+      "generationPolicy": "must-not-reuse",
+      "desc": "The source's own Rive UI animations (arrow, play, play/pause, close).",
+      "evidence": "src/lib/rive.js:11",
+      "generationSafeSubstitutes": [
+        "generated.ui-icon"
+      ],
+      "evidenceTag": "export const createArrow"
+    },
+    "placeholder.brand-mark": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-generate-new",
+      "desc": "Placeholder, user-supplied or newly generated brand mark for the new site owner."
+    },
+    "fictional.person-media": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-generate-new",
+      "desc": "Fictional person portrait/video loop (no real person's likeness)."
+    },
+    "generated.case-visual": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-generate-new",
+      "desc": "Newly generated featured visual for a fictional project."
+    },
+    "generated.product-visual": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-generate-new",
+      "desc": "Newly generated UI/product visual for a fictional project."
+    },
+    "generated.motion-loop": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-generate-new",
+      "desc": "Newly generated short muted video loop."
+    },
+    "generated.decorative-illustration": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-generate-new",
+      "desc": "Newly generated decorative illustration / 3D object."
+    },
+    "generated.lettering": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-generate-new",
+      "desc": "Original copy set as lettering shapes."
+    },
+    "generated.ui-icon": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-generate-new",
+      "desc": "Generic arrow / play / close icon."
+    }
+  }
+}

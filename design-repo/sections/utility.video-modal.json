@@ -1,0 +1,72 @@
+{
+  "id": "utility.video-modal",
+  "title": "Intro video modal",
+  "description": "Dialog that Flip-animates a video card to centre with a scrubber, timecode and cursor-following play/pause.",
+  "source": {
+    "id": "src:IntroModal",
+    "file": "src/components/home/IntroModal.jsx",
+    "lines": "134-172",
+    "tag": "<aside className"
+  },
+  "semantic": {
+    "id": "utility.video-modal",
+    "category": "UTILITY"
+  },
+  "retrievalEligible": false,
+  "retrievalReason": "Overlay dialog opened from a video card; it duplicates media already present and is not page content.",
+  "variants": [],
+  "content": {
+    "video": {
+      "kind": "asset",
+      "roles": [
+        "person.intro-video"
+      ],
+      "generatedRoles": [
+        "fictional.person-media"
+      ]
+    }
+  },
+  "styleSlots": {},
+  "assetRoles": [
+    "person.intro-video"
+  ],
+  "generatedAssetRoles": [
+    "fictional.person-media"
+  ],
+  "constraints": {
+    "maxPerPage": 1
+  },
+  "motion": {
+    "allowed": [
+      "flip-modal"
+    ],
+    "default": "flip-modal",
+    "reducedMotionFallback": {
+      "flip-modal": "instant-open"
+    }
+  },
+  "responsive": [
+    {
+      "at": "bp.s",
+      "change": "layout-shift",
+      "detail": "portrait: card width 75%; landscape: card height 75vh",
+      "evidence": "src/components/home/IntroModal.jsx:136",
+      "evidenceTag": "portrait:w-full"
+    }
+  ],
+  "uses": {
+    "primitives": [
+      "button.circle-icon"
+    ],
+    "components": [
+      "scrubber.timeline"
+    ],
+    "tokens": [
+      "color.neutral.600",
+      "type.meta"
+    ]
+  },
+  "templates": [
+    "template.home"
+  ]
+}

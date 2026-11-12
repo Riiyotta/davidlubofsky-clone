@@ -1,0 +1,313 @@
+{
+  "allowlistVersion": "1.0.0",
+  "$comment": "Closed list of every section/component/primitive an AI may place, and the node properties it may set. Parity with sections/, components/, primitives/ is checked by verify_all.py.",
+  "nodeProperties": [
+    "section",
+    "variant",
+    "content",
+    "motion",
+    "retrievalEligible",
+    "style"
+  ],
+  "sections": {
+    "shell.header": {
+      "settable": [
+        "content.ownerName",
+        "content.navLinks",
+        "content.cta",
+        "content.logo",
+        "motion.pattern",
+        "motion.reducedMotionFallback"
+      ],
+      "retrievalEligible": true,
+      "assetRoles": [
+        "brand.wordmark",
+        "placeholder.brand-mark"
+      ]
+    },
+    "shell.footer": {
+      "settable": [
+        "content.statement",
+        "content.highlight",
+        "content.availabilityLabel",
+        "content.availabilityValue",
+        "content.links",
+        "content.legal",
+        "content.mascot",
+        "motion.pattern",
+        "motion.reducedMotionFallback"
+      ],
+      "retrievalEligible": true,
+      "assetRoles": [
+        "decor.mascot-3d",
+        "generated.decorative-illustration"
+      ]
+    },
+    "utility.preloader": {
+      "settable": [
+        "motion.pattern",
+        "motion.reducedMotionFallback"
+      ],
+      "retrievalEligible": false,
+      "assetRoles": []
+    },
+    "utility.page-transition": {
+      "settable": [
+        "motion.pattern",
+        "motion.reducedMotionFallback"
+      ],
+      "retrievalEligible": false,
+      "assetRoles": []
+    },
+    "utility.video-modal": {
+      "settable": [
+        "content.video",
+        "motion.pattern",
+        "motion.reducedMotionFallback"
+      ],
+      "retrievalEligible": false,
+      "assetRoles": [
+        "fictional.person-media",
+        "person.intro-video"
+      ]
+    },
+    "utility.back-button": {
+      "settable": [
+        "content.label",
+        "motion.pattern",
+        "motion.reducedMotionFallback"
+      ],
+      "retrievalEligible": false,
+      "assetRoles": []
+    },
+    "utility.password-gate": {
+      "settable": [
+        "content.placeholder",
+        "content.errorMessage",
+        "motion.pattern",
+        "motion.reducedMotionFallback"
+      ],
+      "retrievalEligible": false,
+      "assetRoles": []
+    },
+    "hero.home": {
+      "settable": [
+        "content.headline",
+        "content.scrollCue",
+        "content.videoCallout",
+        "content.video",
+        "motion.pattern",
+        "motion.reducedMotionFallback"
+      ],
+      "retrievalEligible": true,
+      "assetRoles": [
+        "fictional.person-media",
+        "person.intro-video"
+      ]
+    },
+    "content.case-index-intro": {
+      "settable": [
+        "content.annotation",
+        "motion.pattern",
+        "motion.reducedMotionFallback"
+      ],
+      "retrievalEligible": true,
+      "assetRoles": []
+    },
+    "content.case-index-item": {
+      "settable": [
+        "content.index",
+        "content.title",
+        "content.highlight",
+        "content.description",
+        "content.linkLabel",
+        "content.href",
+        "content.clientLogo",
+        "content.featuredImage",
+        "motion.pattern",
+        "motion.reducedMotionFallback"
+      ],
+      "retrievalEligible": true,
+      "assetRoles": [
+        "case.featured-image",
+        "client.logo",
+        "generated.case-visual",
+        "placeholder.brand-mark"
+      ]
+    },
+    "conversion.connect": {
+      "settable": [
+        "content.lettering",
+        "content.video",
+        "content.cta",
+        "motion.pattern",
+        "motion.reducedMotionFallback"
+      ],
+      "retrievalEligible": true,
+      "assetRoles": [
+        "fictional.person-media",
+        "person.intro-video"
+      ]
+    },
+    "hero.case": {
+      "settable": [
+        "content.title",
+        "content.highlight",
+        "content.rolesLabel",
+        "content.roles",
+        "content.description",
+        "content.featuredImage",
+        "motion.pattern",
+        "motion.reducedMotionFallback",
+        "style.accent"
+      ],
+      "retrievalEligible": true,
+      "assetRoles": [
+        "case.featured-image",
+        "generated.case-visual"
+      ]
+    },
+    "content.media-text": {
+      "settable": [
+        "content.title",
+        "content.highlight",
+        "content.body",
+        "content.cta",
+        "content.image",
+        "motion.pattern",
+        "motion.reducedMotionFallback"
+      ],
+      "retrievalEligible": true,
+      "assetRoles": [
+        "case.screenshot",
+        "generated.product-visual"
+      ]
+    },
+    "content.title-text": {
+      "settable": [
+        "content.title",
+        "content.highlight",
+        "content.body",
+        "motion.pattern",
+        "motion.reducedMotionFallback"
+      ],
+      "retrievalEligible": true,
+      "assetRoles": []
+    },
+    "content.text": {
+      "settable": [
+        "content.index",
+        "content.text",
+        "variant",
+        "motion.pattern",
+        "motion.reducedMotionFallback"
+      ],
+      "retrievalEligible": true,
+      "assetRoles": []
+    },
+    "media.image": {
+      "settable": [
+        "content.image",
+        "variant",
+        "motion.pattern",
+        "motion.reducedMotionFallback"
+      ],
+      "retrievalEligible": true,
+      "assetRoles": [
+        "case.screenshot",
+        "generated.product-visual"
+      ]
+    },
+    "media.video": {
+      "settable": [
+        "content.video",
+        "motion.pattern",
+        "motion.reducedMotionFallback"
+      ],
+      "retrievalEligible": true,
+      "assetRoles": [
+        "case.video",
+        "generated.motion-loop"
+      ]
+    },
+    "media.carousel": {
+      "settable": [
+        "content.images",
+        "motion.pattern",
+        "motion.reducedMotionFallback"
+      ],
+      "retrievalEligible": true,
+      "assetRoles": [
+        "case.phone-screen",
+        "generated.product-visual"
+      ]
+    },
+    "layout.gray-band": {
+      "settable": [
+        "motion.pattern",
+        "motion.reducedMotionFallback"
+      ],
+      "retrievalEligible": true,
+      "assetRoles": []
+    },
+    "navigation.next-case": {
+      "settable": [
+        "content.title",
+        "content.ctaLabel",
+        "content.href",
+        "content.lettering",
+        "content.featuredImage",
+        "motion.pattern",
+        "motion.reducedMotionFallback"
+      ],
+      "retrievalEligible": true,
+      "assetRoles": [
+        "case.featured-image",
+        "generated.case-visual"
+      ]
+    }
+  },
+  "components": [
+    "card.case-index",
+    "card.video",
+    "lettering.physics",
+    "mascot.3d",
+    "mask.reveal-ellipse",
+    "media.figure",
+    "scrubber.timeline",
+    "shape-field.physics"
+  ],
+  "primitives": [
+    "button.circle-icon",
+    "button.pill",
+    "icon.arrow-small",
+    "input.password",
+    "link.underline",
+    "logo.wordmark",
+    "mark.period",
+    "shape.step-marker",
+    "text.highlight",
+    "video.inline"
+  ],
+  "assetRoles": [
+    "brand.wordmark",
+    "case.featured-image",
+    "case.phone-screen",
+    "case.screenshot",
+    "case.video",
+    "client.logo",
+    "decor.geometric-shape",
+    "decor.lettered-shape",
+    "decor.mascot-3d",
+    "fictional.person-media",
+    "generated.case-visual",
+    "generated.decorative-illustration",
+    "generated.lettering",
+    "generated.motion-loop",
+    "generated.product-visual",
+    "generated.ui-icon",
+    "person.intro-video",
+    "placeholder.brand-mark",
+    "ui.rive-icon"
+  ]
+}

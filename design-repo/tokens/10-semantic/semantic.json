@@ -1,0 +1,67 @@
+{
+  "$comment": "Semantic roles. The case hero's physics fill is the page's accent token.",
+  "roles": {
+    "text.primary": {
+      "light": "color.neutral.900",
+      "dark": "color.neutral.0"
+    },
+    "text.inverse": {
+      "light": "color.neutral.0",
+      "dark": "color.neutral.900"
+    },
+    "surface.page": {
+      "light": "color.neutral.0",
+      "dark": "color.neutral.900"
+    },
+    "surface.brand": {
+      "light": "color.brand.yellow",
+      "dark": "color.brand.yellow"
+    },
+    "surface.footer-start": {
+      "light": "color.brand.yellow-light",
+      "dark": "color.brand.yellow-light"
+    },
+    "surface.media-fill": {
+      "light": "color.neutral.200",
+      "dark": "color.neutral.200"
+    },
+    "surface.band": {
+      "light": "color.neutral.150",
+      "dark": "color.neutral.150"
+    },
+    "surface.input": {
+      "light": "color.neutral.100",
+      "dark": "color.neutral.100"
+    },
+    "surface.modal-track": {
+      "light": "color.neutral.600",
+      "dark": "color.neutral.600"
+    },
+    "shape.fill": {
+      "light": "accent (per-page style.accent)",
+      "dark": "color.neutral.700"
+    },
+    "mark.highlight": {
+      "light": "color.brand.yellow",
+      "dark": "color.brand.yellow"
+    },
+    "stroke.annotation": {
+      "light": "color.brand.yellow-stroke",
+      "dark": "color.brand.yellow-stroke"
+    },
+    "logo.secondary": {
+      "light": "color.neutral.400",
+      "dark": "color.neutral.400"
+    }
+  },
+  "evidence": [
+    {
+      "cite": "src/styles/original.css:1396-1399",
+      "tag": "html:not(.is-dark) body"
+    },
+    {
+      "cite": "src/styles/original.css:1392-1395",
+      "tag": ".is-dark body"
+    }
+  ]
+}

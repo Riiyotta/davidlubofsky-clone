@@ -1,0 +1,68 @@
+{
+  "id": "media.carousel",
+  "title": "Screen carousel",
+  "description": "Full-bleed row of tall phone screens; drag to scroll (hover devices) or native snap scroll (touch).",
+  "source": {
+    "id": "src:Carousel",
+    "file": "src/components/blocks/Blocks.jsx",
+    "lines": "214-233",
+    "tag": "carousel extend"
+  },
+  "semantic": {
+    "id": "media.carousel",
+    "category": "MEDIA"
+  },
+  "retrievalEligible": true,
+  "variants": [],
+  "content": {
+    "images": {
+      "kind": "assets",
+      "min": 5,
+      "max": 6,
+      "roles": [
+        "case.phone-screen"
+      ],
+      "generatedRoles": [
+        "generated.product-visual"
+      ]
+    }
+  },
+  "styleSlots": {},
+  "assetRoles": [
+    "case.phone-screen"
+  ],
+  "generatedAssetRoles": [
+    "generated.product-visual"
+  ],
+  "constraints": {},
+  "motion": {
+    "allowed": [
+      "drag-carousel",
+      "image-fade-in"
+    ],
+    "default": "drag-carousel",
+    "reducedMotionFallback": {
+      "drag-carousel": "native-scroll",
+      "image-fade-in": "instant-visible"
+    }
+  },
+  "responsive": [
+    {
+      "at": "bp.s",
+      "change": "slides-per-view",
+      "detail": "slide width 85% -> 50%-3rem (650px) -> 33.33%-3rem (1024px)",
+      "evidence": "src/styles/original.css:1828-1831",
+      "evidenceTag": ".carousel {"
+    }
+  ],
+  "uses": {
+    "primitives": [],
+    "components": [
+      "media.figure"
+    ],
+    "tokens": []
+  },
+  "templates": [
+    "template.case-study"
+  ]
+}

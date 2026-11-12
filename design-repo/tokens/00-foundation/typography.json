@@ -1,0 +1,347 @@
+{
+  "fontFamily": {
+    "font.family.primary": {
+      "value": "pleasure",
+      "kind": "variable",
+      "weightRange": [
+        300,
+        900
+      ],
+      "axes": {
+        "TRAP": "custom axis, observed values 23/50/55/80/90/100"
+      },
+      "file": "/fonts/pleasure-variable-latin-v1.woff2",
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:1345-1350",
+          "tag": "@font-face {"
+        },
+        "computed:fontFamily pleasure x577 (only family observed)"
+      ]
+    }
+  },
+  "fontWeights": [
+    476,
+    491,
+    500,
+    509,
+    526,
+    528,
+    544,
+    550,
+    600,
+    626,
+    650,
+    680
+  ],
+  "tracking": {
+    "tracking.ui": "-0.035em",
+    "tracking.display": "-0.04em",
+    "tracking.label": "-0.02em",
+    "tracking.body": "-0.01em",
+    "tracking.lettering": "-0.053em"
+  },
+  "scale": {
+    "type.display-xl": {
+      "fontSize": {
+        "base": "48px",
+        "s": "102px"
+      },
+      "fontWeight": 544,
+      "lineHeight": 1.01,
+      "letterSpacing": "-0.04em",
+      "trap": 90,
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:1718-1724",
+          "tag": ".case-hero__title {"
+        },
+        {
+          "cite": "src/styles/original.css:1436-1438",
+          "tag": ".ls-2 {"
+        }
+      ]
+    },
+    "type.display-l": {
+      "fontSize": {
+        "base": "48px",
+        "s": "90px"
+      },
+      "fontWeight": 544,
+      "lineHeight": 1.08,
+      "letterSpacing": "-0.04em",
+      "trap": 90,
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:1964-1970",
+          "tag": ".home-hero__title {"
+        }
+      ]
+    },
+    "type.display-m": {
+      "fontSize": {
+        "base": "38px",
+        "s": "73px"
+      },
+      "fontWeight": 509,
+      "lineHeight": 1.03,
+      "letterSpacing": "-0.04em",
+      "trap": 90,
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:1448-1455",
+          "tag": ".title-2 {"
+        }
+      ]
+    },
+    "type.display-m-index": {
+      "fontSize": {
+        "base": "38px",
+        "s": "73px"
+      },
+      "fontWeight": 509,
+      "lineHeight": 1.04,
+      "letterSpacing": "-0.04em",
+      "trap": 90,
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:1996-2001",
+          "tag": ".home-item__title {"
+        }
+      ]
+    },
+    "type.display-m-footer": {
+      "fontSize": {
+        "base": "35px",
+        "s": "73px"
+      },
+      "fontWeight": 509,
+      "lineHeight": {
+        "base": 1.05,
+        "s": 0.97
+      },
+      "letterSpacing": "-0.04em",
+      "trap": 90,
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:1886-1891",
+          "tag": ".foot__title {"
+        }
+      ]
+    },
+    "type.lettering-xxl": {
+      "fontSize": {
+        "base": "161px"
+      },
+      "fontWeight": 526,
+      "letterSpacing": "-0.053em",
+      "trap": 100,
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:2063-2068",
+          "tag": ".connect-text {"
+        }
+      ],
+      "note": "rendered as SVG lettering in the source; size kept for reference"
+    },
+    "type.body-l": {
+      "fontSize": {
+        "base": "18px",
+        "s": "23px"
+      },
+      "fontWeight": 491,
+      "lineHeight": 1.4,
+      "letterSpacing": "-0.01em",
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:1756-1761",
+          "tag": ".media-text__text * {"
+        }
+      ]
+    },
+    "type.body-l-trap": {
+      "fontSize": {
+        "base": "20px",
+        "s": "23px"
+      },
+      "fontWeight": 491,
+      "lineHeight": 1.4,
+      "letterSpacing": "-0.01em",
+      "trap": 23,
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:1801-1807",
+          "tag": ".title-text__text {"
+        }
+      ]
+    },
+    "type.body": {
+      "fontSize": {
+        "base": "16px",
+        "s": "18px"
+      },
+      "fontWeight": 476,
+      "lineHeight": {
+        "base": 1.5,
+        "s": 1.65
+      },
+      "letterSpacing": "-0.01em",
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:1781-1786",
+          "tag": ".content__text * {"
+        }
+      ]
+    },
+    "type.lede": {
+      "fontSize": {
+        "base": "16px",
+        "s": "23px"
+      },
+      "fontWeight": 500,
+      "lineHeight": 1.4,
+      "letterSpacing": "-0.01em",
+      "trap": 23,
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:1737-1742",
+          "tag": ".case-hero__desc {"
+        }
+      ]
+    },
+    "type.ui": {
+      "fontSize": {
+        "base": "16px",
+        "s": "18px"
+      },
+      "fontWeight": 500,
+      "letterSpacing": "-0.035em",
+      "evidence": [
+        "computed:fontWeight 500 x230",
+        {
+          "cite": "src/styles/original.css:1433-1435",
+          "tag": ".ls-1 {"
+        }
+      ]
+    },
+    "type.button": {
+      "fontSize": {
+        "base": "16px",
+        "s": "18px"
+      },
+      "fontWeight": 550,
+      "letterSpacing": "-0.035em",
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:1669-1676",
+          "tag": ".btn {"
+        }
+      ]
+    },
+    "type.nav": {
+      "fontSize": {
+        "base": "14px",
+        "s": "18px"
+      },
+      "fontWeight": 500,
+      "lineHeight": 1.1,
+      "letterSpacing": "-0.035em",
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:1623-1630",
+          "tag": ".site-head__links,"
+        }
+      ]
+    },
+    "type.subhead": {
+      "fontSize": {
+        "base": "24px"
+      },
+      "fontWeight": 500,
+      "lineHeight": 1.4,
+      "letterSpacing": "-0.01em",
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:1858-1863",
+          "tag": ".next__title {"
+        }
+      ]
+    },
+    "type.annotation": {
+      "fontSize": {
+        "base": "28px"
+      },
+      "fontWeight": 528,
+      "lineHeight": 1.2,
+      "trap": 55,
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:1986-1992",
+          "tag": ".home-items__title {"
+        }
+      ]
+    },
+    "type.callout": {
+      "fontSize": {
+        "base": "28px"
+      },
+      "fontWeight": 526,
+      "lineHeight": 1.2,
+      "letterSpacing": "-0.04em",
+      "trap": 55,
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:2033-2038",
+          "tag": ".media-cta__text {"
+        }
+      ]
+    },
+    "type.label": {
+      "fontSize": {
+        "base": "12px"
+      },
+      "fontWeight": 626,
+      "lineHeight": 1.9,
+      "letterSpacing": "-0.02em",
+      "textTransform": "uppercase",
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:1731-1736",
+          "tag": ".case-hero__label {"
+        }
+      ]
+    },
+    "type.small": {
+      "fontSize": {
+        "base": "14px"
+      },
+      "fontWeight": 500,
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:977-979",
+          "tag": ".text-14 {"
+        }
+      ]
+    },
+    "type.meta": {
+      "fontSize": {
+        "base": "12px"
+      },
+      "fontWeight": 500,
+      "letterSpacing": "-0.03em",
+      "evidence": [
+        {
+          "cite": "src/styles/original.css:2013-2017",
+          "tag": ".timeline__time {"
+        }
+      ]
+    }
+  },
+  "rootSize": {
+    "rule": "html font-size = 1000vw / 1440 at >=650px (10px at 1440), 1000vw / 375 below",
+    "evidence": {
+      "cite": "src/styles/original.css:154-159",
+      "tag": "html {"
+    }
+  }
+}

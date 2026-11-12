@@ -1,0 +1,10 @@
+{
+  "id": "mark.period",
+  "description": "Yellow semicircle used as a full stop after display titles.",
+  "props": [],
+  "source": {
+    "file": "src/data/case.js",
+    "lines": "19",
+    "tag": "export const PERIOD_SVG"
+  }
+}

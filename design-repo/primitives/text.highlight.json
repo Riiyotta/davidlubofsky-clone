@@ -1,0 +1,12 @@
+{
+  "id": "text.highlight",
+  "description": "Emphasised word with a tilted yellow marker underline drawn in on scroll.",
+  "props": [
+    "text"
+  ],
+  "source": {
+    "file": "src/styles/original.css",
+    "lines": "1561-1569",
+    "tag": "em:after {"
+  }
+}

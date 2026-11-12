@@ -1,0 +1,448 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "reference",
+  "template": "template.case-study",
+  "route": "/case/yall-agency/",
+  "theme": "light",
+  "access": "public",
+  "meta": {
+    "title": "DL | The portfolio of David Lubofsky"
+  },
+  "nodes": [
+    {
+      "section": "shell.header",
+      "content": {
+        "ownerName": "David Lubofsky",
+        "navLinks": [
+          {
+            "label": "My Work",
+            "href": "/#work"
+          },
+          {
+            "label": "My Book",
+            "href": "https://findworkhappiness.com"
+          },
+          {
+            "label": "in",
+            "href": "https://www.linkedin.com/in/davidalubofsky/"
+          }
+        ],
+        "cta": {
+          "label": "Let’s work together",
+          "href": "mailto:me@davidlubofsky.com"
+        },
+        "logo": {
+          "role": "brand.wordmark",
+          "src": "/favicon.svg"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "hero.case",
+      "content": {
+        "title": "A digital agency for good humans",
+        "highlight": "good",
+        "rolesLabel": "Roles",
+        "roles": "UX, Creative; Technology",
+        "description": "Built from the ground up. Accidentally. Kinda.",
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1672341196-hero-for-yall.jpg"
+        }
+      },
+      "style": {
+        "accent": "color.accent.teal"
+      },
+      "motion": {
+        "pattern": "line-reveal",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.media-text",
+      "content": {
+        "title": "Humans. And some not humans",
+        "body": [
+          {
+            "text": "3+ years and 20+ hires later, there it was —a kind, gentle agency, full of talented creatures."
+          },
+          {
+            "text": "We did it... with a little help from Yallie."
+          }
+        ],
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1675242272-yallgroup.jpg"
+        },
+        "highlight": "not"
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.title-text",
+      "content": {
+        "title": "Building a brand with no blueprint",
+        "body": [
+          {
+            "text": "This had, to our knowledge, never been done before. Building an advertising brand from scratch centered around treating humans right, while breaking tons of industry norms like completely bailing on the concept of keeping up with timesheets.",
+            "highlights": [
+              "never"
+            ]
+          },
+          {
+            "text": "First things first—determine a few key problems we could build a brand around solving.",
+            "strong": [
+              "First things first—determine a few key problems we could build a brand around solving."
+            ]
+          }
+        ],
+        "highlight": "brand"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "layout.gray-band",
+      "content": {},
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "media.video",
+      "content": {
+        "video": {
+          "role": "case.video",
+          "src": "/videos/784958934.mp4"
+        }
+      },
+      "motion": {
+        "pattern": "video-in-view",
+        "reducedMotionFallback": "poster-frame"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "statement",
+      "content": {
+        "text": [
+          {
+            "text": "How we architected the solution"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "Our brand evolved and our team grew. As that happened, we only hired nice humans, and made sure to treat everyone equally and with unflappable kindness.",
+            "highlights": [
+              "nice"
+            ]
+          }
+        ],
+        "index": "01"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.carousel",
+      "content": {
+        "images": [
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672578510-group-930.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672578513-group-928.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672578498-group-929.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672578502-group-927.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672578506-group-926.jpg"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "drag-carousel",
+        "reducedMotionFallback": "native-scroll"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "We set a foundation of fun with an anti-boring employee manual that delivered policies like \"no tracking time, just do good work\"—trust at its purest form.",
+            "highlights": [
+              "trust"
+            ]
+          }
+        ],
+        "index": "02"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.carousel",
+      "content": {
+        "images": [
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672309182-handbook1.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672509090-handbook5.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672309178-handbook2.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672309173-handbook3.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672309169-handbook4.jpg"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "drag-carousel",
+        "reducedMotionFallback": "native-scroll"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "Setting this early foundation allowed us to grow fast while \"batting 1000\" in Good Human selection.",
+            "highlights": [
+              "fast"
+            ]
+          }
+        ],
+        "index": "03"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.carousel",
+      "content": {
+        "images": [
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672309049-yall-carousel-1.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672309045-yall-carousel-2.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672309040-yall-carousel-3.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672309125-yall-carousel-4.jpg"
+          },
+          {
+            "role": "case.phone-screen",
+            "src": "/images/1672255329-team.jpg"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "drag-carousel",
+        "reducedMotionFallback": "native-scroll"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "We placed a crazy-high importance on for-good projects.",
+            "highlights": [
+              "crazy-high"
+            ]
+          }
+        ],
+        "index": "04"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1672255266-yellow.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "numbered",
+      "content": {
+        "text": [
+          {
+            "text": "And lastly, we empowered people to bring brands to the browser in ways our industry has never seen.",
+            "highlights": [
+              "empowered"
+            ]
+          }
+        ],
+        "index": "05"
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "media.image",
+      "variant": "full-width",
+      "content": {
+        "image": {
+          "role": "case.screenshot",
+          "src": "/images/1674817134-yallslides-final.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "image-fade-in",
+        "reducedMotionFallback": "instant-visible"
+      }
+    },
+    {
+      "section": "content.text",
+      "variant": "statement",
+      "content": {
+        "text": [
+          {
+            "text": "The result? A group of epic people + work",
+            "highlights": [
+              "epic"
+            ]
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "underline-draw",
+        "reducedMotionFallback": "static-underline"
+      }
+    },
+    {
+      "section": "navigation.next-case",
+      "content": {
+        "title": "The search for work happiness",
+        "ctaLabel": "Check it out",
+        "href": "/case/the-search-for-work-happiness-book/",
+        "lettering": [
+          "View",
+          "next",
+          "brand"
+        ],
+        "featuredImage": {
+          "role": "case.featured-image",
+          "src": "/images/1674479724-hero-for-book-final.jpg"
+        }
+      },
+      "motion": {
+        "pattern": "physics-drop",
+        "reducedMotionFallback": "static-composition"
+      }
+    },
+    {
+      "section": "utility.back-button",
+      "content": {
+        "label": "Back to cases"
+      },
+      "motion": {
+        "pattern": "pop-in-label-slide",
+        "reducedMotionFallback": "static-visible"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "statement": "Putting the human back into humankind",
+        "highlight": "human",
+        "availabilityLabel": "Next availability:",
+        "availabilityValue": "1/1/27",
+        "links": [
+          {
+            "label": "Shoot me a message",
+            "href": "mailto:me@davidlubofsky.com"
+          },
+          {
+            "label": "Connect on LinkedIn",
+            "href": "https://www.linkedin.com/in/davidalubofsky/"
+          },
+          {
+            "label": "Check out my book",
+            "href": "https://findworkhappiness.com"
+          }
+        ],
+        "legal": "UX, Strategy, Design, and Dev. ©2026 David Lubofsky",
+        "mascot": {
+          "role": "decor.mascot-3d",
+          "src": "/lama.glb"
+        }
+      },
+      "motion": {
+        "pattern": "parallax-up",
+        "reducedMotionFallback": "static"
+      }
+    }
+  ]
+}
