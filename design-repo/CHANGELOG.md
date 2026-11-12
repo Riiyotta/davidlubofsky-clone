@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1 — fresh-clone verification
+
+- Project put under git (private repo). Verified from a fresh clone of commit 2d2ae61: clean
+  `npm ci` + build, verify_all 28/0, adversarial 61 mutations / 18 controls, baseline audit 26/0.
+- README "Not done" updated accordingly. No contract, token or validator changed.
+
 ## 1.0.0 — initial build
 
 - Built from the React/Vite clone of the portfolio (11 routes) and its measured rendering.
@@ -21,4 +27,4 @@
   prove_drift (27 drift cases + control), wrapper gate, policy hash.
 - Parity measured twice against the live site (0.9731 / 0.9730 average); 5 physics-hero
   exceptions recorded as pending human approval.
-- Not verified from a fresh git clone (the project is not a git repository); see README.
+- Not verified from a fresh git clone at 1.0.0 (the project was not yet a git repository); done in 1.0.1.

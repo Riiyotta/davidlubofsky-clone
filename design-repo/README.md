@@ -115,10 +115,11 @@ committed; `parity_capture.mjs` + `parity_score.py` reproduce the numbers.
 
 ## Not done / needs a human
 
-- **Fresh `git clone` verification was not possible:** the project folder is not a git
-  repository. The design-repo was verified in an isolated temp copy instead. When the project is
-  put under git, add `design-repo.zip`, `node_modules/`, `dist/`, `.DS_Store`, `__pycache__/` and
-  the saved original-site folder to `.gitignore`, then re-run every check from a fresh clone.
+- Fresh-clone verification: done on commit `2d2ae61` of the private GitHub repo. In a fresh
+  `git clone`, `npm ci && npm run build` builds, `verify_all.py` passes 28/0, the adversarial suite
+  rejects 61/61 mutations with 18 controls passing, and the baseline audit passes 26/0 (no tracked
+  junk). `.gitignore` excludes `node_modules/`, `dist/`, `design-repo.zip`, caches and the saved
+  original-site copy.
 - Policy classification (`portfolio`) and binding are `defined-pending-architecture-review`.
 - The 5 parity exceptions need a human approver.
 - No IR was generated (none requested).
