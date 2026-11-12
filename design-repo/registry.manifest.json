@@ -1,6 +1,6 @@
 {
   "repositoryId": "dl-portfolio-design-repo",
-  "repositoryVersion": "1.0.0",
+  "repositoryVersion": "1.0.1",
   "pageSpecVersion": "1.0.0",
   "allowlistVersion": "1.0.0",
   "versionFieldNote": "allowlistVersion is machine-checked by verify_all.py against tokens/llm/component-allowlist.json; pageSpecVersion is machine-checked against schema/pagespec.schema.json's const; repositoryVersion is documentation-only.",

@@ -15,7 +15,7 @@ from pathlib import Path
 
 DR = Path(__file__).resolve().parent.parent          # design-repo/
 PROJ = DR.parent                                       # cloned project root
-REPO_VERSION = "1.0.0"
+REPO_VERSION = "1.0.1"
 PAGESPEC_VERSION = "1.0.0"
 ALLOWLIST_VERSION = "1.0.0"
 
